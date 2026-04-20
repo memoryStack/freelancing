@@ -1,0 +1,205 @@
+/* Light Theme (default) */
+:root {
+  /* Primary */
+  --md-sys-color-primary: var(--md-ref-palette-primary40);
+  --md-sys-color-on-primary: var(--md-ref-palette-primary100);
+  --md-sys-color-primary-container: var(--md-ref-palette-primary90);
+  --md-sys-color-on-primary-container: var(--md-ref-palette-primary10);
+  
+  /* Secondary */
+  --md-sys-color-secondary: var(--md-ref-palette-secondary40);
+  --md-sys-color-on-secondary: var(--md-ref-palette-secondary100);
+  --md-sys-color-secondary-container: var(--md-ref-palette-secondary90);
+  --md-sys-color-on-secondary-container: var(--md-ref-palette-secondary10);
+  
+  /* Tertiary */
+  --md-sys-color-tertiary: var(--md-ref-palette-tertiary40);
+  --md-sys-color-on-tertiary: var(--md-ref-palette-tertiary100);
+  --md-sys-color-tertiary-container: var(--md-ref-palette-tertiary90);
+  --md-sys-color-on-tertiary-container: var(--md-ref-palette-tertiary10);
+  
+  /* Error */
+  --md-sys-color-error: var(--md-ref-palette-error40);
+  --md-sys-color-on-error: var(--md-ref-palette-error100);
+  --md-sys-color-error-container: var(--md-ref-palette-error90);
+  --md-sys-color-on-error-container: var(--md-ref-palette-error10);
+  
+  /* Background */
+  --md-sys-color-background: var(--md-ref-palette-neutral99);
+  --md-sys-color-on-background: var(--md-ref-palette-neutral10);
+  
+  /* Surface */
+  --md-sys-color-surface: var(--md-ref-palette-neutral99);
+  --md-sys-color-on-surface: var(--md-ref-palette-neutral10);
+  
+  /* Surface Variant */
+  --md-sys-color-surface-variant: var(--md-ref-palette-neutral-variant90);
+  --md-sys-color-on-surface-variant: var(--md-ref-palette-neutral-variant30);
+  
+  /* Inverse */
+  --md-sys-color-inverse-surface: var(--md-ref-palette-neutral20);
+  --md-sys-color-inverse-on-surface: var(--md-ref-palette-neutral95);
+  --md-sys-color-inverse-primary: var(--md-ref-palette-primary80);
+  
+  /* Surface Tint */
+  --md-sys-color-surface-tint: var(--md-sys-color-primary);
+  
+  /* Outline */
+  --md-sys-color-outline: var(--md-ref-palette-neutral-variant50);
+  
+  /* Shadow */
+  --md-sys-color-shadow: var(--md-ref-palette-neutral0);
+}
+
+/* Dark Theme */
+@media (prefers-color-scheme: dark) {
+  :X {
+    /* Primary */
+    --md-sys-color-primary: var(--md-ref-palette-primary80);
+    --md-sys-color-on-primary: var(--md-ref-palette-primary20);
+    --md-sys-color-primary-container: var(--md-ref-palette-primary30);
+    --md-sys-color-on-primary-container: var(--md-ref-palette-primary90);
+    
+    /* Secondary */
+    --md-sys-color-secondary: var(--md-ref-palette-secondary80);
+    --md-sys-color-on-secondary: var(--md-ref-palette-secondary20);
+    --md-sys-color-secondary-container: var(--md-ref-palette-secondary30);
+    --md-sys-color-on-secondary-container: var(--md-ref-palette-secondary90);
+    
+    /* Tertiary */
+    --md-sys-color-tertiary: var(--md-ref-palette-tertiary80);
+    --md-sys-color-on-tertiary: var(--md-ref-palette-tertiary20);
+    --md-sys-color-tertiary-container: var(--md-ref-palette-tertiary30);
+    --md-sys-color-on-tertiary-container: var(--md-ref-palette-tertiary90);
+    
+    /* Error */
+    --md-sys-color-error: var(--md-ref-palette-error80);
+    --md-sys-color-on-error: var(--md-ref-palette-error20);
+    --md-sys-color-error-container: var(--md-ref-palette-error30);
+    --md-sys-color-on-error-container: var(--md-ref-palette-error90);
+    
+    /* Background */
+    --md-sys-color-background: var(--md-ref-palette-neutral10);
+    --md-sys-color-on-background: var(--md-ref-palette-neutral90);
+    
+    /* Surface */
+    --md-sys-color-surface: var(--md-ref-palette-neutral10);
+    --md-sys-color-on-surface: var(--md-ref-palette-neutral90);
+    
+    /* Surface Variant */
+    --md-sys-color-surface-variant: var(--md-ref-palette-neutral-variant30);
+    --md-sys-color-on-surface-variant: var(--md-ref-palette-neutral-variant80);
+    
+    /* Inverse */
+    --md-sys-color-inverse-surface: var(--md-ref-palette-neutral90);
+    --md-sys-color-inverse-on-surface: var(--md-ref-palette-neutral20);
+    --md-sys-color-inverse-primary: var(--md-ref-palette-primary40);
+    
+    /* Surface Tint */
+    --md-sys-color-surface-tint: var(--md-sys-color-primary);
+    
+    /* Outline */
+    --md-sys-color-outline: var(--md-ref-palette-neutral60);
+    
+    /* Shadow */
+    --md-sys-color-shadow: var(--md-ref-palette-neutral0);
+  }
+}
+
+:root {
+  --md-ref-palette-primary0: #000000;
+  --md-ref-palette-primary5: #160041;
+  --md-ref-palette-primary10: #22005D;
+  --md-ref-palette-primary15: #2D1067;
+  --md-ref-palette-primary20: #381E72;
+  --md-ref-palette-primary25: #432B7E;
+  --md-ref-palette-primary30: #4F378A;
+  --md-ref-palette-primary35: #5B4397;
+  --md-ref-palette-primary40: #6750A4;
+  --md-ref-palette-primary50: #8069BF;
+  --md-ref-palette-primary60: #9A83DB;
+  --md-ref-palette-primary70: #B69DF7;
+  --md-ref-palette-primary80: #CFBCFF;
+  --md-ref-palette-primary90: #E9DDFF;
+  --md-ref-palette-primary95: #F6EEFF;
+  --md-ref-palette-primary98: #FDF7FF;
+  --md-ref-palette-primary99: #FFFBFF;
+  --md-ref-palette-primary100: #FFFFFF;
+
+  --md-ref-palette-secondary0: #000000;
+  --md-ref-palette-secondary5: #130E20;
+  --md-ref-palette-secondary10: #1E192B;
+  --md-ref-palette-secondary15: #282336;
+  --md-ref-palette-secondary20: #332D41;
+  --md-ref-palette-secondary25: #3E384D;
+  --md-ref-palette-secondary30: #4A4459;
+  --md-ref-palette-secondary35: #564F65;
+  --md-ref-palette-secondary40: #625B71;
+  --md-ref-palette-secondary50: #7B738B;
+  --md-ref-palette-secondary60: #958DA5;
+  --md-ref-palette-secondary70: #B0A7C0;
+  --md-ref-palette-secondary80: #CCC2DC;
+  --md-ref-palette-secondary90: #E8DEF9;
+  --md-ref-palette-secondary95: #F6EEFF;
+  --md-ref-palette-secondary98: #FDF7FF;
+  --md-ref-palette-secondary99: #FFFBFF;
+  --md-ref-palette-secondary100: #FFFFFF;
+
+  --md-ref-palette-tertiary0: #000000;
+  --md-ref-palette-tertiary5: #240612;
+  --md-ref-palette-tertiary10: #31101D;
+  --md-ref-palette-tertiary15: #3D1B27;
+  --md-ref-palette-tertiary20: #4A2532;
+  --md-ref-palette-tertiary25: #56303D;
+  --md-ref-palette-tertiary30: #633B48;
+  --md-ref-palette-tertiary35: #704654;
+  --md-ref-palette-tertiary40: #7E5260;
+  --md-ref-palette-tertiary50: #996A78;
+  --md-ref-palette-tertiary60: #B58392;
+  --md-ref-palette-tertiary70: #D29DAC;
+  --md-ref-palette-tertiary80: #EFB8C8;
+  --md-ref-palette-tertiary90: #FFD9E3;
+  --md-ref-palette-tertiary95: #FFECF0;
+  --md-ref-palette-tertiary98: #FFF8F8;
+  --md-ref-palette-tertiary99: #FFFBFF;
+  --md-ref-palette-tertiary100: #FFFFFF;
+
+  --md-ref-palette-neutral0: #000000;
+  --md-ref-palette-neutral5: #111111;
+  --md-ref-palette-neutral10: #1C1B1C;
+  --md-ref-palette-neutral15: #262526;
+  --md-ref-palette-neutral20: #313030;
+  --md-ref-palette-neutral25: #3C3B3B;
+  --md-ref-palette-neutral30: #484646;
+  --md-ref-palette-neutral35: #545252;
+  --md-ref-palette-neutral40: #605E5E;
+  --md-ref-palette-neutral50: #797676;
+  --md-ref-palette-neutral60: #939090;
+  --md-ref-palette-neutral70: #ADAAAA;
+  --md-ref-palette-neutral80: #C9C6C5;
+  --md-ref-palette-neutral90: #E5E1E1;
+  --md-ref-palette-neutral95: #F4F0EF;
+  --md-ref-palette-neutral98: #FDF8F8;
+  --md-ref-palette-neutral99: #FFFBFF;
+  --md-ref-palette-neutral100: #FFFFFF;
+
+  --md-ref-palette-neutral-variant0: #000000;
+  --md-ref-palette-neutral-variant5: #111112;
+  --md-ref-palette-neutral-variant10: #1C1B1C;
+  --md-ref-palette-neutral-variant15: #262526;
+  --md-ref-palette-neutral-variant20: #313031;
+  --md-ref-palette-neutral-variant25: #3C3B3C;
+  --md-ref-palette-neutral-variant30: #484647;
+  --md-ref-palette-neutral-variant35: #545253;
+  --md-ref-palette-neutral-variant40: #605E5F;
+  --md-ref-palette-neutral-variant50: #797677;
+  --md-ref-palette-neutral-variant60: #939091;
+  --md-ref-palette-neutral-variant70: #AEAAAB;
+  --md-ref-palette-neutral-variant80: #C9C5C6;
+  --md-ref-palette-neutral-variant90: #E6E1E2;
+  --md-ref-palette-neutral-variant95: #F4F0F0;
+  --md-ref-palette-neutral-variant98: #FDF8F9;
+  --md-ref-palette-neutral-variant99: #FFFBFF;
+  --md-ref-palette-neutral-variant100: #FFFFFF;
+
+}
