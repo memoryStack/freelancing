@@ -11,6 +11,15 @@ import "./icon-button.scss";
 
 type BaseButtonProps = ComponentPropsWithoutRef<typeof BaseButton>;
 
+/*
+  TODO:
+    https://m3.material.io/components/icon-buttons/guidelines#fc319c80-cdca-457a-bf78-eabb00016ef3
+    this link has guidelines about when to use outlined and when to use filled button for all the variants during
+    selected and unselected states. but to achieve this, a lot of customization on the icon markup is needed. i don't
+    see it possible for now. so i am skipping it for now. right now all of my icons are outlined.
+    And for material-web all of it's icons are filled always. this level of granular customization will be possible in future.
+*/
+
 export type IconButtonVariant = "FILLED" | "TONAL" | "OUTLINED" | "STANDARD";
 
 export const ICON_BUTTON_VARIANTS: Record<IconButtonVariant, string> = {

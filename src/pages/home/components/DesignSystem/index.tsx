@@ -1,6 +1,7 @@
 import '@material/web/button/elevated-button.js';
 import { Button, IconButton, ICON_BUTTON_VARIANTS } from '../../../../ui';
-import { HeartIcon, Icon, PlusIcon } from 'lucide-react';
+import { HeartIcon, Icon, PlusIcon, Settings, SettingsIcon } from 'lucide-react';
+import './custom-css.scss';
 
 export function DesignSystem() {
     
@@ -34,47 +35,36 @@ export function DesignSystem() {
             <Button variant="text" leadingIcon={<PlusIcon />} disabled>With Icon Text</Button>
             <Button variant="elevated" leadingIcon={<PlusIcon />} disabled>With Icon Elevated</Button>
             <Button variant="filled-tonal" leadingIcon={<PlusIcon />} disabled>With Icon Filled Tonal</Button>
-            <h1>Icon Buttons: Enabled</h1>
-            <IconButton variant={ICON_BUTTON_VARIANTS.FILLED} icon={<PlusIcon />}>With Icon Filled</IconButton>
-            <IconButton variant={ICON_BUTTON_VARIANTS.OUTLINED} icon={<PlusIcon />}>With Icon Outlined</IconButton>
-            <IconButton variant={ICON_BUTTON_VARIANTS.TONAL} icon={<PlusIcon />}>With Icon Text</IconButton>
-            <IconButton variant={ICON_BUTTON_VARIANTS.STANDARD} icon={<PlusIcon />}>With Icon Elevated</IconButton>
-            <IconButton variant={ICON_BUTTON_VARIANTS.TONAL} icon={<HeartIcon />}>With Icon Filled</IconButton>
+            <h1>My Icon Buttons: Enabled</h1>
+            <IconButton variant={ICON_BUTTON_VARIANTS.FILLED} icon={<HeartIcon />}>With Icon Filled</IconButton>
+            <IconButton className="icon-button-custom-css" variant={ICON_BUTTON_VARIANTS.FILLED} icon={<Settings />}>With Icon Filled</IconButton>
+            <IconButton variant={ICON_BUTTON_VARIANTS.OUTLINED} icon={<HeartIcon />}>With Icon Outlined</IconButton>
+            <IconButton variant={ICON_BUTTON_VARIANTS.TONAL} icon={<HeartIcon />}>With Icon Text</IconButton>
+            <IconButton variant={ICON_BUTTON_VARIANTS.STANDARD} icon={<HeartIcon />}>With Icon Elevated</IconButton>
             <p>icons from material design: enabled</p>
-            <md-icon-button>
-                <md-icon>
-                    <PlusIcon />
-                </md-icon>
-            </md-icon-button>
-            <md-filled-icon-button>
-                <md-icon><PlusIcon /></md-icon>
-            </md-filled-icon-button>
-            <md-filled-tonal-icon-button>
-                <md-icon><PlusIcon /></md-icon>
-            </md-filled-tonal-icon-button>
-            <md-outlined-icon-button>
-                <md-icon><PlusIcon /></md-icon>
-            </md-outlined-icon-button>
+                <md-icon-button><md-icon><HeartIcon /></md-icon></md-icon-button>
+                <md-filled-icon-button><md-icon><HeartIcon /></md-icon></md-filled-icon-button>
+                <md-filled-tonal-icon-button><md-icon><HeartIcon /></md-icon></md-filled-tonal-icon-button>
+                <md-outlined-icon-button><md-icon><HeartIcon /></md-icon></md-outlined-icon-button>
             <p>icons from material design: disabled</p>
-            <md-icon-button disabled>
-                <md-icon>
-                    <PlusIcon />
-                </md-icon>
-            </md-icon-button>
-            <md-filled-icon-button disabled>
-                <md-icon><PlusIcon /></md-icon>
-            </md-filled-icon-button>
-            <md-filled-tonal-icon-button disabled>
-                <md-icon><PlusIcon /></md-icon>
-            </md-filled-tonal-icon-button>
-            <md-outlined-icon-button disabled>
-                <md-icon><PlusIcon /></md-icon>
-            </md-outlined-icon-button>
-            <h1>Icon Buttons: Disabled</h1>
-            <IconButton variant={ICON_BUTTON_VARIANTS.FILLED} icon={<PlusIcon />} disabled>With Icon Filled</IconButton>
-            <IconButton variant={ICON_BUTTON_VARIANTS.OUTLINED} icon={<PlusIcon />} disabled>With Icon Outlined</IconButton>
-            <IconButton variant={ICON_BUTTON_VARIANTS.TONAL} icon={<PlusIcon />} disabled>With Icon Text</IconButton>
-            <IconButton variant={ICON_BUTTON_VARIANTS.STANDARD} icon={<PlusIcon />} disabled>With Icon Elevated</IconButton>
+                <md-icon-button disabled><md-icon><HeartIcon /></md-icon></md-icon-button>
+                <md-filled-icon-button disabled><md-icon><HeartIcon /></md-icon></md-filled-icon-button>
+                <md-filled-tonal-icon-button disabled><md-icon><HeartIcon /></md-icon></md-filled-tonal-icon-button>
+                <md-outlined-icon-button disabled><md-icon><HeartIcon /></md-icon></md-outlined-icon-button>
+            <h1>My Icon Buttons: Disabled</h1>
+            <IconButton variant={ICON_BUTTON_VARIANTS.FILLED} icon={<HeartIcon />} disabled>With Icon Filled</IconButton>
+            <IconButton variant={ICON_BUTTON_VARIANTS.OUTLINED} icon={<HeartIcon />} disabled>With Icon Outlined</IconButton>
+            <IconButton variant={ICON_BUTTON_VARIANTS.TONAL} icon={<HeartIcon />} disabled>With Icon Text</IconButton>
+            <IconButton variant={ICON_BUTTON_VARIANTS.STANDARD} icon={<HeartIcon />} disabled>With Icon Elevated</IconButton>
+
+            <p>icons from material design: Selected</p>
+                <md-icon-button toggle><md-icon><HeartIcon /></md-icon></md-icon-button>
+                <md-icon-button toggle><md-icon><HeartIcon /></md-icon></md-icon-button>
+                <md-filled-icon-button toggle><md-icon><HeartIcon /></md-icon></md-filled-icon-button>
+                <md-filled-tonal-icon-button toggle><md-icon><HeartIcon /></md-icon></md-filled-tonal-icon-button>
+                <md-outlined-icon-button toggle><md-icon><HeartIcon /></md-icon></md-outlined-icon-button>
+                <md-outlined-icon-button toggle><md-icon><Settings /></md-icon></md-outlined-icon-button>
+
         </div>
       </div>
     );

@@ -1,0 +1,8 @@
+
+
+.icon-button-custom-css {
+    color: red;
+    &::before {
+        background-color: var(--md-sys-color-tertiary);
+    }
+}
