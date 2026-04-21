@@ -1,6 +1,6 @@
 import '@material/web/button/elevated-button.js';
 import { Button, IconButton, ICON_BUTTON_VARIANTS } from '../../../../ui';
-import { Icon, PlusIcon } from 'lucide-react';
+import { HeartIcon, Icon, PlusIcon } from 'lucide-react';
 
 export function DesignSystem() {
     
@@ -39,6 +39,7 @@ export function DesignSystem() {
             <IconButton variant={ICON_BUTTON_VARIANTS.OUTLINED} icon={<PlusIcon />}>With Icon Outlined</IconButton>
             <IconButton variant={ICON_BUTTON_VARIANTS.TONAL} icon={<PlusIcon />}>With Icon Text</IconButton>
             <IconButton variant={ICON_BUTTON_VARIANTS.STANDARD} icon={<PlusIcon />}>With Icon Elevated</IconButton>
+            <IconButton variant={ICON_BUTTON_VARIANTS.TONAL} icon={<HeartIcon />}>With Icon Filled</IconButton>
             <p>icons from material design: enabled</p>
             <md-icon-button>
                 <md-icon>
