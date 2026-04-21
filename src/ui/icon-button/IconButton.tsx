@@ -11,13 +11,13 @@ import "./icon-button.scss";
 
 type BaseButtonProps = ComponentPropsWithoutRef<typeof BaseButton>;
 
-export type IconButtonVariant = "filled" | "tonal" | "outlined" | "standard";
+export type IconButtonVariant = "FILLED" | "TONAL" | "OUTLINED" | "STANDARD";
 
-const ICON_BUTTON_VARIANTS: Record<IconButtonVariant, string> = {
-  filled: "ui-icon-button--filled",
-  tonal: "ui-icon-button--tonal",
-  outlined: "ui-icon-button--outlined",
-  standard: "ui-icon-button--standard",
+export const ICON_BUTTON_VARIANTS: Record<IconButtonVariant, string> = {
+  FILLED: "FILLED",
+  TONAL: "TONAL",
+  OUTLINED: "OUTLINED",
+  STANDARD: "STANDARD"
 };
 
 export interface IconButtonProps extends Omit<BaseButtonProps, "className" | "children"> {
@@ -28,30 +28,55 @@ export interface IconButtonProps extends Omit<BaseButtonProps, "className" | "ch
   isToggle?: boolean;
 }
 
+const CLASSES = {
+  base: "ui-icon-button",
+  appearance: {
+    [ICON_BUTTON_VARIANTS.FILLED]: "ui-icon-button--filled",
+    [ICON_BUTTON_VARIANTS.TONAL]: "ui-icon-button--tonal",
+    [ICON_BUTTON_VARIANTS.OUTLINED]: "ui-icon-button--outlined",
+    [ICON_BUTTON_VARIANTS.STANDARD]: "ui-icon-button--standard",
+  },
+  toggle: {
+    [ICON_BUTTON_VARIANTS.FILLED]: {
+      selected: "ui-icon-button--filled--selected",
+      unselected: "ui-icon-button--filled--unselected",
+    },
+    [ICON_BUTTON_VARIANTS.TONAL]: {
+      selected: "ui-icon-button--tonal--selected",
+      unselected: "ui-icon-button--tonal--unselected",
+    },
+    [ICON_BUTTON_VARIANTS.OUTLINED]: {
+      selected: "ui-icon-button--outlined--selected",
+      unselected: "ui-icon-button--outlined--unselected",
+    },
+    [ICON_BUTTON_VARIANTS.STANDARD]: {
+      selected: "ui-icon-button--standard--selected",
+      unselected: "ui-icon-button--standard--unselected",
+    },
+  }
+}
+
 export const IconButton = forwardRef<HTMLElement, IconButtonProps>(function IconButton(
-  { className, disabled, icon, selected = false, variant = "filled", isToggle = false, ...props },
+  { className, disabled, icon, selected = false, variant = ICON_BUTTON_VARIANTS.FILLED, isToggle = false, ...props },
   ref,
 ) {
 
-  const getToggleClass = () => {
-    if (!isToggle) return "";
-    return selected ? "ui-icon-button--selected" : "ui-icon-button--unselected";
+  const getMergeClassName = () => {
+    return clsx(
+      CLASSES.base,
+      CLASSES.appearance[variant],
+      isToggle && CLASSES.toggle[variant][selected ? "selected" : "unselected"],
+      className
+    )
   }
 
-  return (
+  return (  
     <BaseButton
       {...props}
       ref={ref}
       disabled={disabled}
       aria-pressed={selected}
-      className={
-        clsx(
-          "ui-icon-button",
-          ICON_BUTTON_VARIANTS[variant],
-          getToggleClass(),
-          className
-        )
-      }
+      className={ getMergeClassName()}
     >
       <span className="ui-icon-button__icon">{icon}</span>
     </BaseButton>

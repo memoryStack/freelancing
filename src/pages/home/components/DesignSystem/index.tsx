@@ -1,5 +1,5 @@
 import '@material/web/button/elevated-button.js';
-import { Button, IconButton } from '../../../../ui';
+import { Button, IconButton, ICON_BUTTON_VARIANTS } from '../../../../ui';
 import { Icon, PlusIcon } from 'lucide-react';
 
 export function DesignSystem() {
@@ -35,10 +35,10 @@ export function DesignSystem() {
             <Button variant="elevated" leadingIcon={<PlusIcon />} disabled>With Icon Elevated</Button>
             <Button variant="filled-tonal" leadingIcon={<PlusIcon />} disabled>With Icon Filled Tonal</Button>
             <h1>Icon Buttons: Enabled</h1>
-            <IconButton variant="filled" icon={<PlusIcon />}>With Icon Filled</IconButton>
-            <IconButton variant="outlined" icon={<PlusIcon />}>With Icon Outlined</IconButton>
-            <IconButton variant="tonal" icon={<PlusIcon />}>With Icon Text</IconButton>
-            <IconButton variant="standard" icon={<PlusIcon />}>With Icon Elevated</IconButton>
+            <IconButton variant={ICON_BUTTON_VARIANTS.FILLED} icon={<PlusIcon />}>With Icon Filled</IconButton>
+            <IconButton variant={ICON_BUTTON_VARIANTS.OUTLINED} icon={<PlusIcon />}>With Icon Outlined</IconButton>
+            <IconButton variant={ICON_BUTTON_VARIANTS.TONAL} icon={<PlusIcon />}>With Icon Text</IconButton>
+            <IconButton variant={ICON_BUTTON_VARIANTS.STANDARD} icon={<PlusIcon />}>With Icon Elevated</IconButton>
             <p>icons from material design: enabled</p>
             <md-icon-button>
                 <md-icon>
@@ -70,10 +70,10 @@ export function DesignSystem() {
                 <md-icon><PlusIcon /></md-icon>
             </md-outlined-icon-button>
             <h1>Icon Buttons: Disabled</h1>
-            <IconButton variant="filled" icon={<PlusIcon />} disabled>With Icon Filled</IconButton>
-            <IconButton variant="outlined" icon={<PlusIcon />} disabled>With Icon Outlined</IconButton>
-            <IconButton variant="tonal" icon={<PlusIcon />} disabled>With Icon Text</IconButton>
-            <IconButton variant="standard" icon={<PlusIcon />} disabled>With Icon Elevated</IconButton>
+            <IconButton variant={ICON_BUTTON_VARIANTS.FILLED} icon={<PlusIcon />} disabled>With Icon Filled</IconButton>
+            <IconButton variant={ICON_BUTTON_VARIANTS.OUTLINED} icon={<PlusIcon />} disabled>With Icon Outlined</IconButton>
+            <IconButton variant={ICON_BUTTON_VARIANTS.TONAL} icon={<PlusIcon />} disabled>With Icon Text</IconButton>
+            <IconButton variant={ICON_BUTTON_VARIANTS.STANDARD} icon={<PlusIcon />} disabled>With Icon Elevated</IconButton>
         </div>
       </div>
     );
