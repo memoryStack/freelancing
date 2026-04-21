@@ -1,5 +1,5 @@
 import '@material/web/button/elevated-button.js';
-import { Button } from '../../../../ui';
+import { Button, IconButton } from '../../../../ui';
 import { Icon, PlusIcon } from 'lucide-react';
 
 export function DesignSystem() {
@@ -34,6 +34,46 @@ export function DesignSystem() {
             <Button variant="text" leadingIcon={<PlusIcon />} disabled>With Icon Text</Button>
             <Button variant="elevated" leadingIcon={<PlusIcon />} disabled>With Icon Elevated</Button>
             <Button variant="filled-tonal" leadingIcon={<PlusIcon />} disabled>With Icon Filled Tonal</Button>
+            <h1>Icon Buttons: Enabled</h1>
+            <IconButton variant="filled" icon={<PlusIcon />}>With Icon Filled</IconButton>
+            <IconButton variant="outlined" icon={<PlusIcon />}>With Icon Outlined</IconButton>
+            <IconButton variant="tonal" icon={<PlusIcon />}>With Icon Text</IconButton>
+            <IconButton variant="standard" icon={<PlusIcon />}>With Icon Elevated</IconButton>
+            <p>icons from material design: enabled</p>
+            <md-icon-button>
+                <md-icon>
+                    <PlusIcon />
+                </md-icon>
+            </md-icon-button>
+            <md-filled-icon-button>
+                <md-icon><PlusIcon /></md-icon>
+            </md-filled-icon-button>
+            <md-filled-tonal-icon-button>
+                <md-icon><PlusIcon /></md-icon>
+            </md-filled-tonal-icon-button>
+            <md-outlined-icon-button>
+                <md-icon><PlusIcon /></md-icon>
+            </md-outlined-icon-button>
+            <p>icons from material design: disabled</p>
+            <md-icon-button disabled>
+                <md-icon>
+                    <PlusIcon />
+                </md-icon>
+            </md-icon-button>
+            <md-filled-icon-button disabled>
+                <md-icon><PlusIcon /></md-icon>
+            </md-filled-icon-button>
+            <md-filled-tonal-icon-button disabled>
+                <md-icon><PlusIcon /></md-icon>
+            </md-filled-tonal-icon-button>
+            <md-outlined-icon-button disabled>
+                <md-icon><PlusIcon /></md-icon>
+            </md-outlined-icon-button>
+            <h1>Icon Buttons: Disabled</h1>
+            <IconButton variant="filled" icon={<PlusIcon />} disabled>With Icon Filled</IconButton>
+            <IconButton variant="outlined" icon={<PlusIcon />} disabled>With Icon Outlined</IconButton>
+            <IconButton variant="tonal" icon={<PlusIcon />} disabled>With Icon Text</IconButton>
+            <IconButton variant="standard" icon={<PlusIcon />} disabled>With Icon Elevated</IconButton>
         </div>
       </div>
     );

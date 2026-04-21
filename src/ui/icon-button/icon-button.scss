@@ -1,0 +1,316 @@
+
+.ui-icon-button {
+  --_container-color: var(--md-filled-icon-button-container-color, var(--md-sys-color-primary));
+  --_unselected-container-color: var(--md-filled-icon-button-unselected-container-color, var(--md-sys-color-surface-container-highest));
+  --_selected-container-color: var(--md-filled-icon-button-selected-container-color, var(--md-sys-color-primary));
+  --_icon-color: var(--md-filled-icon-button-icon-color, var(--md-sys-color-on-primary));
+  --_hover-icon-color: var(--md-filled-icon-button-hover-icon-color, var(--md-sys-color-on-primary));
+  --_focus-icon-color: var(--md-filled-icon-button-focus-icon-color, var(--md-sys-color-on-primary));
+  --_pressed-icon-color: var(--md-filled-icon-button-pressed-icon-color, var(--md-sys-color-on-primary));
+  --_hover-state-layer-color: var(--md-filled-icon-button-hover-state-layer-color, var(--md-sys-color-on-primary));
+  --_hover-state-layer-opacity: var(--md-filled-icon-button-hover-state-layer-opacity, 0.08);
+  --_pressed-state-layer-color: var(--md-filled-icon-button-pressed-state-layer-color, var(--md-sys-color-on-primary));
+  --_pressed-state-layer-opacity: var(--md-filled-icon-button-pressed-state-layer-opacity, 0.12);
+  --_selected-icon-color: var(--md-filled-icon-button-toggle-selected-icon-color, var(--md-sys-color-on-primary));
+  --_selected-hover-icon-color: var(--md-filled-icon-button-toggle-selected-hover-icon-color, var(--md-sys-color-on-primary));
+  --_selected-focus-icon-color: var(--md-filled-icon-button-toggle-selected-focus-icon-color, var(--md-sys-color-on-primary));
+  --_selected-pressed-icon-color: var(--md-filled-icon-button-toggle-selected-pressed-icon-color, var(--md-sys-color-on-primary));
+  --_selected-hover-state-layer-color: var(
+    --md-filled-icon-button-toggle-selected-hover-state-layer-color,
+    var(--md-sys-color-on-primary)
+  );
+  --_selected-pressed-state-layer-color: var(
+    --md-filled-icon-button-toggle-selected-pressed-state-layer-color,
+    var(--md-sys-color-on-primary)
+  );
+  --_disabled-container-color: var(--md-filled-icon-button-disabled-container-color, var(--md-sys-color-on-surface));
+  --_disabled-container-opacity: var(--md-filled-icon-button-disabled-container-opacity, 0.12);
+  --_disabled-icon-color: var(--md-filled-icon-button-disabled-icon-color, var(--md-sys-color-on-surface));
+  --_disabled-icon-opacity: var(--md-filled-icon-button-disabled-icon-opacity, 0.38);
+  --_disabled-outline-color: transparent;
+  --_disabled-outline-opacity: 0;
+  --_disabled-selected-container-color: transparent;
+  --_disabled-selected-container-opacity: 0;
+  
+  // this is the start of new variables
+  --_container-size: var(--md-filled-icon-button-container-width, 40px);
+  --_container-color: var(--md-filled-icon-button-container-color, var(--md-sys-color-primary));
+  --_border-radius: var(--md-sys-shape-corner-full, 9999px);
+  --_icon-size: var(--md-filled-icon-button-icon-size, 24px);
+  --_icon-color: var(--md-filled-icon-button-icon-color, var(--md-sys-color-on-primary));
+  --_outline-width: 0;
+  --_outline-color: transparent;
+  --_state-layer-color: transparent;
+  
+  position: relative;
+  inline-size: var(--_container-size);
+  block-size: var(--_container-size);
+  min-inline-size: var(--_container-size);
+  min-block-size: var(--_container-size);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: none;
+  border-radius: var(--_border-radius);
+  background: transparent;
+  color: var(--_icon-color);
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+  text-decoration: none;
+  transition:
+    color 120ms ease-out,
+    border-color 120ms ease-out,
+    background-color 120ms ease-out;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: var(--_container-color);
+    border: var(--_outline-width) solid var(--_outline-color);
+    pointer-events: none;
+    z-index: 0;
+    transition:
+      border-color 120ms ease-out,
+      background-color 120ms ease-out,
+      opacity 120ms ease-out;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: var(--_state-layer-color);
+    pointer-events: none;
+    z-index: 1;
+    transition: background-color 120ms ease-out;
+  }
+
+  // just to highlight the outline for the focus visible state
+  &:not(:disabled):focus-visible {
+    outline: 2px solid var(--md-sys-color-primary);
+    outline-offset: 2px;
+  }
+
+  &:is(:disabled, [aria-disabled="true"]) {
+    cursor: default;
+  }
+
+  &--filled {
+    &:not(:disabled):hover {
+      --_state-layer-color: color-mix(
+            in srgb,
+            var(--md-filled-icon-button-hover-state-layer-color, var(--md-sys-color-on-primary))
+            calc(var(--md-filled-icon-button-hover-state-layer-opacity, 0.08) * 100%),
+            transparent
+          );
+    }
+
+    &:not(:disabled):active { 
+      --_state-layer-color: color-mix(
+        in srgb,
+        var(--md-filled-icon-button-pressed-state-layer-color, var(--md-sys-color-on-primary))
+        calc(var(--md-filled-icon-button-pressed-state-layer-opacity, 0.12) * 100%),
+        transparent
+      );
+    }
+
+    // handled in the top for all variants
+    &:not(:disabled):focus-visible {
+      
+    }
+
+    // TODO: is there a way to re-use this ?
+    &:is(:disabled, [aria-disabled="true"]) {
+      --_container-color: color-mix(
+        in srgb,
+        var(--md-filled-icon-button-disabled-container-color, var(--md-sys-color-on-surface))
+        calc(var(--md-filled-icon-button-disabled-container-opacity, 0.12) * 100%),
+        transparent
+      );
+      --_icon-color: color-mix(
+        in srgb,
+        var(--md-filled-icon-button-disabled-icon-color, var(--md-sys-color-on-surface))
+        calc(var(--md-filled-icon-button-disabled-icon-opacity, 0.38) * 100%),
+        transparent
+      );
+    }
+
+    &--unselected {
+      --_container-color: var(--md-filled-icon-button-unselected-container-color, var(--md-sys-color-surface-container-highest)); 
+
+      &:hover {
+        
+      }
+  
+      &:active {
+  
+      }
+  
+      &:focus-visible {
+        
+      }
+  
+      // TODO: is there a way to re-use this ?
+      &:is(:disabled, [aria-disabled="true"]) {
+        
+      }
+    }
+
+    &--selected {
+      // --_container-color: var(--md-filled-icon-button-selected-container-color, var(--md-sys-color-primary));
+      // --_icon-color: var(--md-filled-icon-button-toggle-selected-icon-color, var(--md-sys-color-on-primary));
+
+      &:hover {
+      
+      }
+  
+      &:active {
+  
+      }
+  
+      &:focus-visible {
+        
+      }
+  
+      // TODO: is there a way to re-use this ?
+      &:is(:disabled, [aria-disabled="true"]) {
+        
+      }
+    }
+  }
+
+  &--tonal {
+    --_container-color: var(--md-filled-tonal-icon-button-container-color, var(--md-sys-color-secondary-container));
+    --_icon-color: var(--md-filled-tonal-icon-button-icon-color, var(--md-sys-color-on-secondary-container));
+
+    &:not(:disabled):hover {
+      --_state-layer-color: color-mix(
+            in srgb,
+            var(--md-filled-tonal-icon-button-hover-state-layer-color,var(--md-sys-color-on-secondary-container))
+            calc(var(--md-filled-tonal-icon-button-hover-state-layer-opacity, 0.08) * 100%),
+            transparent
+          );
+    }
+
+    &:not(:disabled):active { 
+      --_state-layer-color: color-mix(
+        in srgb,
+        var(--md-filled-tonal-icon-button-pressed-state-layer-color, var(--md-sys-color-on-secondary-container))
+        calc(var(--md-filled-icon-button-pressed-state-layer-opacity, 0.12) * 100%),
+        transparent
+      );
+    }
+
+    // TODO: is there a way to re-use this ?
+    &:is(:disabled, [aria-disabled="true"]) {
+      --_container-color: color-mix(
+        in srgb,
+        var(--md-filled-tonal-icon-button-disabled-container-color, var(--md-sys-color-on-surface))
+        calc(var(--md-filled-tonal-icon-button-disabled-container-opacity, 0.12) * 100%),
+        transparent
+      );
+      --_icon-color: color-mix(
+        in srgb,
+        var(--md-filled-tonal-icon-button-disabled-icon-color, var(--md-sys-color-on-surface))
+        calc(var(--md-filled-tonal-icon-button-disabled-icon-opacity, 0.38) * 100%),
+        transparent
+      );
+    }
+  }
+
+  &--outlined {
+    --_container-color: transparent;
+    --_icon-color: var(--md-outlined-icon-button-icon-color, var(--md-sys-color-on-surface-variant));
+    --_outline-color: var(--md-outlined-icon-button-outline-color, var(--md-sys-color-outline));
+    --_outline-width: var(--md-outlined-icon-button-outline-width, 1px);
+
+    &:not(:disabled):hover {
+      --_state-layer-color: color-mix(
+            in srgb,
+            var(--md-outlined-icon-button-hover-state-layer-color, var(--md-sys-color-on-surface-variant))
+            calc(var(--md-outlined-icon-button-hover-state-layer-opacity, 0.08) * 100%),
+            transparent
+          );
+    }
+
+    &:not(:disabled):active { 
+      --_state-layer-color: color-mix(
+        in srgb,
+        var(--md-outlined-icon-button-pressed-state-layer-color, var(--md-sys-color-on-surface-variant))
+        calc(var(--md-outlined-icon-button-pressed-state-layer-opacity, 0.12) * 100%),
+        transparent
+      );
+    }
+
+    &:is(:disabled, [aria-disabled="true"]) {
+      --_outline-color: color-mix(
+        in srgb,
+        var(--md-outlined-icon-button-disabled-outline-color, var(--md-sys-color-on-surface))
+        calc(var(--md-outlined-icon-button-disabled-outline-opacity, 0.12) * 100%),
+        transparent
+      );
+
+      // instead of having the calculation duplicated all the time, we can just set the variables and do
+      // the calculation in the top for all variants
+      --_icon-color: color-mix(
+        in srgb,
+        var(--md-outlined-icon-button-disabled-icon-color, var(--md-sys-color-on-surface))
+        calc(var(--md-outlined-icon-button-disabled-icon-opacity, 0.38) * 100%),
+        transparent
+      );
+    }
+  }
+
+  &--standard {
+    --_container-color: transparent;
+    --_outline-width: 0;
+    --_icon-color: var(--md-icon-button-icon-color, var(--md-sys-color-on-surface-variant));
+
+    &:not(:disabled):hover {
+      --_state-layer-color: color-mix(
+            in srgb,
+            var(--md-icon-button-hover-state-layer-color, var(--md-sys-color-on-surface-variant))
+            calc(var(--md-icon-button-hover-state-layer-opacity, 0.08) * 100%),
+            transparent
+          );
+    }
+
+    &:not(:disabled):active { 
+      --_state-layer-color: color-mix(
+        in srgb,
+        var(--md-icon-button-pressed-state-layer-color, var(--md-sys-color-on-surface-variant))
+        calc(var(--md-icon-button-pressed-state-layer-opacity, 0.12) * 100%),
+        transparent
+      );
+    }
+
+    &:is(:disabled, [aria-disabled="true"]) {
+      --_icon-color: color-mix(
+        in srgb,
+        var(--md-icon-button-disabled-icon-color, var(--md-sys-color-on-surface))
+        calc(var(--md-icon-button-disabled-icon-opacity, 0.38) * 100%),
+        transparent
+      );
+    }
+  }
+}
+
+.ui-icon-button__icon {
+  inline-size: var(--_icon-size);
+  block-size: var(--_icon-size);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+
+  > svg {
+    inline-size: 100%;
+    block-size: 100%;
+  }
+}
