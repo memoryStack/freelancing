@@ -148,6 +148,7 @@
   
   /* Outline */
   --md-sys-color-outline: var(--md-ref-palette-neutral-variant50);
+  --md-sys-color-outline-variant: var(--md-ref-palette-neutral-variant80);
   
   /* Shadow */
   --md-sys-color-shadow: var(--md-ref-palette-neutral0);

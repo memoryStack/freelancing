@@ -1,0 +1,22 @@
+.ui-divider {
+  --_thickness: var(--ui-divider-thickness, var(--md-divider-thickness, 1px));
+  --_length: var(--ui-divider-length, 100%);
+  --_color: var(--ui-divider-color, var(--md-divider-light-color, var(--md-sys-color-outline-variant)));
+
+  inline-size: var(--_length);
+  block-size: var(--_thickness);
+  margin: 0;
+  border: 0;
+  display: block;
+  background-color: var(--_color);
+  flex-shrink: 0;
+
+  &--vertical {
+    inline-size: var(--_thickness);
+    block-size: var(--_length);
+  }
+
+  &--strong {
+    --_color: var(--md-divider-strong-color, var(--md-sys-color-outline));
+  }
+}

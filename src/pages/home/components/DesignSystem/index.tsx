@@ -1,5 +1,5 @@
 import '@material/web/button/elevated-button.js';
-import { Button, IconButton, ICON_BUTTON_VARIANTS } from '../../../../ui';
+import { Button, Divider, IconButton, ICON_BUTTON_VARIANTS } from '../../../../ui';
 import { HeartIcon, Icon, PlusIcon, Settings, SettingsIcon } from 'lucide-react';
 import './custom-css.scss';
 
@@ -11,6 +11,10 @@ export function DesignSystem() {
         <h1>Design System</h1>
         <a href="/icon-buttons" className="inline-block text-blue-600 underline">
           View all Icon Button variants
+        </a>
+
+        <a href="/dividers" className="inline-block text-blue-600 underline">
+          View all Divider variants
         </a>
 
         <div className="flex flex-col gap-4">
