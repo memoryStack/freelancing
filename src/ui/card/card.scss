@@ -1,0 +1,171 @@
+.ui-card {
+  --_container-color: var(--md-elevated-card-container-color, var(--md-sys-color-surface-container-low));
+  --_container-opacity: 1;
+  --_container-elevation: var(--md-elevated-card-container-elevation, var(--md-sys-elevation-level1, 1px));
+  --_shadow-color: var(--md-elevated-card-container-shadow-color, var(--md-sys-color-shadow));
+  --_outline-color: transparent;
+  --_outline-width: 0px;
+  --_outline-opacity: 1;
+  --_state-layer-color: transparent;
+  --_state-layer-opacity: 0;
+  --_focus-indicator-color: var(--md-elevated-card-focus-indicator-color, var(--md-sys-color-secondary));
+  --_focus-indicator-thickness: var(
+    --md-elevated-card-focus-indicator-thickness,
+    var(--md-sys-state-focus-indicator-thickness, 3px)
+  );
+  --_focus-indicator-offset: var(
+    --md-elevated-card-focus-indicator-offset,
+    var(--md-sys-state-focus-indicator-outer-offset, 2px)
+  );
+  --_container-shape: var(--md-elevated-card-container-shape, var(--md-sys-shape-corner-medium, 12px));
+
+  position: relative;
+  display: block;
+  padding: 16px;
+  border-radius: var(--_container-shape);
+  border: var(--_outline-width) solid
+    color-mix(in srgb, var(--_outline-color) calc(var(--_outline-opacity) * 100%), transparent);
+  background: color-mix(
+    in srgb,
+    var(--_container-color) calc(var(--_container-opacity) * 100%),
+    transparent
+  );
+  box-shadow: 0 var(--_container-elevation) calc(var(--_container-elevation) * 3)
+    color-mix(in srgb, var(--_shadow-color) 24%, transparent);
+  outline: none;
+  transition:
+    background-color 120ms ease-out,
+    box-shadow 120ms ease-out,
+    border-color 120ms ease-out;
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    pointer-events: none;
+    background: color-mix(
+      in srgb,
+      var(--_state-layer-color) calc(var(--_state-layer-opacity) * 100%),
+      transparent
+    );
+    transition: background-color 120ms ease-out;
+  }
+
+  &:not([aria-disabled="true"]):hover {
+    --_state-layer-color: var(--md-sys-color-on-surface);
+    --_state-layer-opacity: var(--md-sys-state-hover-state-layer-opacity, 0.08);
+  }
+
+  &:not([aria-disabled="true"]):active {
+    --_state-layer-color: var(--md-sys-color-on-surface);
+    --_state-layer-opacity: 0.1;
+  }
+
+  &:not([aria-disabled="true"]):focus-visible {
+    outline: var(--_focus-indicator-thickness) solid var(--_focus-indicator-color);
+    outline-offset: var(--_focus-indicator-offset);
+  }
+
+  &[aria-disabled="true"] {
+    cursor: default;
+    pointer-events: none;
+    --_container-color: var(--md-filled-card-disabled-container-color, var(--md-sys-color-surface-variant));
+    --_container-opacity: var(--md-filled-card-disabled-container-opacity, 0.38);
+  }
+
+  &--elevated {
+    &:not([aria-disabled="true"]):hover {
+      --_container-elevation: var(--md-elevated-card-hover-container-elevation, var(--md-sys-elevation-level2, 3px));
+    }
+
+    &:not([aria-disabled="true"]):active {
+      --_container-elevation: var(--md-elevated-card-pressed-container-elevation, var(--md-sys-elevation-level1, 1px));
+    }
+
+    &:not([aria-disabled="true"]):focus-visible {
+      --_container-elevation: var(--md-elevated-card-focus-container-elevation, var(--md-sys-elevation-level1, 1px));
+      --_state-layer-color: var(--md-sys-color-on-surface);
+      --_state-layer-opacity: var(--md-elevated-card-focus-state-layer-opacity, 0.1);
+    }
+
+    &[aria-disabled="true"] {
+      --_container-elevation: var(--md-elevated-card-disabled-container-elevation, var(--md-sys-elevation-level1, 1px));
+    }
+  }
+
+  &--filled {
+    --_container-color: var(--md-filled-card-container-color, var(--md-sys-color-surface-container-highest));
+    --_container-elevation: var(--md-filled-card-container-elevation, var(--md-sys-elevation-level0, 0px));
+    --_shadow-color: var(--md-filled-card-container-shadow-color, var(--md-sys-color-shadow));
+    --_container-shape: var(--md-filled-card-container-shape, var(--md-sys-shape-corner-medium, 12px));
+    --_focus-indicator-color: var(--md-filled-card-focus-indicator-color, var(--md-sys-color-secondary));
+    --_focus-indicator-thickness: var(
+      --md-filled-card-focus-indicator-thickness,
+      var(--md-sys-state-focus-indicator-thickness, 3px)
+    );
+    --_focus-indicator-offset: var(
+      --md-filled-card-focus-indicator-offset,
+      var(--md-sys-state-focus-indicator-outer-offset, 2px)
+    );
+
+    &:not([aria-disabled="true"]):hover {
+      --_container-elevation: var(--md-filled-card-hover-container-elevation, var(--md-sys-elevation-level1, 1px));
+    }
+
+    &:not([aria-disabled="true"]):active {
+      --_container-elevation: var(--md-filled-card-pressed-container-elevation, var(--md-sys-elevation-level0, 0px));
+    }
+
+    &:not([aria-disabled="true"]):focus-visible {
+      --_container-elevation: var(--md-filled-card-focus-container-elevation, var(--md-sys-elevation-level0, 0px));
+      --_state-layer-color: var(--md-sys-color-on-surface);
+      --_state-layer-opacity: var(--md-filled-card-focus-state-layer-opacity, 0.1);
+    }
+
+    &[aria-disabled="true"] {
+      --_container-elevation: var(--md-filled-card-disabled-container-elevation, var(--md-sys-elevation-level0, 0px));
+    }
+  }
+
+  &--outlined {
+    --_container-color: var(--md-outlined-card-container-color, var(--md-sys-color-surface));
+    --_container-elevation: var(--md-outlined-card-container-elevation, var(--md-sys-elevation-level0, 0px));
+    --_shadow-color: var(--md-outlined-card-container-shadow-color, var(--md-sys-color-shadow));
+    --_container-shape: var(--md-outlined-card-container-shape, var(--md-sys-shape-corner-medium, 12px));
+    --_outline-color: var(--md-outlined-card-outline-color, var(--md-sys-color-outline-variant));
+    --_outline-width: var(--md-outlined-card-outline-width, 1px);
+    --_focus-indicator-color: var(--md-outlined-card-focus-indicator-color, var(--md-sys-color-secondary));
+    --_focus-indicator-thickness: var(
+      --md-outlined-card-focus-indicator-thickness,
+      var(--md-sys-state-focus-indicator-thickness, 3px)
+    );
+    --_focus-indicator-offset: var(
+      --md-outlined-card-focus-indicator-offset,
+      var(--md-sys-state-focus-indicator-outer-offset, 2px)
+    );
+
+    &:not([aria-disabled="true"]):hover {
+      --_container-elevation: var(--md-outlined-card-hover-container-elevation, var(--md-sys-elevation-level1, 1px));
+      --_outline-color: var(--md-outlined-card-hover-outline-color, var(--md-sys-color-outline-variant));
+    }
+
+    &:not([aria-disabled="true"]):active {
+      --_container-elevation: var(--md-outlined-card-pressed-container-elevation, var(--md-sys-elevation-level0, 0px));
+      --_outline-color: var(--md-outlined-card-pressed-outline-color, var(--md-sys-color-outline-variant));
+    }
+
+    &:not([aria-disabled="true"]):focus-visible {
+      --_container-elevation: var(--md-outlined-card-focus-container-elevation, var(--md-sys-elevation-level0, 0px));
+      --_state-layer-color: var(--md-sys-color-on-surface);
+      --_state-layer-opacity: var(--md-outlined-card-focus-state-layer-opacity, 0.1);
+      --_outline-color: var(--md-outlined-card-focus-outline-color, var(--md-sys-color-on-surface));
+    }
+
+    &[aria-disabled="true"] {
+      --_container-elevation: var(--md-outlined-card-focus-container-elevation, var(--md-sys-elevation-level0, 0px));
+      --_outline-color: var(--md-outlined-card-disabled-outline-color, var(--md-sys-color-outline));
+      --_outline-opacity: var(--md-outlined-card-disabled-outline-opacity, 0.12);
+    }
+  }
+}

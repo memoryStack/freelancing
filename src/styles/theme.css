@@ -95,10 +95,16 @@
   --md-ref-palette-neutral-variant70: #AEAAAB;
   --md-ref-palette-neutral-variant80: #C9C5C6;
   --md-ref-palette-neutral-variant90: #E6E1E2;
+  --md-ref-palette-neutral-variant92: #ebe7e8ff;
+  --md-ref-palette-neutral-variant94: #f1edeeff;
   --md-ref-palette-neutral-variant95: #F4F0F0;
+  --md-ref-palette-neutral-variant96: #f7f2f3ff;
   --md-ref-palette-neutral-variant98: #FDF8F9;
   --md-ref-palette-neutral-variant99: #FFFBFF;
   --md-ref-palette-neutral-variant100: #FFFFFF;
+  
+
+  
 
 
   /* TODO: this mapping is not complete, to be improved */
@@ -131,13 +137,20 @@
   --md-sys-color-on-background: var(--md-ref-palette-neutral10);
   
   /* Surface */
-  --md-sys-color-surface: var(--md-ref-palette-neutral99);
+  --md-sys-color-surface: var(--md-ref-palette-neutral98);
   --md-sys-color-on-surface: var(--md-ref-palette-neutral10);
   
   /* Surface Variant */
   --md-sys-color-surface-variant: var(--md-ref-palette-neutral-variant90);
   --md-sys-color-on-surface-variant: var(--md-ref-palette-neutral-variant30);
-  
+
+  /* Surface containers */
+  --md-sys-color-surface-container-lowest: var(--md-ref-palette-neutral-variant100);
+  --md-sys-color-surface-container-low: var(--md-ref-palette-neutral-variant96);
+  --md-sys-color-surface-container: var(--md-ref-palette-neutral-variant94);
+  --md-sys-color-surface-container-high: var(--md-ref-palette-neutral-variant92);
+  --md-sys-color-surface-container-highest: var(--md-ref-palette-neutral-variant90);
+
   /* Inverse */
   --md-sys-color-inverse-surface: var(--md-ref-palette-neutral20);
   --md-sys-color-inverse-on-surface: var(--md-ref-palette-neutral95);

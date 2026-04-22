@@ -37,3 +37,11 @@ this is how design systems work, by having this hierarchy we achieve below
 so this system enables us to easily update the theme of a website and also allows to customize the components easily.
 
 now all the aspects of all the components in the ui layer will follow this kind of pattern to style.
+
+And also notice that how the customization is happening when variants are defined or when pseudo classes are applied
+so on top level we define some local css variables and these local css variables are applied to the elements inside actual element or inside the pseudo elements like ::after or ::before.
+
+NOTE: ::after pseudo element is used as a state layer to show the feedback to the user on hover or pressed changes.
+
+And these local CSS variables will change their values when a variant is applied or when a pseudo class is applicable to the elements. and the whole look and feel of the element/component changes.
+We are going to follow the same pattern for all the components. so understand it completely and follow that for next components.

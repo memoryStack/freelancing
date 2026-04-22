@@ -1,5 +1,5 @@
 import '@material/web/button/elevated-button.js';
-import { Button, Divider, IconButton, ICON_BUTTON_VARIANTS } from '../../../../ui';
+import { Button, CARD_VARIANTS, Card, Divider, IconButton, ICON_BUTTON_VARIANTS } from '../../../../ui';
 import { HeartIcon, Icon, PlusIcon, Settings, SettingsIcon } from 'lucide-react';
 import './custom-css.scss';
 
@@ -9,13 +9,19 @@ export function DesignSystem() {
       <div className="min-h-screen bg-white p-40 ">
         
         <h1>Design System</h1>
-        <a href="/icon-buttons" className="inline-block text-blue-600 underline">
-          View all Icon Button variants
-        </a>
+        <div className="flex flex-col gap-4">
+            <a href="/icon-buttons" className="inline-block text-blue-600 underline">
+            View all Icon Button variants
+            </a>
 
-        <a href="/dividers" className="inline-block text-blue-600 underline">
-          View all Divider variants
-        </a>
+            <a href="/dividers" className="inline-block text-blue-600 underline">
+            View all Divider variants
+            </a>
+
+            <a href="/cards" className="inline-block text-blue-600 underline">
+            View all Card variants
+            </a>
+        </div>
 
         <div className="flex flex-col gap-4">
             <h1>Text Buttons: Enabled</h1>
@@ -48,6 +54,7 @@ export function DesignSystem() {
             <IconButton variant={ICON_BUTTON_VARIANTS.OUTLINED} icon={<HeartIcon />}>With Icon Outlined</IconButton>
             <IconButton variant={ICON_BUTTON_VARIANTS.TONAL} icon={<HeartIcon />}>With Icon Text</IconButton>
             <IconButton variant={ICON_BUTTON_VARIANTS.STANDARD} icon={<HeartIcon />}>With Icon Elevated</IconButton>
+            
             <p>icons from material design: enabled</p>
                 <md-icon-button><md-icon><HeartIcon /></md-icon></md-icon-button>
                 <md-filled-icon-button><md-icon><HeartIcon /></md-icon></md-filled-icon-button>
