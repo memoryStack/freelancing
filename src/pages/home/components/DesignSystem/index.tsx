@@ -9,6 +9,9 @@ export function DesignSystem() {
       <div className="min-h-screen bg-white p-40 ">
         
         <h1>Design System</h1>
+        <a href="/icon-buttons" className="inline-block text-blue-600 underline">
+          View all Icon Button variants
+        </a>
 
         <div className="flex flex-col gap-4">
             <h1>Text Buttons: Enabled</h1>
