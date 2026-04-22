@@ -5,6 +5,7 @@ import {
   type ButtonHTMLAttributes,
   type ComponentPropsWithoutRef,
   type ElementType,
+  type ReactElement,
   type ReactNode,
 } from "react";
 import "./icon-button.scss";
@@ -18,9 +19,18 @@ type BaseButtonProps = ComponentPropsWithoutRef<typeof BaseButton>;
     selected and unselected states. but to achieve this, a lot of customization on the icon markup is needed. i don't
     see it possible for now. so i am skipping it for now. right now all of my icons are outlined.
     And for material-web all of it's icons are filled always. this level of granular customization will be possible in future.
+    UPDATE: the icons has to be different and each icon is supposed to have outlined and filled version. WTH was i thinking earlier.
+  TODO: we just support round icons shape for now. square variant will come later.
+    to support square icons, follow https://m3.material.io/components/icon-buttons/specs#1df8003e-8967-4e73-9b0f-233e20050bb1
+
+  TODO: add touch support for small and icon-small variants for mobile.
+
+
 */
 
 export type IconButtonVariant = "FILLED" | "TONAL" | "OUTLINED" | "STANDARD";
+export type IconButtonSize = "XSMALL" | "SMALL" | "MEDIUM" | "LARGE" | "XLARGE";
+export type IconButtonWidthVariant = "NARROW" | "DEFAULT" | "WIDE";
 
 export const ICON_BUTTON_VARIANTS: Record<IconButtonVariant, string> = {
   FILLED: "FILLED",
@@ -29,9 +39,25 @@ export const ICON_BUTTON_VARIANTS: Record<IconButtonVariant, string> = {
   STANDARD: "STANDARD"
 };
 
+export const ICON_BUTTON_SIZES: Record<IconButtonSize, string> = {
+  XSMALL: "XSMALL",
+  SMALL: "SMALL",
+  MEDIUM: "MEDIUM",
+  LARGE: "LARGE",
+  XLARGE: "XLARGE",
+};
+
+export const ICON_BUTTON_WIDTH_VARIANTS: Record<IconButtonWidthVariant, string> = {
+  NARROW: "NARROW",
+  DEFAULT: "DEFAULT",
+  WIDE: "WIDE",
+};
+
 export interface IconButtonProps extends Omit<BaseButtonProps, "className" | "children"> {
   className?: string;
   variant?: IconButtonVariant;
+  size?: IconButtonSize;
+  widthVariant?: IconButtonWidthVariant;
   icon: ReactNode;
   selected?: boolean;
   isToggle?: boolean;
@@ -44,6 +70,18 @@ const CLASSES = {
     [ICON_BUTTON_VARIANTS.TONAL]: "ui-icon-button--tonal",
     [ICON_BUTTON_VARIANTS.OUTLINED]: "ui-icon-button--outlined",
     [ICON_BUTTON_VARIANTS.STANDARD]: "ui-icon-button--standard",
+  },
+  size: {
+    [ICON_BUTTON_SIZES.XSMALL]: "ui-icon-button--xsmall",
+    [ICON_BUTTON_SIZES.SMALL]: "ui-icon-button--small",
+    [ICON_BUTTON_SIZES.MEDIUM]: "ui-icon-button--medium",
+    [ICON_BUTTON_SIZES.LARGE]: "ui-icon-button--large",
+    [ICON_BUTTON_SIZES.XLARGE]: "ui-icon-button--xlarge",
+  },
+  width: {
+    [ICON_BUTTON_WIDTH_VARIANTS.NARROW]: "narrow-width",
+    [ICON_BUTTON_WIDTH_VARIANTS.DEFAULT]: "default-width",
+    [ICON_BUTTON_WIDTH_VARIANTS.WIDE]: "wide-width",
   },
   toggle: {
     [ICON_BUTTON_VARIANTS.FILLED]: {
@@ -66,14 +104,29 @@ const CLASSES = {
 }
 
 export const IconButton = forwardRef<HTMLElement, IconButtonProps>(function IconButton(
-  { className, disabled, icon, selected = false, variant = ICON_BUTTON_VARIANTS.FILLED, isToggle = false, ...props },
+  {
+    className,
+    disabled,
+    icon,
+    selected = false,
+    variant = ICON_BUTTON_VARIANTS.FILLED,
+    size = ICON_BUTTON_SIZES.SMALL,
+    widthVariant = ICON_BUTTON_WIDTH_VARIANTS.DEFAULT,
+    isToggle = false,
+    ...props
+  },
   ref,
 ) {
 
   const getMergeClassName = () => {
+    const sizeClass = CLASSES.size[size];
+    const widthClass = `${sizeClass}--${CLASSES.width[widthVariant]}`;
+
     return clsx(
       CLASSES.base,
       CLASSES.appearance[variant],
+      sizeClass,
+      widthClass,
       isToggle && CLASSES.toggle[variant][selected ? "selected" : "unselected"],
       className
     )
@@ -92,4 +145,4 @@ export const IconButton = forwardRef<HTMLElement, IconButtonProps>(function Icon
   );
 }) as <T extends ElementType = "button">(
   props: IconButtonProps & ButtonHTMLAttributes<T>,
-) => JSX.Element;
+) => ReactElement;

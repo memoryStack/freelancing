@@ -1,8 +1,10 @@
 .ui-icon-button {
   // this is the start of new variables
-  --_container-size: var(--md-filled-icon-button-container-width, 40px);
+  --_container-width: var(--md-filled-icon-button-container-width, 40px);
+  --_container-height: var(--md-filled-icon-button-container-height, 40px);
   --_container-color: var(--md-filled-icon-button-container-color, var(--md-sys-color-primary));
   --_border-radius: var(--md-sys-shape-corner-full, 9999px);
+  --_pressed-border-radius: var(--md-sys-shape-corner-medium, 8px);
   --_icon-size: var(--md-filled-icon-button-icon-size, 24px);
   --_icon-color: var(--md-filled-icon-button-icon-color, var(--md-sys-color-on-primary));
   --_outline-width: 0;
@@ -13,10 +15,10 @@
   --_state-layer-color-opacity: 0;
   
   position: relative;
-  inline-size: var(--_container-size);
-  block-size: var(--_container-size);
-  min-inline-size: var(--_container-size);
-  min-block-size: var(--_container-size);
+  inline-size: var(--_container-width);
+  block-size: var(--_container-height);
+  min-inline-size: var(--_container-width);
+  min-block-size: var(--_container-height);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -36,7 +38,8 @@
   transition:
     color 120ms ease-out,
     border-color 120ms ease-out,
-    background-color 120ms ease-out;
+    background-color 120ms ease-out,
+    border-radius 120ms ease-out;
 
   &::before {
     content: "";
@@ -54,7 +57,8 @@
     transition:
       border-color 120ms ease-out,
       background-color 120ms ease-out,
-      opacity 120ms ease-out;
+      opacity 120ms ease-out,
+      border-radius 120ms ease-out;
   }
 
   &::after {
@@ -72,9 +76,13 @@
     transition: background-color 120ms ease-out;
   }
 
+  &:not(:disabled):active {
+    border-radius: var(--_pressed-border-radius);
+  }
+
   // just to highlight the outline for the focus visible state
   &:not(:disabled):focus-visible {
-    outline: 2px solid var(--md-sys-color-primary);
+    outline: max(var(--_outline-width), 2px) solid var(--md-sys-color-primary);
     outline-offset: 2px;
   }
 
@@ -82,7 +90,114 @@
     cursor: default;
   }
 
+  &--xsmall {
+    --_icon-size: var(--md-icon-button-xsmall-icon-size, 20px);
+    --_pressed-border-radius: var(--md-icon-button-xsmall-pressed-container-shape, 8px);
+    --_outline-width: var(--md-icon-button-xsmall-container-outline-width, 1px);
+
+    &--narrow-width {
+      --_container-width: var(--md-icon-button-xsmall-narrow-container-width, 28px);
+      --_container-height: var(--md-icon-button-xsmall-narrow-container-height, 32px);
+    }
+
+    &--default-width {
+      --_container-width: var(--md-icon-button-xsmall-default-container-width, 32px);
+      --_container-height: var(--md-icon-button-xsmall-default-container-height, 32px);
+    }
+
+    &--wide-width {
+      --_container-width: var(--md-icon-button-xsmall-wide-container-width, 40px);
+      --_container-height: var(--md-icon-button-xsmall-wide-container-height, 32px);
+    }
+  }
+
+  &--small {
+    --_icon-size: var(--md-icon-button-small-icon-size, 24px);
+    --_pressed-border-radius: var(--md-icon-button-small-pressed-container-shape, 8px);
+    --_outline-width: var(--md-icon-button-small-container-outline-width, 1px);
+
+    &--default-width {
+      --_container-width: var(--md-icon-button-small-default-container-width, 40px);
+      --_container-height: var(--md-icon-button-small-default-container-height, 40px);
+    }
+
+    &--narrow-width {
+      --_container-width: var(--md-icon-button-small-narrow-container-width, 32px);
+      --_container-height: var(--md-icon-button-small-narrow-container-height, 40px);
+    }
+  
+    &--wide-width {
+      --_container-width: var(--md-icon-button-small-wide-container-width, 52px);
+      --_container-height: var(--md-icon-button-small-wide-container-height, 40px);
+    }
+  }
+
+  &--medium {
+    --_icon-size: var(--md-icon-button-medium-icon-size, 24px);
+    --_pressed-border-radius: var(--md-icon-button-medium-pressed-container-shape, 12px);
+    --_outline-width: var(--md-icon-button-medium-container-outline-width, 1px);
+
+    &--default-width {
+      --_container-width: var(--md-icon-button-medium-default-container-width, 56px);
+      --_container-height: var(--md-icon-button-medium-default-container-height, 56px);
+    }
+
+    &--narrow-width {
+      --_container-width: var(--md-icon-button-medium-narrow-container-width, 48px);
+      --_container-height: var(--md-icon-button-medium-narrow-container-height, 56px);
+    }
+  
+    &--wide-width {
+      --_container-width: var(--md-icon-button-medium-wide-container-width, 72px);
+      --_container-height: var(--md-icon-button-medium-wide-container-height, 56px);
+    }
+  }
+
+  &--large {
+    --_icon-size: var(--md-icon-button-large-icon-size, 32px);
+    --_pressed-border-radius: var(--md-icon-button-large-pressed-container-shape, 16px);
+    --_outline-width: var(--md-icon-button-large-container-outline-width, 2px);
+
+    &--default-width {
+      --_container-width: var(--md-icon-button-large-default-container-width, 96px);
+      --_container-height: var(--md-icon-button-large-default-container-height, 96px);
+    }
+
+    &--narrow-width {
+      --_container-width: var(--md-icon-button-large-narrow-container-width, 64px);
+      --_container-height: var(--md-icon-button-large-narrow-container-height, 96px);
+    }
+  
+    &--wide-width {
+      --_container-width: var(--md-icon-button-large-wide-container-width, 128px);
+      --_container-height: var(--md-icon-button-large-wide-container-height, 96px);
+    }
+  }
+
+  &--xlarge {
+    --_icon-size: var(--md-icon-button-xlarge-icon-size, 40px);
+    --_pressed-border-radius: var(--md-icon-button-xlarge-pressed-container-shape, 16px);
+    --_outline-width: var(--md-icon-button-xlarge-container-outline-width, 3px);
+
+    &--default-width {
+      --_container-width: var(--md-icon-button-xlarge-default-container-width, 136px);
+      --_container-height: var(--md-icon-button-xlarge-default-container-height, 136px);
+    }
+
+    &--narrow-width {
+      --_container-width: var(--md-icon-button-xlarge-narrow-container-width, 104px);
+      --_container-height: var(--md-icon-button-xlarge-narrow-container-height, 136px);
+    }
+  
+    &--wide-width {
+      --_container-width: var(--md-icon-button-xlarge-wide-container-width, 184px);
+      --_container-height: var(--md-icon-button-xlarge-wide-container-height, 136px);
+    }
+  }
+
   &--filled {
+    --_outline-width: 0;
+
     &:not(:disabled):hover {
       --_state-layer-color: var(--md-filled-icon-button-hover-state-layer-color, var(--md-sys-color-on-primary));
       --_state-layer-color-opacity: var(--md-filled-icon-button-hover-state-layer-opacity, 0.08);
@@ -153,6 +268,7 @@
   &--tonal {
     --_container-color: var(--md-filled-tonal-icon-button-container-color, var(--md-sys-color-secondary-container));
     --_icon-color: var(--md-filled-tonal-icon-button-icon-color, var(--md-sys-color-on-secondary-container));
+    --_outline-width: 0;
 
     &:not(:disabled):hover {
       --_state-layer-color: var(--md-filled-tonal-icon-button-hover-state-layer-color, var(--md-sys-color-on-secondary-container));
@@ -177,7 +293,6 @@
     --_container-color: transparent;
     --_icon-color: var(--md-outlined-icon-button-icon-color, var(--md-sys-color-on-surface-variant));
     --_outline-color: var(--md-outlined-icon-button-outline-color, var(--md-sys-color-outline));
-    --_outline-width: var(--md-outlined-icon-button-outline-width, 1px);
 
     &:not(:disabled):hover {
       --_state-layer-color: var(--md-outlined-icon-button-hover-state-layer-color, var(--md-sys-color-on-surface-variant));
