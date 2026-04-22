@@ -39,26 +39,27 @@
     color 120ms ease-out,
     border-color 120ms ease-out,
     background-color 120ms ease-out,
-    border-radius 120ms ease-out;
+    border-radius 120ms ease-out,
+    opacity 120ms ease-out;
 
+  background: color-mix(
+    in srgb,
+    var(--_container-color) calc(var(--_container-color-opacity) * 100%),
+    transparent
+  );
+  border: var(--_outline-width) solid var(--_outline-color);
+
+  // to increase the touch target
   &::before {
     content: "";
     position: absolute;
-    inset: 0;
-    border-radius: inherit;
-    background: color-mix(
-      in srgb,
-      var(--_container-color) calc(var(--_container-color-opacity) * 100%),
-      transparent
+    inset: calc(
+      -1 * max(
+        (48px - min(var(--_container-width), var(--_container-height))),
+        0px
+      ) / 2
     );
-    border: var(--_outline-width) solid var(--_outline-color);
-    pointer-events: none;
-    z-index: 0;
-    transition:
-      border-color 120ms ease-out,
-      background-color 120ms ease-out,
-      opacity 120ms ease-out,
-      border-radius 120ms ease-out;
+    border-radius: inherit;
   }
 
   &::after {

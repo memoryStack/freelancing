@@ -23,7 +23,8 @@ type BaseButtonProps = ComponentPropsWithoutRef<typeof BaseButton>;
   TODO: we just support round icons shape for now. square variant will come later.
     to support square icons, follow https://m3.material.io/components/icon-buttons/specs#1df8003e-8967-4e73-9b0f-233e20050bb1
 
-  TODO: add touch support for small and icon-small variants for mobile.
+  DONE: add touch support for small and icon-small variants for mobile.
+    https://web.dev/articles/accessible-tap-targets
 
 
 */
@@ -123,12 +124,14 @@ export const IconButton = forwardRef<HTMLElement, IconButtonProps>(function Icon
     const widthClass = `${sizeClass}--${CLASSES.width[widthVariant]}`;
 
     return clsx(
+      "ui-icon-button--temp",
       CLASSES.base,
       CLASSES.appearance[variant],
       sizeClass,
       widthClass,
       isToggle && CLASSES.toggle[variant][selected ? "selected" : "unselected"],
-      className
+      className,
+      
     )
   }
 

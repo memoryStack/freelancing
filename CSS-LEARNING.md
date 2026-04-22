@@ -10,4 +10,8 @@ how to customize an SVG ?
     i noticed that an svg has all of these attributes like "fill", "stroke" etc.
     how these color related attributes impact the styling ?
         And are these css properties like fill & stroke only svg specific ?
-    
+
+how to increase the touch area of an element for mobile devices?
+    the solution is in this article and it inspired me to learn more about
+    responsive web design.
+    https://web.dev/articles/accessible-tap-targets
