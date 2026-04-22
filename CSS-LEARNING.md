@@ -15,3 +15,10 @@ how to increase the touch area of an element for mobile devices?
     the solution is in this article and it inspired me to learn more about
     responsive web design.
     https://web.dev/articles/accessible-tap-targets
+
+how to properly use the ::after & ::before pseudo elements ?
+    usecases:
+        1. increase the touch area of small elements to make them more accessible
+        2. use these to add feedback layers like when user presses then show some color
+            via updating color of this element
+        both of these use-cases are used in the IconButton component.
