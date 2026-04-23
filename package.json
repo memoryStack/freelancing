@@ -14,6 +14,7 @@
     "@material/web": "^2.4.1",
     "clsx": "2.1.1",
     "date-fns": "3.6.0",
+    "is-touch-device": "^1.0.1",
     "lucide-react": "0.487.0",
     "motion": "12.23.24",
     "react": "18.3.1",

@@ -1,0 +1,119 @@
+.ui-tooltip__popup {
+  --_container-color: var(--md-plain-tooltip-container-color, var(--md-sys-color-inverse-surface));
+  --_container-elevation: var(--md-plain-tooltip-container-elevation, var(--md-sys-elevation-level1, 1px));
+  --_container-shadow-color: var(--md-plain-tooltip-container-shadow-color, var(--md-sys-color-shadow));
+  --_container-shape: var(--md-plain-tooltip-container-shape, var(--md-sys-shape-corner-extra-small, 4px));
+  --_container-padding: var(--md-plain-tooltip-container-padding, 8px);
+  --_text-color: var(--md-plain-tooltip-label-text-color, var(--md-sys-color-inverse-on-surface));
+  --_text-line-height: var(--md-plain-tooltip-label-text-line-height, var(--md-sys-typescale-body-small-line-height, 16px));
+  --_text-size: var(--md-plain-tooltip-label-text-size, var(--md-sys-typescale-body-small-size, 12px));
+  --_text-weight: var(--md-plain-tooltip-label-text-weight, 400);
+
+  max-inline-size: 320px;
+  border-radius: var(--_container-shape);
+  background: var(--_container-color);
+  box-shadow: 0 var(--_container-elevation) calc(var(--_container-elevation) * 3)
+    color-mix(in srgb, var(--_container-shadow-color) 24%, transparent);
+  color: var(--_text-color);
+  z-index: 1000;
+}
+
+.ui-tooltip__popup--plain {
+  padding: var(--_container-padding);
+}
+
+.ui-tooltip__plain-text {
+  margin: 0;
+  color: var(--_text-color);
+  line-height: var(--_text-line-height);
+  font-size: var(--_text-size);
+  font-weight: var(--_text-weight);
+}
+
+.ui-tooltip__popup--rich {
+  --_container-color: var(--md-rich-tooltip-container-color, var(--md-sys-color-surface-container));
+  --_container-elevation: var(--md-rich-tooltip-container-elevation, var(--md-sys-elevation-level2, 3px));
+  --_container-shadow-color: var(--md-rich-tooltip-container-shadow-color, var(--md-sys-color-shadow));
+  --_container-shape: var(--md-rich-tooltip-container-shape, var(--md-sys-shape-corner-medium, 12px));
+  --_subhead-color: var(--md-rich-tooltip-subhead-color, var(--md-sys-color-on-surface-variant));
+  --_subhead-line-height: var(--md-rich-tooltip-subhead-line-height, var(--md-sys-typescale-title-small-line-height, 20px));
+  --_subhead-size: var(--md-rich-tooltip-subhead-size, var(--md-sys-typescale-title-small-size, 14px));
+  --_subhead-weight: var(--md-rich-tooltip-subhead-weight, var(--md-sys-typescale-title-small-weight, 500));
+  --_supporting-text-color: var(--md-rich-tooltip-supporting-text-color, var(--md-sys-color-on-surface-variant));
+  --_supporting-text-line-height: var(
+    --md-rich-tooltip-supporting-text-line-height,
+    var(--md-sys-typescale-body-medium-line-height, 20px)
+  );
+  --_supporting-text-size: var(--md-rich-tooltip-supporting-text-size, var(--md-sys-typescale-body-medium-size, 14px));
+  --_supporting-text-weight: var(--md-rich-tooltip-supporting-text-weight, var(--md-sys-typescale-body-medium-weight, 400));
+  --_rich-padding-inline: var(--md-rich-tooltip-container-padding-inline, 16px);
+  --_rich-padding-top: var(--md-rich-tooltip-container-padding-top, 12px);
+  --_rich-padding-bottom: var(--md-rich-tooltip-container-padding-bottom, 8px);
+  --_subhead-to-supporting-gap: var(--md-rich-tooltip-subhead-supporting-gap, 4px);
+  --_supporting-to-action-gap: var(--md-rich-tooltip-supporting-action-gap, 12px);
+
+  padding: var(--_rich-padding-top) var(--_rich-padding-inline) var(--_rich-padding-bottom);
+}
+
+.ui-tooltip__rich-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.ui-tooltip__rich-subhead {
+  margin: 0;
+  color: var(--_subhead-color);
+  line-height: var(--_subhead-line-height);
+  font-size: var(--_subhead-size);
+  font-weight: var(--_subhead-weight);
+}
+
+.ui-tooltip__rich-supporting-text {
+  margin: 0;
+  color: var(--_supporting-text-color);
+  line-height: var(--_supporting-text-line-height);
+  font-size: var(--_supporting-text-size);
+  font-weight: var(--_supporting-text-weight);
+}
+
+.ui-tooltip__rich-subhead + .ui-tooltip__rich-supporting-text {
+  margin-top: var(--_subhead-to-supporting-gap);
+}
+
+.ui-tooltip__rich-action {
+  margin-top: var(--_supporting-to-action-gap);
+  margin-inline-start: -8px;
+}
+
+.ui-tooltip__arrow {
+  display: flex;
+
+  &[data-side="top"] {
+    bottom: -8px;
+    rotate: 180deg;
+  }
+
+  &[data-side="bottom"] {
+    top: -8px;
+    rotate: 0deg;
+  }
+
+  &[data-side="left"] {
+    right: -13px;
+    rotate: 90deg;
+  }
+
+  &[data-side="right"] {
+    left: -13px;
+    rotate: -90deg;
+  }
+}
+
+.ui-tooltip__arrow-fill {
+  fill: var(--_container-color);
+}
+
+.ui-tooltip__arrow-outer-stroke,
+.ui-tooltip__arrow-inner-stroke {
+  fill: transparent;
+}

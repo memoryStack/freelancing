@@ -24,6 +24,9 @@ export function DesignSystem() {
             <a href="/cards" className="inline-block text-blue-600 underline">
             View all Card variants
             </a>
+            <a href="/tooltips" className="inline-block text-blue-600 underline">
+            View all Tooltip variants
+            </a>
         </div>
 
         <div className="flex flex-col gap-4">
