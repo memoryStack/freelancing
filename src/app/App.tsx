@@ -5,6 +5,7 @@ import { CardShowcasePage } from "../pages/card";
 import { DrawerShowcasePage } from "../pages/drawers";
 import { TooltipShowcasePage } from "../pages/tooltips";
 import { TextShowcasePage } from "../pages/text";
+import { SnackbarShowcasePage } from "../pages/snackbars";
 
 export default function App() {
   if (window.location.pathname === "/icon-buttons") {
@@ -28,6 +29,10 @@ export default function App() {
 
   if (window.location.pathname === "/text") {
     return <TextShowcasePage />;
+  }
+
+  if (window.location.pathname === "/snackbars") {
+    return <SnackbarShowcasePage />;
   }
 
   return <HomePage />;

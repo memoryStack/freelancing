@@ -30,6 +30,9 @@ export function DesignSystem() {
             <a href="/text" className="inline-block text-blue-600 underline">
             View all Text variants
             </a>
+            <a href="/snackbars" className="inline-block text-blue-600 underline">
+            View all Snackbar variants
+            </a>
         </div>
 
         <div className="flex flex-col gap-4">

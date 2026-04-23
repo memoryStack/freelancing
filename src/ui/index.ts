@@ -6,3 +6,4 @@ export * from "./drawer";
 export * from "./tooltip";
 export * from "./popover";
 export * from "./text";
+export * from "./snackbar";
