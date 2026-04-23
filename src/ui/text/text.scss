@@ -1,0 +1,11 @@
+.ui-text {
+  margin: 0;
+
+  &--default {
+    color: var(--md-sys-color-on-surface);
+  }
+
+  &--subtle {
+    color: var(--md-sys-color-on-surface-variant);
+  }
+}

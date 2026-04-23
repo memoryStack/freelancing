@@ -4,6 +4,7 @@ import { DividerShowcasePage } from "../pages/dividers";
 import { CardShowcasePage } from "../pages/card";
 import { DrawerShowcasePage } from "../pages/drawers";
 import { TooltipShowcasePage } from "../pages/tooltips";
+import { TextShowcasePage } from "../pages/text";
 
 export default function App() {
   if (window.location.pathname === "/icon-buttons") {
@@ -23,6 +24,10 @@ export default function App() {
 
   if (window.location.pathname === "/tooltips") {
     return <TooltipShowcasePage />;
+  }
+
+  if (window.location.pathname === "/text") {
+    return <TextShowcasePage />;
   }
 
   return <HomePage />;

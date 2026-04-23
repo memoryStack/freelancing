@@ -27,6 +27,9 @@ export function DesignSystem() {
             <a href="/tooltips" className="inline-block text-blue-600 underline">
             View all Tooltip variants
             </a>
+            <a href="/text" className="inline-block text-blue-600 underline">
+            View all Text variants
+            </a>
         </div>
 
         <div className="flex flex-col gap-4">
