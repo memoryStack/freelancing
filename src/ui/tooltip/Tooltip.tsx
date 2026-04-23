@@ -24,6 +24,7 @@ export interface TooltipProps {
   className?: string;
   trigger: ReactNode;
   variant?: TooltipVariant;
+  behavior?: "auto" | "tooltip" | "popover";
   content: ReactNode | string;
   subhead?: ReactNode;
   action?: TooltipAction;
@@ -82,6 +83,7 @@ export function Tooltip({
   className,
   trigger,
   variant = TOOLTIP_VARIANTS.PLAIN,
+  behavior = "auto",
   content,
   subhead,
   action,
@@ -92,6 +94,8 @@ export function Tooltip({
   onOpenChange,
 }: TooltipProps) {
   const hasHoverPointer = !isTouchDevice();
+  const useTooltip =
+    behavior === "tooltip" || (behavior === "auto" && hasHoverPointer);
   const shouldRenderArrow = showArrow && variant !== TOOLTIP_VARIANTS.RICH;
 
   const triggerProps = useMemo(() => {
@@ -107,7 +111,7 @@ export function Tooltip({
     className,
   );
 
-  if (hasHoverPointer) {
+  if (useTooltip) {
     // TODO: these delays doesn't seem to be working
     return (
       <BaseTooltip.Provider openDelay={100} closeDelay={100}>
