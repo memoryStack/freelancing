@@ -14,7 +14,7 @@ type BaseButtonProps = ComponentPropsWithoutRef<typeof BaseButton>;
 export type ButtonVariant = "filled" | "filled-tonal" | "outlined" | "elevated" | "text";
 export type ButtonSize = "sm" | "md" | "lg";
 
-const BUTTON_VARIANTS: Record<ButtonVariant, string> = {
+export const BUTTON_VARIANTS: Record<ButtonVariant, string> = {
   filled: "ui-button--filled",
   "filled-tonal": "ui-button--filled-tonal",
   outlined: "ui-button--outlined",
@@ -22,7 +22,7 @@ const BUTTON_VARIANTS: Record<ButtonVariant, string> = {
   text: "ui-button--text",
 };
 
-const BUTTON_SIZES: Record<ButtonSize, string> = {
+export const BUTTON_SIZES: Record<ButtonSize, string> = {
   sm: "ui-button--sm",
   md: "ui-button--md",
   lg: "ui-button--lg",
