@@ -1,0 +1,103 @@
+.ui-dialog__backdrop {
+  --_scrim-color: var(--md-dialog-scrim-color, var(--md-sys-color-shadow));
+  --_scrim-opacity: var(--md-dialog-scrim-opacity, 0.4);
+
+  position: fixed;
+  inset: 0;
+  min-height: 100dvh;
+  background: color-mix(in srgb, var(--_scrim-color) calc(var(--_scrim-opacity) * 100%), transparent);
+  transition: opacity 150ms ease;
+
+  &[data-starting-style],
+  &[data-ending-style] {
+    opacity: 0;
+  }
+}
+
+.ui-dialog__popup {
+  --_container-color: var(--md-dialog-container-color, var(--md-sys-color-surface-container-high));
+  --_container-elevation: var(--md-dialog-container-elevation, var(--md-sys-elevation-level3, 6px));
+  --_container-shadow-color: var(--md-dialog-container-shadow-color, var(--md-sys-color-shadow));
+  --_container-shape: var(--md-dialog-container-shape, var(--md-sys-shape-corner-extra-large, 28px));
+  --_container-min-width: var(--md-dialog-container-min-width, 280px);
+  --_container-max-width: var(--md-dialog-container-max-width, 560px);
+  --_padding: var(--md-dialog-container-padding, 24px);
+  --_icon-color: var(--md-dialog-icon-color, var(--md-sys-color-secondary));
+  --_icon-size: var(--md-dialog-icon-size, 24px);
+  --_icon-title-gap: var(--md-dialog-icon-title-padding, 16px);
+  --_title-description-gap: var(--md-dialog-title-description-padding, 16px);
+  --_description-actions-gap: var(--md-dialog-description-actions-padding, 24px);
+  --_actions-gap: var(--md-dialog-actions-gap, 8px);
+
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: min(var(--_container-max-width), calc(100vw - 48px));
+  min-width: min(var(--_container-min-width), calc(100vw - 48px));
+  transform: translate(-50%, -50%);
+  border-radius: var(--_container-shape);
+  background: var(--_container-color);
+  box-shadow: 0 var(--_container-elevation) calc(var(--_container-elevation) * 3)
+    color-mix(in srgb, var(--_container-shadow-color) 24%, transparent);
+  padding: var(--_padding);
+  outline: none;
+  transition: transform 150ms ease, opacity 150ms ease;
+
+  &[data-starting-style],
+  &[data-ending-style] {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.9);
+  }
+}
+
+.ui-dialog__close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+
+.ui-dialog__icon {
+  color: var(--_icon-color);
+  inline-size: var(--_icon-size);
+  block-size: var(--_icon-size);
+  margin: 0 auto var(--_icon-title-gap);
+
+  > svg {
+    inline-size: 100%;
+    block-size: 100%;
+  }
+}
+
+.ui-dialog__title {
+  &--centered {
+    text-align: center;
+  }
+
+  &--start {
+    text-align: start;
+  }
+}
+
+.ui-dialog__description {
+  margin-top: var(--_title-description-gap);
+
+  &--centered {
+    text-align: center;
+  }
+
+  &--start {
+    text-align: start;
+  }
+}
+
+.ui-dialog__divider {
+  margin-top: var(--_description-actions-gap);
+}
+
+.ui-dialog__actions {
+  margin-top: var(--_description-actions-gap);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: var(--_actions-gap);
+}
