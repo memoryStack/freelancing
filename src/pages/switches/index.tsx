@@ -19,6 +19,7 @@ export function SwitchShowcasePage() {
         <Switch label="Disabled" disabled />
         <Switch label="Read only" defaultChecked readOnly />
         <Switch label="Required" required />
+        <Switch />
       </div>
     </main>
   );
