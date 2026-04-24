@@ -1,10 +1,8 @@
 import { Dialog as BaseDialog } from "@base-ui/react/dialog";
 import clsx from "clsx";
-import { XIcon } from "lucide-react";
 import { useMemo, useState, type ReactNode } from "react";
 import { Button } from "../button";
 import { Divider } from "../divider";
-import { IconButton, ICON_BUTTON_SIZES, ICON_BUTTON_VARIANTS } from "../icon-button";
 import { Text, TYPOGRAPHY } from "../text";
 import "./dialog.scss";
 
@@ -20,7 +18,6 @@ export interface DialogProps {
   title?: ReactNode;
   description: ReactNode;
   showDivider?: boolean;
-  showCloseIcon?: boolean;
   cancelLabel?: string;
   onCancel?: () => void;
   primaryAction?: DialogAction;
@@ -36,7 +33,6 @@ export function Dialog({
   title,
   description,
   showDivider = true,
-  showCloseIcon = false,
   cancelLabel = "Cancel",
   onCancel,
   primaryAction,
@@ -75,20 +71,6 @@ export function Dialog({
       <BaseDialog.Portal>
         <BaseDialog.Backdrop className="ui-dialog__backdrop" />
         <BaseDialog.Popup className={clsx("ui-dialog__popup", className)}>
-          {showCloseIcon ? (
-            <BaseDialog.Close
-              aria-label="Close dialog"
-              render={
-                <IconButton
-                  variant={ICON_BUTTON_VARIANTS.STANDARD}
-                  size={ICON_BUTTON_SIZES.XSMALL}
-                  icon={<XIcon />}
-                  className="ui-dialog__close"
-                />
-              }
-            />
-          ) : null}
-
           {icon ? <div className="ui-dialog__icon">{icon}</div> : null}
 
           {title ? (
