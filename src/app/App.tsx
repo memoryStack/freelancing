@@ -7,6 +7,7 @@ import { TooltipShowcasePage } from "../pages/tooltips";
 import { TextShowcasePage } from "../pages/text";
 import { SnackbarShowcasePage } from "../pages/snackbars";
 import { DialogShowcasePage } from "../pages/dialogs";
+import { SwitchShowcasePage } from "../pages/switches";
 
 export default function App() {
   if (window.location.pathname === "/icon-buttons") {
@@ -38,6 +39,10 @@ export default function App() {
 
   if (window.location.pathname === "/dialogs") {
     return <DialogShowcasePage />;
+  }
+
+  if (window.location.pathname === "/switches") {
+    return <SwitchShowcasePage />;
   }
 
   return <HomePage />;

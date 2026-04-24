@@ -36,6 +36,9 @@ export function DesignSystem() {
             <a href="/dialogs" className="inline-block text-blue-600 underline">
             View all Dialog variants
             </a>
+            <a href="/switches" className="inline-block text-blue-600 underline">
+            View all Switch variants
+            </a>
         </div>
 
         <div className="flex flex-col gap-4">
