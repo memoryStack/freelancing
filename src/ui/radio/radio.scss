@@ -1,0 +1,247 @@
+// Material radio — component tokens → system tokens (md.sys.*)
+// Retains Base UI motion: 150ms ease on surface/indicator; indicator uses data-starting-style / data-ending-style.
+
+.ui-radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ui-radio-group[data-disabled] {
+  opacity: 1;
+}
+
+.ui-radio {
+  /* Visual box (layout); 48px min touch target via ::before (same trick as .ui-icon-button) */
+  --_container-size: var(--md-radio-container-size, 40px);
+  --_touch-target-min: var(--md-radio-touch-target-min, 48px);
+  --_icon-outer-size: var(--md-radio-icon-size, 20px);
+  --_state-layer-size: var(--md-radio-state-layer-size, 40px);
+  --_state-layer-shape: var(--md-radio-state-layer-shape, var(--md-sys-shape-corner-full, 9999px));
+
+  --_dot-size: var(--md-radio-dot-size, 10px);
+  --_ring-width: var(--md-radio-ring-width, 2px);
+
+  /* Icon = outer ring + inner dot (dot visible only when checked) */
+  --_ring-color: var(--md-radio-unselected-icon-color, var(--md-sys-color-on-surface-variant));
+  --_dot-color: var(--md-radio-selected-icon-color, var(--md-sys-color-primary));
+
+  --_state-layer-color: transparent;
+  --_state-layer-opacity: 0;
+
+  --_focus-indicator-color: var(--md-radio-focus-indicator-color, var(--md-sys-color-secondary));
+  --_focus-indicator-thickness: var(
+    --md-radio-focus-indicator-thickness,
+    var(--md-sys-state-focus-indicator-thickness, 3px)
+  );
+  --_focus-indicator-offset: var(
+    --md-radio-focus-indicator-offset,
+    var(--md-sys-state-focus-indicator-outer-offset, 2px)
+  );
+
+  box-sizing: border-box;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  inline-size: var(--_container-size);
+  block-size: var(--_container-size);
+  min-inline-size: var(--_container-size);
+  min-block-size: var(--_container-size);
+  border-radius: var(--_state-layer-shape);
+  flex-shrink: 0;
+  cursor: pointer;
+  vertical-align: middle;
+  outline: none;
+  transition: outline-color 150ms ease;
+
+  /* Expand hit target to min 48px without growing the 40px layout box */
+  &::before {
+    content: "";
+    position: absolute;
+    inset: calc(
+      -1 * max(
+        (var(--_touch-target-min) - min(var(--_container-size), var(--_container-size))),
+        0px
+      ) / 2
+    );
+    border-radius: inherit;
+  }
+
+  /* State layer (visual only) */
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 50% auto auto 50%;
+    translate: -50% -50%;
+    inline-size: var(--_state-layer-size);
+    block-size: var(--_state-layer-size);
+    border-radius: var(--_state-layer-shape);
+    background: color-mix(in srgb, var(--_state-layer-color) calc(var(--_state-layer-opacity) * 100%), transparent);
+    pointer-events: none;
+    z-index: 0;
+    transition: background-color 150ms ease, opacity 150ms ease;
+  }
+
+  &[data-checked] {
+    --_ring-color: var(--md-radio-selected-icon-color, var(--md-sys-color-primary));
+  }
+
+  /* Hover — state layer + icon */
+  &:not([data-checked]):not([data-disabled]):not([data-readonly]):hover {
+    --_ring-color: var(--md-radio-unselected-hover-icon-color, var(--md-sys-color-on-surface));
+    --_state-layer-color: var(--md-radio-unselected-hover-state-layer-color, var(--md-sys-color-on-surface));
+    --_state-layer-opacity: var(
+      --md-radio-unselected-hover-state-layer-opacity,
+      var(--md-sys-state-hover-state-layer-opacity, 0.08)
+    );
+  }
+
+  &[data-checked]:not([data-disabled]):not([data-readonly]):hover {
+    --_ring-color: var(--md-radio-selected-hover-icon-color, var(--md-sys-color-primary));
+    --_dot-color: var(--md-radio-selected-hover-icon-color, var(--md-sys-color-primary));
+    --_state-layer-color: var(--md-radio-selected-hover-state-layer-color, var(--md-sys-color-primary));
+    --_state-layer-opacity: var(
+      --md-radio-selected-hover-state-layer-opacity,
+      var(--md-sys-state-hover-state-layer-opacity, 0.08)
+    );
+  }
+
+  /* Focus — state layer + icon */
+  &:not([data-checked]):not([data-disabled]):not([data-readonly]):focus-visible {
+    outline: var(--_focus-indicator-thickness) solid var(--_focus-indicator-color);
+    outline-offset: var(--_focus-indicator-offset);
+    --_ring-color: var(--md-radio-unselected-focus-icon-color, var(--md-sys-color-on-surface));
+    --_state-layer-color: var(--md-radio-unselected-focus-state-layer-color, var(--md-sys-color-on-surface));
+    --_state-layer-opacity: var(
+      --md-radio-unselected-focus-state-layer-opacity,
+      var(--md-sys-state-focus-state-layer-opacity, 0.1)
+    );
+  }
+
+  &[data-checked]:not([data-disabled]):not([data-readonly]):focus-visible {
+    outline: var(--_focus-indicator-thickness) solid var(--_focus-indicator-color);
+    outline-offset: var(--_focus-indicator-offset);
+    --_ring-color: var(--md-radio-selected-focus-icon-color, var(--md-sys-color-primary));
+    --_dot-color: var(--md-radio-selected-focus-icon-color, var(--md-sys-color-primary));
+    --_state-layer-color: var(--md-radio-selected-focus-state-layer-color, var(--md-sys-color-primary));
+    --_state-layer-opacity: var(
+      --md-radio-selected-focus-state-layer-opacity,
+      var(--md-sys-state-focus-state-layer-opacity, 0.1)
+    );
+  }
+
+  /* Pressed — state layer + icon (per spec: selected layer on-surface; unselected layer primary) */
+  &:not([data-checked]):not([data-disabled]):not([data-readonly]):active {
+    --_ring-color: var(--md-radio-unselected-pressed-icon-color, var(--md-sys-color-on-surface));
+    --_state-layer-color: var(--md-radio-unselected-pressed-state-layer-color, var(--md-sys-color-primary));
+    --_state-layer-opacity: var(
+      --md-radio-unselected-pressed-state-layer-opacity,
+      var(--md-sys-state-pressed-state-layer-opacity, 0.1)
+    );
+  }
+
+  &[data-checked]:not([data-disabled]):not([data-readonly]):active {
+    --_ring-color: var(--md-radio-selected-pressed-icon-color, var(--md-sys-color-primary));
+    --_dot-color: var(--md-radio-selected-pressed-icon-color, var(--md-sys-color-primary));
+    --_state-layer-color: var(--md-radio-selected-pressed-state-layer-color, var(--md-sys-color-on-surface));
+    --_state-layer-opacity: var(
+      --md-radio-selected-pressed-state-layer-opacity,
+      var(--md-sys-state-pressed-state-layer-opacity, 0.1)
+    );
+  }
+
+  /* Disabled — icon color on-surface @ 0.38 (selected + unselected) */
+  &[data-disabled] {
+    cursor: not-allowed;
+    --_state-layer-opacity: 0;
+    outline: none;
+    --_ring-color: var(--md-radio-disabled-icon-color, var(--md-sys-color-on-surface));
+    --_dot-color: var(--md-radio-disabled-selected-icon-color, var(--md-sys-color-on-surface));
+  }
+
+  &[data-disabled] .ui-radio__surface {
+    opacity: var(--md-radio-disabled-icon-opacity, 0.38);
+  }
+
+  /* Read-only — no interaction feedback */
+  &[data-readonly]:not([data-disabled]) {
+    cursor: default;
+    --_state-layer-opacity: 0;
+    outline: none;
+  }
+
+  &:is([data-readonly], [data-disabled]):hover,
+  &:is([data-readonly], [data-disabled]):focus-visible,
+  &:is([data-readonly], [data-disabled]):active {
+    --_state-layer-opacity: 0;
+  }
+}
+
+.ui-radio__surface {
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  inline-size: var(--_icon-outer-size);
+  block-size: var(--_icon-outer-size);
+  border-radius: var(--_state-layer-shape);
+  border: var(--_ring-width) solid var(--_ring-color);
+  background: transparent;
+  transition: border-color 150ms ease, opacity 150ms ease;
+}
+
+.ui-radio__indicator {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  margin: auto;
+  inline-size: var(--_dot-size);
+  block-size: var(--_dot-size);
+  border-radius: var(--_state-layer-shape);
+  background: var(--_dot-color);
+  opacity: 0;
+  transform: scale(0.45);
+  transition: opacity 150ms ease, transform 150ms ease, background-color 150ms ease;
+}
+
+.ui-radio[data-checked] .ui-radio__indicator {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.ui-radio[data-checked] .ui-radio__indicator[data-starting-style] {
+  opacity: 0;
+  transform: scale(0.45);
+}
+
+.ui-radio:not([data-checked]) .ui-radio__indicator {
+  opacity: 0;
+  transform: scale(0.45);
+}
+
+/* Base UI transition hooks on the indicator (enter/exit) */
+.ui-radio__indicator[data-starting-style],
+.ui-radio__indicator[data-ending-style] {
+  opacity: 0;
+  transform: scale(0.45);
+}
+
+.ui-radio__label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--md-sys-color-on-surface, #1c1b1f);
+  cursor: pointer;
+  user-select: none;
+}
+
+.ui-radio__label:has(.ui-radio[data-readonly]),
+.ui-radio__label:has(.ui-radio[data-disabled]) {
+  cursor: default;
+}

@@ -42,6 +42,9 @@ export function DesignSystem() {
             <a href="/checkboxes" className="inline-block text-blue-600 underline">
             View all Checkbox variants
             </a>
+            <a href="/radios" className="inline-block text-blue-600 underline">
+            View all Radio variants
+            </a>
         </div>
 
         <div className="flex flex-col gap-4">

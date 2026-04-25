@@ -9,6 +9,7 @@ import { SnackbarShowcasePage } from "../pages/snackbars";
 import { DialogShowcasePage } from "../pages/dialogs";
 import { SwitchShowcasePage } from "../pages/switches";
 import { CheckboxShowcasePage } from "../pages/checkboxes";
+import { RadioShowcasePage } from "../pages/radios";
 
 export default function App() {
   if (window.location.pathname === "/icon-buttons") {
@@ -48,6 +49,10 @@ export default function App() {
 
   if (window.location.pathname === "/checkboxes") {
     return <CheckboxShowcasePage />;
+  }
+
+  if (window.location.pathname === "/radios") {
+    return <RadioShowcasePage />;
   }
 
   return <HomePage />;
