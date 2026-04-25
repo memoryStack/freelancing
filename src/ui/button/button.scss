@@ -27,6 +27,7 @@
   --_container-height: 40px;
   --_container-padding-inline: 24px;
   --_icon-size: 18px;
+  --_loader-size: 20px;
   --_gap: 8px;
 
   position: relative;
@@ -113,18 +114,21 @@
     --_container-height: 32px;
     --_container-padding-inline: 16px;
     --_icon-size: 16px;
+    --_loader-size: 18px;
   }
 
   &--md {
     --_container-height: 40px;
     --_container-padding-inline: 24px;
     --_icon-size: 18px;
+    --_loader-size: 20px;
   }
 
   &--lg {
     --_container-height: 48px;
     --_container-padding-inline: 28px;
     --_icon-size: 20px;
+    --_loader-size: 24px;
   }
 
   &--with-leading-icon {
@@ -392,4 +396,28 @@
     inline-size: 100%;
     block-size: 100%;
   }
+}
+
+.ui-button__loader {
+  inline-size: var(--_loader-size);
+  block-size: var(--_loader-size);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.ui-button__loader-spinner {
+  inline-size: 100%;
+  block-size: 100%;
+  color: var(--_label-color);
+}
+
+.ui-button--loading {
+  pointer-events: none;
+}
+
+.ui-button[data-loading]::before {
+  background-color: #ffffff;
+  opacity: 0.6;
 }

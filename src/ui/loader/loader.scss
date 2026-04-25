@@ -1,0 +1,14 @@
+.ui-loader {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  inline-size: 100%;
+  block-size: 100%;
+  color: var(--md-sys-color-primary);
+}
+
+.ui-loader > svg {
+  inline-size: 100%;
+  block-size: 100%;
+  display: block;
+}

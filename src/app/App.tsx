@@ -10,6 +10,7 @@ import { DialogShowcasePage } from "../pages/dialogs";
 import { SwitchShowcasePage } from "../pages/switches";
 import { CheckboxShowcasePage } from "../pages/checkboxes";
 import { RadioShowcasePage } from "../pages/radios";
+import { LoaderShowcasePage } from "../pages/loaders";
 
 export default function App() {
   if (window.location.pathname === "/icon-buttons") {
@@ -53,6 +54,10 @@ export default function App() {
 
   if (window.location.pathname === "/radios") {
     return <RadioShowcasePage />;
+  }
+
+  if (window.location.pathname === "/loaders") {
+    return <LoaderShowcasePage />;
   }
 
   return <HomePage />;

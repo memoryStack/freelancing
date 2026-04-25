@@ -45,6 +45,9 @@ export function DesignSystem() {
             <a href="/radios" className="inline-block text-blue-600 underline">
             View all Radio variants
             </a>
+            <a href="/loaders" className="inline-block text-blue-600 underline">
+            View all Loader examples
+            </a>
         </div>
 
         <div className="flex flex-col gap-4">
@@ -72,6 +75,12 @@ export function DesignSystem() {
             <Button variant="text" leadingIcon={<PlusIcon />} disabled>With Icon Text</Button>
             <Button variant="elevated" leadingIcon={<PlusIcon />} disabled>With Icon Elevated</Button>
             <Button variant="filled-tonal" leadingIcon={<PlusIcon />} disabled>With Icon Filled Tonal</Button>
+            <h1>Buttons: Loading</h1>
+            <Button variant="filled" loading>Filled</Button>
+            <Button variant="outlined" loading>Outlined</Button>
+            <Button variant="text" loading>Text</Button>
+            <Button variant="elevated" loading>Elevated</Button>
+            <Button variant="filled-tonal" loading>Filled Tonal</Button>
             <h1>My Icon Buttons: Enabled</h1>
             <IconButton variant={ICON_BUTTON_VARIANTS.FILLED} icon={<HeartIcon />}>With Icon Filled</IconButton>
             <IconButton className="icon-button-custom-css" variant={ICON_BUTTON_VARIANTS.FILLED} icon={<Settings />}>With Icon Filled</IconButton>

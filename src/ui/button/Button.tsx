@@ -1,10 +1,12 @@
 import { Button as BaseButton } from "@base-ui/react/button";
 import clsx from "clsx";
+import { Loader } from "../loader";
 import {
   forwardRef,
   type ButtonHTMLAttributes,
   type ComponentPropsWithoutRef,
   type ElementType,
+  type ReactElement,
   type ReactNode,
 } from "react";
 import "./button.scss";
@@ -34,6 +36,7 @@ export interface ButtonProps extends Omit<BaseButtonProps, "className"> {
   size?: ButtonSize;
   leadingIcon?: ReactNode;
   trailingIcon?: ReactNode;
+  loading?: boolean;
 }
 
 const iconClassName = "ui-button__icon";
@@ -44,6 +47,7 @@ export const Button = forwardRef<HTMLElement, ButtonProps>(function Button(
     className,
     disabled,
     leadingIcon,
+    loading = false,
     trailingIcon,
     size = "md",
     variant = "filled",
@@ -56,22 +60,33 @@ export const Button = forwardRef<HTMLElement, ButtonProps>(function Button(
       {...props}
       ref={ref}
       disabled={disabled}
+      aria-busy={loading || undefined}
+      data-loading={loading ? "" : undefined}
       className={clsx(
         "ui-button",
         BUTTON_VARIANTS[variant],
         BUTTON_SIZES[size],
         leadingIcon && "ui-button--with-leading-icon",
         trailingIcon && "ui-button--with-trailing-icon",
+        loading && "ui-button--loading",
         className,
       )}
     >
-      {leadingIcon ? <span className={clsx(iconClassName, `${iconClassName}--leading`)}>{leadingIcon}</span> : null}
-      <span className="ui-button__label">{children}</span>
-      {trailingIcon ? (
-        <span className={clsx(iconClassName, `${iconClassName}--trailing`)}>{trailingIcon}</span>
-      ) : null}
+      {loading ? (
+        <span className="ui-button__loader" role="status" aria-live="polite" aria-label="Loading">
+          <Loader className="ui-button__loader-spinner" />
+        </span>
+      ) : (
+        <>
+          {leadingIcon ? <span className={clsx(iconClassName, `${iconClassName}--leading`)}>{leadingIcon}</span> : null}
+          <span className="ui-button__label">{children}</span>
+          {trailingIcon ? (
+            <span className={clsx(iconClassName, `${iconClassName}--trailing`)}>{trailingIcon}</span>
+          ) : null}
+        </>
+      )}
     </BaseButton>
   );
 }) as <T extends ElementType = "button">(
   props: ButtonProps & ButtonHTMLAttributes<T>,
-) => JSX.Element;
+) => ReactElement;
