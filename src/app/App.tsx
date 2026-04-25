@@ -11,6 +11,7 @@ import { SwitchShowcasePage } from "../pages/switches";
 import { CheckboxShowcasePage } from "../pages/checkboxes";
 import { RadioShowcasePage } from "../pages/radios";
 import { LoaderShowcasePage } from "../pages/loaders";
+import { MenuShowcasePage } from "../pages/menus";
 
 export default function App() {
   if (window.location.pathname === "/icon-buttons") {
@@ -58,6 +59,10 @@ export default function App() {
 
   if (window.location.pathname === "/loaders") {
     return <LoaderShowcasePage />;
+  }
+
+  if (window.location.pathname === "/menus") {
+    return <MenuShowcasePage />;
   }
 
   return <HomePage />;

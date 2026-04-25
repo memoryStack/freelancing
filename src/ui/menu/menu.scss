@@ -1,0 +1,37 @@
+@import "./list-shared.scss";
+
+.ui-menu__trigger {
+  display: inline-flex;
+}
+
+.ui-menu {
+  z-index: 60;
+}
+
+.ui-menu__popup {
+  /* Shared dropdown/list surface tokens live in list-shared.scss */
+  min-inline-size: var(--_list-container-min-width);
+}
+
+.ui-menu__item {
+  border-radius: 0;
+}
+
+.ui-menu__divider {
+  /* Styled by shared list divider tokens */
+}
+
+.ui-menu__arrow {
+  inline-size: 10px;
+  block-size: 10px;
+  border-inline-start: 1px solid var(--md-sys-color-outline-variant, #cac4d0);
+  border-block-start: 1px solid var(--md-sys-color-outline-variant, #cac4d0);
+  background: var(--md-sys-color-surface, #fff);
+  rotate: 45deg;
+}
+
+.ui-menu__backdrop {
+  position: fixed;
+  inset: 0;
+  background: color-mix(in srgb, var(--md-sys-color-shadow, #000) 8%, transparent);
+}

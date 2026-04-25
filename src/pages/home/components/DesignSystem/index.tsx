@@ -48,6 +48,9 @@ export function DesignSystem() {
             <a href="/loaders" className="inline-block text-blue-600 underline">
             View all Loader examples
             </a>
+            <a href="/menus" className="inline-block text-blue-600 underline">
+            View all Menu examples
+            </a>
         </div>
 
         <div className="flex flex-col gap-4">
