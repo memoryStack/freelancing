@@ -62,6 +62,21 @@
   --md-ref-palette-tertiary99: #FFFBFF;
   --md-ref-palette-tertiary100: #FFFFFF;
 
+  /* Error (Material reference palette) */
+  --md-ref-palette-error0: #000000;
+  --md-ref-palette-error10: #410E0B;
+  --md-ref-palette-error20: #601410;
+  --md-ref-palette-error30: #8C1D18;
+  --md-ref-palette-error40: #B3261E;
+  --md-ref-palette-error50: #DC362E;
+  --md-ref-palette-error60: #E46962;
+  --md-ref-palette-error70: #EC928E;
+  --md-ref-palette-error80: #F2B8B5;
+  --md-ref-palette-error90: #F9DEDC;
+  --md-ref-palette-error95: #FCEEEE;
+  --md-ref-palette-error99: #FFFBF9;
+  --md-ref-palette-error100: #FFFFFF;
+
   --md-ref-palette-neutral0: #000000;
   --md-ref-palette-neutral5: #111111;
   --md-ref-palette-neutral10: #1C1B1C;

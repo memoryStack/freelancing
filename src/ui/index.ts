@@ -9,3 +9,4 @@ export * from "./text";
 export * from "./snackbar";
 export * from "./dialog";
 export * from "./switch";
+export * from "./checkbox";

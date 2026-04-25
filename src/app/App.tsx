@@ -8,6 +8,7 @@ import { TextShowcasePage } from "../pages/text";
 import { SnackbarShowcasePage } from "../pages/snackbars";
 import { DialogShowcasePage } from "../pages/dialogs";
 import { SwitchShowcasePage } from "../pages/switches";
+import { CheckboxShowcasePage } from "../pages/checkboxes";
 
 export default function App() {
   if (window.location.pathname === "/icon-buttons") {
@@ -43,6 +44,10 @@ export default function App() {
 
   if (window.location.pathname === "/switches") {
     return <SwitchShowcasePage />;
+  }
+
+  if (window.location.pathname === "/checkboxes") {
+    return <CheckboxShowcasePage />;
   }
 
   return <HomePage />;
