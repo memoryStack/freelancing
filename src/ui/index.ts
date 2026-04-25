@@ -14,3 +14,4 @@ export * from "./checkbox-group";
 export * from "./radio";
 export * from "./loader";
 export * from "./menu";
+export * from "./context-menu";

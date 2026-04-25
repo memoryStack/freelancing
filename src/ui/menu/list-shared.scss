@@ -54,6 +54,7 @@
   display: flex;
   flex-direction: column;
   gap: 2px;
+  outline: none;
 }
 
 .ui-list-item {
@@ -143,12 +144,14 @@
   --_item-layer-opacity: var(--_list-item-hover-layer-opacity);
 }
 
+/* Keep focus-visible layer for non-selected items but remove outline/border ring.
 .ui-list-item:not([data-disabled]):not([data-selected]):focus-visible {
   --_item-layer-color: var(--_list-item-focus-layer-color);
   --_item-layer-opacity: var(--_list-item-focus-layer-opacity);
   outline: 2px solid var(--md-sys-color-secondary);
   outline-offset: 2px;
 }
+*/
 
 .ui-list-item:not([data-disabled]):not([data-selected]):active {
   --_item-layer-color: var(--_list-item-pressed-layer-color);
@@ -169,8 +172,8 @@
 .ui-list-item[data-selected]:not([data-disabled]):focus-visible {
   --_item-layer-color: var(--_list-item-selected-focus-layer-color);
   --_item-layer-opacity: var(--_list-item-selected-focus-layer-opacity);
-  outline: 2px solid var(--md-sys-color-secondary);
-  outline-offset: 2px;
+  // outline: 2px solid var(--md-sys-color-secondary);
+  // outline-offset: 2px;
 }
 
 .ui-list-item[data-selected]:not([data-disabled]):active {

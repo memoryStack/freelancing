@@ -1,0 +1,27 @@
+@import "../menu/list-shared.scss";
+
+.ui-context-menu__trigger {
+  display: block;
+}
+
+.ui-context-menu {
+  z-index: 60;
+}
+
+.ui-context-menu__popup {
+  min-inline-size: var(--_list-container-min-width);
+}
+
+.ui-context-menu__item {
+  // border-radius: 0;
+}
+
+.ui-context-menu__divider {
+  /* shared list divider styles */
+}
+
+.ui-context-menu__backdrop {
+  position: fixed;
+  inset: 0;
+  background: color-mix(in srgb, var(--md-sys-color-shadow, #000) 8%, transparent);
+}

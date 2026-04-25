@@ -12,6 +12,7 @@ import { CheckboxShowcasePage } from "../pages/checkboxes";
 import { RadioShowcasePage } from "../pages/radios";
 import { LoaderShowcasePage } from "../pages/loaders";
 import { MenuShowcasePage } from "../pages/menus";
+import { ContextMenuShowcasePage } from "../pages/context-menus";
 
 export default function App() {
   if (window.location.pathname === "/icon-buttons") {
@@ -63,6 +64,10 @@ export default function App() {
 
   if (window.location.pathname === "/menus") {
     return <MenuShowcasePage />;
+  }
+
+  if (window.location.pathname === "/context-menus") {
+    return <ContextMenuShowcasePage />;
   }
 
   return <HomePage />;

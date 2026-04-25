@@ -32,6 +32,12 @@ export interface MenuProps {
   modal?: boolean;
 }
 
+/*
+  TODO: i have removed all the outlines related styles from the menu.
+  we should add them back in when we have a way to control them.
+  for now, we will just use the default styles.
+*/
+
 export function Menu({
   trigger,
   items,
