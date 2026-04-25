@@ -26,11 +26,6 @@ export interface CheckboxProps {
   error?: boolean;
 }
 
-/*
-  todo: add checkboxes group as well that will manage the state internally and will tell
-        of the selected options on toggling
-*/
-
 export const CHECKBOX_SUPPORTED_PROPS = [
   "checked",
   "defaultChecked",

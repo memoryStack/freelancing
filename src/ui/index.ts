@@ -10,4 +10,5 @@ export * from "./snackbar";
 export * from "./dialog";
 export * from "./switch";
 export * from "./checkbox";
+export * from "./checkbox-group";
 export * from "./radio";
