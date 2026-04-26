@@ -165,8 +165,10 @@
 
 .ui-list-item[data-selected]:not([data-disabled])[data-highlighted],
 .ui-list-item[data-selected]:not([data-disabled]):hover {
-  --_item-layer-color: var(--_list-item-selected-hover-layer-color);
-  --_item-layer-opacity: var(--_list-item-selected-hover-layer-opacity);
+  // --_item-layer-color: var(--_list-item-selected-hover-layer-color);
+  // --_item-layer-opacity: var(--_list-item-selected-hover-layer-opacity);
+  --_item-layer-color: var(--_list-item-selected-container-color);
+  --_item-layer-opacity: 0.8;
 }
 
 .ui-list-item[data-selected]:not([data-disabled]):focus-visible {

@@ -17,3 +17,4 @@ export * from "./menu";
 export * from "./context-menu";
 export * from "./field";
 export * from "./textarea";
+export * from "./select";

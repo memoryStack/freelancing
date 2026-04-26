@@ -15,6 +15,7 @@ import { MenuShowcasePage } from "../pages/menus";
 import { ContextMenuShowcasePage } from "../pages/context-menus";
 import { FieldShowcasePage } from "../pages/fields";
 import { TextAreaShowcasePage } from "../pages/textareas";
+import { SelectShowcasePage } from "../pages/selects";
 
 export default function App() {
   if (window.location.pathname === "/icon-buttons") {
@@ -78,6 +79,10 @@ export default function App() {
 
   if (window.location.pathname === "/textareas") {
     return <TextAreaShowcasePage />;
+  }
+
+  if (window.location.pathname === "/selects") {
+    return <SelectShowcasePage />;
   }
 
   return <HomePage />;

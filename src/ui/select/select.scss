@@ -1,0 +1,152 @@
+@import "../menu/list-shared.scss";
+
+.ui-select {
+  --_select-height: 56px;
+  --_select-radius: 4px;
+  --_select-outline-width: 1px;
+  --_select-outline-width-focused: 3px;
+  --_select-outline-color: var(--md-sys-color-outline);
+  --_select-label-color: var(--md-sys-color-on-surface-variant);
+  --_select-value-color: var(--md-sys-color-on-surface);
+  --_select-placeholder-color: var(--md-sys-color-on-surface-variant);
+  --_select-icon-color: var(--md-sys-color-on-surface-variant);
+  --_select-supporting-color: var(--md-sys-color-on-surface-variant);
+  --_select-content-opacity: 1;
+
+  // display: inline-flex;
+  // flex-direction: column;
+  width: 100%;
+}
+
+.ui-select__label {
+  color: var(--_select-label-color);
+  opacity: var(--_select-content-opacity);
+  margin-block-end: 4px;
+}
+
+.ui-select__trigger {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  block-size: var(--_select-height);
+  border-radius: var(--_select-radius);
+  border: var(--_select-outline-width) solid var(--_select-outline-color);
+  background: transparent;
+  padding-inline: 16px;
+  cursor: pointer;
+  outline: none;
+  transition:
+    border-color 120ms ease-out,
+    border-width 120ms ease-out;
+}
+
+.ui-select__value {
+  color: var(--_select-value-color);
+  opacity: var(--_select-content-opacity);
+  min-inline-size: 0;
+  text-align: left;
+  flex: 1;
+}
+
+.ui-select__value[data-placeholder] {
+  color: var(--_select-placeholder-color);
+}
+
+.ui-select__icon {
+  color: var(--_select-icon-color);
+  inline-size: 24px;
+  block-size: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  opacity: var(--_select-content-opacity);
+  flex-shrink: 0;
+}
+
+.ui-select__description,
+.ui-select__error {
+  margin: 4px 0 0;
+  color: var(--_select-supporting-color);
+  opacity: var(--_select-content-opacity);
+}
+
+.ui-select__positioner {
+  z-index: 60;
+}
+
+.ui-select__popup {
+  min-inline-size: var(--_list-container-min-width);
+}
+
+.ui-select__list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.ui-select__item-indicator {
+  color: var(--_list-item-trailing-icon-color);
+  inline-size: 16px;
+  block-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  opacity: var(--_item-content-opacity);
+  position: relative;
+  z-index: 1;
+}
+
+.ui-select__item[data-selected] .ui-select__item-indicator {
+  color: var(--_list-item-selected-content-color);
+}
+
+.ui-select:not([data-disabled]):not([data-invalid]) .ui-select__trigger:hover {
+  --_select-outline-color: var(--md-sys-color-on-surface);
+  --_select-label-color: var(--md-sys-color-on-surface);
+  --_select-value-color: var(--md-sys-color-on-surface);
+  --_select-supporting-color: var(--md-sys-color-on-surface-variant);
+}
+
+.ui-select .ui-select__trigger[data-focused]:not([data-disabled]),
+.ui-select .ui-select__trigger[data-popup-open]:not([data-disabled]) {
+  --_select-outline-color: var(--md-sys-color-primary);
+  --_select-label-color: var(--md-sys-color-primary);
+  --_select-value-color: var(--md-sys-color-on-surface);
+  --_select-supporting-color: var(--md-sys-color-on-surface-variant);
+  border-width: var(--_select-outline-width-focused);
+}
+
+.ui-select[data-invalid]:not([data-disabled]) {
+  --_select-outline-color: var(--md-sys-color-error);
+  --_select-label-color: var(--md-sys-color-error);
+  --_select-value-color: var(--md-sys-color-on-surface);
+  --_select-supporting-color: var(--md-sys-color-error);
+  --_select-icon-color: var(--md-sys-color-error);
+}
+
+.ui-select[data-invalid]:not([data-disabled]) .ui-select__trigger:hover {
+  --_select-outline-color: var(--md-sys-color-on-error-container);
+  --_select-label-color: var(--md-sys-color-on-error-container);
+}
+
+.ui-select[data-invalid]:not([data-disabled]) .ui-select__trigger[data-focused],
+.ui-select[data-invalid]:not([data-disabled]) .ui-select__trigger[data-popup-open] {
+  --_select-outline-color: var(--md-sys-color-error);
+  --_select-label-color: var(--md-sys-color-error);
+}
+
+.ui-select[data-disabled] {
+  --_select-label-color: var(--md-sys-color-on-surface);
+  --_select-value-color: var(--md-sys-color-on-surface);
+  --_select-supporting-color: var(--md-sys-color-on-surface);
+  --_select-icon-color: var(--md-sys-color-on-surface);
+  --_select-outline-color: var(--md-sys-color-on-surface);
+  --_select-content-opacity: 0.38;
+}
+
+.ui-select .ui-select__trigger[data-disabled] {
+  border-color: color-mix(in srgb, var(--_select-outline-color) 12%, transparent);
+  cursor: not-allowed;
+}

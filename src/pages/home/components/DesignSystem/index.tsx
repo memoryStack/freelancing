@@ -60,6 +60,9 @@ export function DesignSystem() {
             <a href="/textareas" className="inline-block text-blue-600 underline">
             View all TextArea examples
             </a>
+            <a href="/selects" className="inline-block text-blue-600 underline">
+            View all Select examples
+            </a>
         </div>
 
         <div className="flex flex-col gap-4">
