@@ -63,6 +63,9 @@ export function DesignSystem() {
             <a href="/selects" className="inline-block text-blue-600 underline">
             View all Select examples
             </a>
+            <a href="/comboboxes" className="inline-block text-blue-600 underline">
+            View all Combobox examples
+            </a>
         </div>
 
         <div className="flex flex-col gap-4">

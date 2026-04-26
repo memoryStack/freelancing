@@ -18,3 +18,4 @@ export * from "./context-menu";
 export * from "./field";
 export * from "./textarea";
 export * from "./select";
+export * from "./combobox";

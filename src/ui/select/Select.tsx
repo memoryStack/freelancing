@@ -54,6 +54,11 @@ export const SELECT_SUPPORTED_PROPS = [
   "invalid",
 ] as const;
 
+/*
+  TODO: there are some variants of the select that are not supported yet.
+  add them as the use-cases comes and refer to BaseUI for documentation.
+*/
+
 export function Select({
   className,
   labelClassName,
