@@ -13,6 +13,7 @@ import { RadioShowcasePage } from "../pages/radios";
 import { LoaderShowcasePage } from "../pages/loaders";
 import { MenuShowcasePage } from "../pages/menus";
 import { ContextMenuShowcasePage } from "../pages/context-menus";
+import { FieldShowcasePage } from "../pages/fields";
 
 export default function App() {
   if (window.location.pathname === "/icon-buttons") {
@@ -68,6 +69,10 @@ export default function App() {
 
   if (window.location.pathname === "/context-menus") {
     return <ContextMenuShowcasePage />;
+  }
+
+  if (window.location.pathname === "/fields") {
+    return <FieldShowcasePage />;
   }
 
   return <HomePage />;

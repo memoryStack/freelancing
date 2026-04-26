@@ -54,6 +54,9 @@ export function DesignSystem() {
             <a href="/context-menus" className="inline-block text-blue-600 underline">
             View all Context Menu examples
             </a>
+            <a href="/fields" className="inline-block text-blue-600 underline">
+            View all Field examples
+            </a>
         </div>
 
         <div className="flex flex-col gap-4">
