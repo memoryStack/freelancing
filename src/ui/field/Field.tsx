@@ -1,6 +1,7 @@
 import { Field as BaseField } from "@base-ui/react/field";
 import clsx from "clsx";
 import { useEffect, useMemo, useRef, useState, type MouseEvent, type ReactNode } from "react";
+import { Text, TYPOGRAPHY, TYPOGRAPHY_CLASSES } from "../text";
 import "./field.scss";
 
 export interface FieldProps {
@@ -117,14 +118,22 @@ export function Field({
       data-leading-icon={leadingIcon ? "" : undefined}
       data-trailing-icon={trailingIcon ? "" : undefined}
     >
-      {label ? <BaseField.Label className={clsx("ui-field__label", labelClassName)}>{label}</BaseField.Label> : null}
+      {label ? (
+        <Text
+          as={BaseField.Label}
+          variant={TYPOGRAPHY.BODY_LARGE}
+          className={clsx("ui-field__label", labelClassName)}
+        >
+          {label}
+        </Text>
+      ) : null}
 
       <div className={clsx("ui-field__control-container", controlContainerClassName)} onMouseDown={handleContainerMouseDown}>
         {leadingIcon ? <span className="ui-field__leading-icon">{leadingIcon}</span> : null}
 
         {children ?? (
           <BaseField.Control
-            className={clsx("ui-field__control", controlClassName)}
+            className={clsx("ui-field__control", TYPOGRAPHY_CLASSES[TYPOGRAPHY.BODY_LARGE], controlClassName)}
             type={type}
             placeholder={placeholder}
             value={resolvedValue}
@@ -155,12 +164,20 @@ export function Field({
       </div>
 
       {description ? (
-        <BaseField.Description className={clsx("ui-field__description", descriptionClassName)}>
+        <Text
+          as={BaseField.Description}
+          variant={TYPOGRAPHY.BODY_SMALL}
+          className={clsx("ui-field__description", descriptionClassName)}
+        >
           {description}
-        </BaseField.Description>
+        </Text>
       ) : null}
 
-      {error ? <BaseField.Error className={clsx("ui-field__error", errorClassName)}>{error}</BaseField.Error> : null}
+      {error ? (
+        <Text as={BaseField.Error} variant={TYPOGRAPHY.BODY_SMALL} className={clsx("ui-field__error", errorClassName)}>
+          {error}
+        </Text>
+      ) : null}
     </BaseField.Root>
   );
 }

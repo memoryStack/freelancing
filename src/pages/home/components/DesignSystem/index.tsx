@@ -57,6 +57,9 @@ export function DesignSystem() {
             <a href="/fields" className="inline-block text-blue-600 underline">
             View all Field examples
             </a>
+            <a href="/textareas" className="inline-block text-blue-600 underline">
+            View all TextArea examples
+            </a>
         </div>
 
         <div className="flex flex-col gap-4">

@@ -15,17 +15,13 @@
 
   display: inline-flex;
   flex-direction: column;
-  inline-size: min(100%, 360px);
+  width: 100%;
 }
 
 .ui-field__label {
   color: var(--_field-label-color);
   opacity: var(--_field-content-opacity);
   margin-block-end: 4px;
-  font-family: var(--md-sys-typescale-body-large-font, Roboto, sans-serif);
-  font-size: var(--md-sys-typescale-body-large-size, 1rem);
-  font-weight: var(--md-sys-typescale-body-large-weight, 400);
-  line-height: var(--md-sys-typescale-body-large-line-height, 1.5rem);
 }
 
 .ui-field__control-container {
@@ -98,10 +94,6 @@
   opacity: var(--_field-content-opacity);
   caret-color: var(--_field-caret-color);
   outline: none;
-  font-family: var(--md-sys-typescale-body-large-font, Roboto, sans-serif);
-  font-size: var(--md-sys-typescale-body-large-size, 1rem);
-  font-weight: var(--md-sys-typescale-body-large-weight, 400);
-  line-height: var(--md-sys-typescale-body-large-line-height, 1.5rem);
 }
 
 .ui-field__control::placeholder {
@@ -114,10 +106,6 @@
   margin-block-start: 4px;
   color: var(--_field-supporting-color);
   opacity: var(--_field-content-opacity);
-  font-family: var(--md-sys-typescale-body-small-font, Roboto, sans-serif);
-  font-size: var(--md-sys-typescale-body-small-size, 0.75rem);
-  font-weight: var(--md-sys-typescale-body-small-weight, 400);
-  line-height: var(--md-sys-typescale-body-small-line-height, 1rem);
 }
 
 /* Hover */

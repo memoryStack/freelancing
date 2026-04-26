@@ -1,0 +1,114 @@
+.ui-textarea {
+  --_textarea-radius: 4px;
+  --_textarea-outline-width: 1px;
+  --_textarea-outline-width-focused: 3px;
+  --_textarea-outline-color: var(--md-sys-color-outline);
+  --_textarea-label-color: var(--md-sys-color-on-surface-variant);
+  --_textarea-input-color: var(--md-sys-color-on-surface);
+  --_textarea-placeholder-color: var(--md-sys-color-on-surface-variant);
+  --_textarea-supporting-color: var(--md-sys-color-on-surface-variant);
+  --_textarea-caret-color: var(--md-sys-color-primary);
+  --_textarea-content-opacity: 1;
+
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.ui-textarea__label {
+  color: var(--_textarea-label-color);
+  opacity: var(--_textarea-content-opacity);
+  margin-block-end: 4px;
+}
+
+.ui-textarea__control-container {
+  display: flex;
+  min-block-size: 56px;
+  border-radius: var(--_textarea-radius);
+  border: var(--_textarea-outline-width) solid var(--_textarea-outline-color);
+  padding-inline: 16px;
+  padding-block: 16px;
+  background: transparent;
+  transition:
+    border-color 120ms ease-out,
+    border-width 120ms ease-out;
+  cursor: text;
+}
+
+.ui-textarea__control {
+  inline-size: 100%;
+  min-inline-size: 0;
+  border: 0;
+  outline: none;
+  resize: vertical;
+  background: transparent;
+  color: var(--_textarea-input-color);
+  caret-color: var(--_textarea-caret-color);
+  opacity: var(--_textarea-content-opacity);
+}
+
+.ui-textarea__control::placeholder {
+  color: var(--_textarea-placeholder-color);
+  opacity: 1;
+}
+
+.ui-textarea__description,
+.ui-textarea__error {
+  margin: 4px 0 0;
+  color: var(--_textarea-supporting-color);
+  opacity: var(--_textarea-content-opacity);
+}
+
+.ui-textarea:not([data-disabled]):not([data-invalid]):hover {
+  --_textarea-outline-color: var(--md-sys-color-on-surface);
+  --_textarea-label-color: var(--md-sys-color-on-surface);
+  --_textarea-input-color: var(--md-sys-color-on-surface);
+  --_textarea-supporting-color: var(--md-sys-color-on-surface-variant);
+}
+
+.ui-textarea[data-focused]:not([data-disabled]):not([data-invalid]) {
+  --_textarea-outline-color: var(--md-sys-color-primary);
+  --_textarea-label-color: var(--md-sys-color-primary);
+  --_textarea-input-color: var(--md-sys-color-on-surface);
+  --_textarea-supporting-color: var(--md-sys-color-on-surface-variant);
+}
+
+.ui-textarea[data-focused]:not([data-disabled]) .ui-textarea__control-container {
+  border-width: var(--_textarea-outline-width-focused);
+}
+
+.ui-textarea[data-invalid]:not([data-disabled]) {
+  --_textarea-outline-color: var(--md-sys-color-error);
+  --_textarea-label-color: var(--md-sys-color-error);
+  --_textarea-input-color: var(--md-sys-color-on-surface);
+  --_textarea-supporting-color: var(--md-sys-color-error);
+  --_textarea-caret-color: var(--md-sys-color-error);
+}
+
+.ui-textarea[data-invalid]:not([data-disabled]):hover {
+  --_textarea-outline-color: var(--md-sys-color-on-error-container);
+  --_textarea-label-color: var(--md-sys-color-on-error-container);
+  --_textarea-input-color: var(--md-sys-color-on-surface);
+  --_textarea-supporting-color: var(--md-sys-color-error);
+}
+
+.ui-textarea[data-invalid][data-focused]:not([data-disabled]) {
+  --_textarea-outline-color: var(--md-sys-color-error);
+  --_textarea-label-color: var(--md-sys-color-error);
+  --_textarea-input-color: var(--md-sys-color-on-surface);
+  --_textarea-supporting-color: var(--md-sys-color-error);
+  --_textarea-caret-color: var(--md-sys-color-error);
+}
+
+.ui-textarea[data-disabled] {
+  --_textarea-label-color: var(--md-sys-color-on-surface);
+  --_textarea-input-color: var(--md-sys-color-on-surface);
+  --_textarea-supporting-color: var(--md-sys-color-on-surface);
+  --_textarea-outline-color: var(--md-sys-color-on-surface);
+  --_textarea-content-opacity: 0.38;
+}
+
+.ui-textarea[data-disabled] .ui-textarea__control-container {
+  border-color: color-mix(in srgb, var(--_textarea-outline-color) 12%, transparent);
+  cursor: not-allowed;
+}
