@@ -1,4 +1,7 @@
-@import "./theme-ref-palette.css";
+/* @import "./theme-ref-palette.css"; */
+/* @import "./testThemes/one.css"; */
+/* @import "./testThemes/two.css"; */
+@import "./testThemes/three.css";
 
 @custom-variant dark (&:is(.dark *));
 

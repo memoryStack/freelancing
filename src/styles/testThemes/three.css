@@ -1,0 +1,120 @@
+:root {
+    /* error color palette */
+  --md-ref-palette-error0: #000000;
+  --md-ref-palette-error10: #410002;
+  --md-ref-palette-error20: #690005;
+  --md-ref-palette-error30: #93000A;
+  --md-ref-palette-error40: #B81F1E;
+  --md-ref-palette-error50: #DB3A33;
+  --md-ref-palette-error60: #FF5449;
+  --md-ref-palette-error70: #FF897D;
+  --md-ref-palette-error80: #FFB4AB;
+  --md-ref-palette-error90: #FFDAD6;
+  --md-ref-palette-error95: #FFEDEA;
+  --md-ref-palette-error99: #FFFBFF;
+  --md-ref-palette-error100: #FFFFFF;
+
+/* neutral color palette */
+  --md-ref-palette-neutral0: #000000;
+  --md-ref-palette-neutral5: #131010;
+  --md-ref-palette-neutral10: #1E1B1B;
+  --md-ref-palette-neutral15: #282525;
+  --md-ref-palette-neutral20: #332F30;
+  --md-ref-palette-neutral25: #3E3A3B;
+  --md-ref-palette-neutral30: #4A4646;
+  --md-ref-palette-neutral35: #565151;
+  --md-ref-palette-neutral40: #625D5D;
+  --md-ref-palette-neutral50: #7B7676;
+  --md-ref-palette-neutral60: #958F8F;
+  --md-ref-palette-neutral70: #B0AAAA;
+  --md-ref-palette-neutral80: #CCC5C5;
+  --md-ref-palette-neutral90: #E8E1E0;
+  --md-ref-palette-neutral95: #F7EFEF;
+  --md-ref-palette-neutral98: #FFF8F7;
+  --md-ref-palette-neutral99: #FFFBFF;
+  --md-ref-palette-neutral100: #FFFFFF;
+
+/* neutral-variant color palette */
+  --md-ref-palette-neutral-variant0: #000000;
+  --md-ref-palette-neutral-variant5: #150F10;
+  --md-ref-palette-neutral-variant10: #201A1B;
+  --md-ref-palette-neutral-variant15: #2B2425;
+  --md-ref-palette-neutral-variant20: #362F30;
+  --md-ref-palette-neutral-variant25: #41393A;
+  --md-ref-palette-neutral-variant30: #4D4546;
+  --md-ref-palette-neutral-variant35: #595051;
+  --md-ref-palette-neutral-variant40: #655C5D;
+  --md-ref-palette-neutral-variant50: #7F7576;
+  --md-ref-palette-neutral-variant60: #998E8F;
+  --md-ref-palette-neutral-variant70: #B4A8A9;
+  --md-ref-palette-neutral-variant80: #D0C3C4;
+  --md-ref-palette-neutral-variant90: #EDDFE0;
+  --md-ref-palette-neutral-variant92: #F3E5E6;
+  --md-ref-palette-neutral-variant94: #F8EBEC;
+  --md-ref-palette-neutral-variant95: #FBEDEE;
+  --md-ref-palette-neutral-variant96: #FEF0F1;
+  --md-ref-palette-neutral-variant98: #FFF8F7;
+  --md-ref-palette-neutral-variant99: #FFFBFF;
+  --md-ref-palette-neutral-variant100: #FFFFFF;
+
+/* primary color palette */
+  --md-ref-palette-primary0: #000000;
+  --md-ref-palette-primary5: #25060D;
+  --md-ref-palette-primary10: #331017;
+  --md-ref-palette-primary15: #3F1A21;
+  --md-ref-palette-primary20: #4C242C;
+  --md-ref-palette-primary25: #592F36;
+  --md-ref-palette-primary30: #663A41;
+  --md-ref-palette-primary35: #73454D;
+  --md-ref-palette-primary40: #815159;
+  --md-ref-palette-primary50: #9C6971;
+  --md-ref-palette-primary60: #B9828A;
+  --md-ref-palette-primary70: #D69CA4;
+  --md-ref-palette-primary80: #F3B7BF;
+  --md-ref-palette-primary90: #FFD9DD;
+  --md-ref-palette-primary95: #FFECEE;
+  --md-ref-palette-primary98: #FFF8F7;
+  --md-ref-palette-primary99: #FFFBFF;
+  --md-ref-palette-primary100: #FFFFFF;
+
+/* secondary color palette */
+  --md-ref-palette-secondary0: #000000;
+  --md-ref-palette-secondary5: #190E10;
+  --md-ref-palette-secondary10: #24181A;
+  --md-ref-palette-secondary15: #2F2224;
+  --md-ref-palette-secondary20: #3B2D2F;
+  --md-ref-palette-secondary25: #46383A;
+  --md-ref-palette-secondary30: #524345;
+  --md-ref-palette-secondary35: #5E4E50;
+  --md-ref-palette-secondary40: #6B5A5C;
+  --md-ref-palette-secondary50: #847375;
+  --md-ref-palette-secondary60: #9F8C8E;
+  --md-ref-palette-secondary70: #BBA6A8;
+  --md-ref-palette-secondary80: #D7C1C3;
+  --md-ref-palette-secondary90: #F4DDDF;
+  --md-ref-palette-secondary95: #FFECEE;
+  --md-ref-palette-secondary98: #FFF8F7;
+  --md-ref-palette-secondary99: #FFFBFF;
+  --md-ref-palette-secondary100: #FFFFFF;
+
+/* tertiary color palette */
+  --md-ref-palette-tertiary0: #000000;
+  --md-ref-palette-tertiary5: #1A0F03;
+  --md-ref-palette-tertiary10: #26190A;
+  --md-ref-palette-tertiary15: #312314;
+  --md-ref-palette-tertiary20: #3C2E1E;
+  --md-ref-palette-tertiary25: #483928;
+  --md-ref-palette-tertiary30: #544432;
+  --md-ref-palette-tertiary35: #614F3D;
+  --md-ref-palette-tertiary40: #6D5B48;
+  --md-ref-palette-tertiary50: #877460;
+  --md-ref-palette-tertiary60: #A28D78;
+  --md-ref-palette-tertiary70: #BEA791;
+  --md-ref-palette-tertiary80: #DAC2AB;
+  --md-ref-palette-tertiary90: #F7DEC6;
+  --md-ref-palette-tertiary95: #FFEEDF;
+  --md-ref-palette-tertiary98: #FFF8F4;
+  --md-ref-palette-tertiary99: #FFFBFF;
+  --md-ref-palette-tertiary100: #FFFFFF;
+
+}
