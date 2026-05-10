@@ -38,6 +38,7 @@ export interface DrawerProps {
   showBackButton?: boolean;
   showCloseButton?: boolean;
   showDivider?: boolean;
+  showActions?: boolean;
   open?: boolean;
   defaultOpen?: boolean;
   onOpenChange?: (open: boolean) => void;
@@ -60,6 +61,7 @@ export function Drawer({
   showBackButton = variant === DRAWER_VARIANTS.SIDE,
   showCloseButton = true,
   showDivider = variant === DRAWER_VARIANTS.SIDE,
+  showActions = true,
   open: controlledOpen,
   defaultOpen = false,
   onOpenChange,
@@ -151,17 +153,19 @@ export function Drawer({
               
               {showDivider ? <Divider /> : null}
 
-              <div className="ui-drawer__actions">
-                {resolvedActions.map((action) => (
-                  <Button
-                    key={action.text}
-                    variant={action.variant ?? "outlined"}
-                    onClick={action.onClick}
-                  >
-                    {action.text}
-                  </Button>
-                ))}
-              </div>
+              {showActions ? (
+                <div className="ui-drawer__actions">
+                  {resolvedActions.map((action) => (
+                    <Button
+                      key={action.text}
+                      variant={action.variant ?? "outlined"}
+                      onClick={action.onClick}
+                    >
+                      {action.text}
+                    </Button>
+                  ))}
+                </div>
+              ) : null}
             </BaseDrawer.Content>
           </BaseDrawer.Popup>
         </BaseDrawer.Viewport>

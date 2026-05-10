@@ -1,0 +1,29 @@
+.ui-checkbox-group-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.ui-checkbox-group-field__label {
+  color: var(--md-sys-color-on-surface-variant);
+  margin-block-end: 4px;
+}
+
+.ui-checkbox-group-field__required-indicator {
+  color: var(--md-sys-color-error);
+  margin-inline-start: 2px;
+  font-size: 0.8em;
+  line-height: 0;
+}
+
+.ui-checkbox-group-field__description,
+.ui-checkbox-group-field__error {
+  margin-block-start: 4px;
+}
+
+.ui-checkbox-group-field__description {
+  color: var(--md-sys-color-on-surface-variant);
+}
+
+.ui-checkbox-group-field__error {
+  color: var(--md-sys-color-error);
+}

@@ -8,7 +8,11 @@
   --_select-outline-color: var(--md-sys-color-outline);
   --_select-label-color: var(--md-sys-color-on-surface-variant);
   --_select-value-color: var(--md-sys-color-on-surface);
-  --_select-placeholder-color: var(--md-sys-color-on-surface-variant);
+  --_select-placeholder-color: color-mix(
+    in srgb,
+    var(--md-sys-color-on-surface-variant) 45%,
+    var(--md-sys-color-surface)
+  );
   --_select-icon-color: var(--md-sys-color-on-surface-variant);
   --_select-supporting-color: var(--md-sys-color-on-surface-variant);
   --_select-content-opacity: 1;

@@ -19,6 +19,7 @@ export interface FieldProps {
   value?: string;
   defaultValue?: string;
   onValueChange?: (value: string) => void;
+  onBlur?: () => void;
   required?: boolean;
   readOnly?: boolean;
   leadingIcon?: ReactNode;
@@ -67,6 +68,7 @@ export function Field({
   value,
   defaultValue,
   onValueChange,
+  onBlur,
   required,
   readOnly,
   leadingIcon,
@@ -93,6 +95,11 @@ export function Field({
   }, [isControlled, uncontrolledValue, value]);
 
   const handleContainerMouseDown = (event: MouseEvent<HTMLDivElement>) => {
+    // this all is just to focus the input element
+    if (event.target === inputRef.current) {
+      return;
+    }
+
     event.preventDefault();
     inputRef.current?.focus();
   };
@@ -125,6 +132,11 @@ export function Field({
           className={clsx("ui-field__label", labelClassName)}
         >
           {label}
+          {required ? (
+            <sup className="ui-field__required-indicator" aria-hidden="true">
+              *
+            </sup>
+          ) : null}
         </Text>
       ) : null}
 
@@ -145,7 +157,16 @@ export function Field({
             }}
             required={required}
             readOnly={readOnly}
-            render={(props) => <input {...props} ref={inputRef} />}
+            render={(props) => (
+              <input
+                {...props}
+                ref={inputRef}
+                onBlur={(event) => {
+                  props.onBlur?.(event);
+                  onBlur?.();
+                }}
+              />
+            )}
           />
         )}
 
@@ -174,7 +195,7 @@ export function Field({
       ) : null}
 
       {error ? (
-        <Text as={BaseField.Error} variant={TYPOGRAPHY.BODY_SMALL} className={clsx("ui-field__error", errorClassName)}>
+        <Text variant={TYPOGRAPHY.BODY_SMALL} className={clsx("ui-field__error", errorClassName)}>
           {error}
         </Text>
       ) : null}

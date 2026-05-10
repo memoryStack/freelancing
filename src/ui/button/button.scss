@@ -67,7 +67,7 @@
     pointer-events: none;
   }
 
-  &:not(:disabled):hover::before {
+  &:not(:disabled):not([aria-disabled="true"]):hover::before {
     background-color: color-mix(
       in srgb,
       var(--_hover-state-layer-color) calc(var(--_hover-state-layer-opacity) * 100%),
@@ -75,7 +75,7 @@
     );
   }
 
-  &:not(:disabled):active::before {
+  &:not(:disabled):not([aria-disabled="true"]):active::before {
     background-color: color-mix(
       in srgb,
       var(--_pressed-state-layer-color) calc(var(--_pressed-state-layer-opacity) * 100%),
@@ -83,12 +83,12 @@
     );
   }
 
-  &:not(:disabled):focus-visible {
+  &:not(:disabled):not([aria-disabled="true"]):focus-visible {
     outline: 2px solid var(--md-sys-color-primary);
     outline-offset: 2px;
   }
 
-  &:disabled {
+  &:is(:disabled, [aria-disabled="true"]) {
     --_container-color: color-mix(
       in srgb,
       var(--_disabled-container-color) calc(var(--_disabled-container-opacity) * 100%),
@@ -357,17 +357,36 @@
     --_disabled-container-opacity: 0;
     --_hover-state-layer-color: var(--md-text-button-hover-state-layer-color, var(--md-sys-color-primary));
     --_pressed-state-layer-color: var(--md-text-button-pressed-state-layer-color, var(--md-sys-color-primary));
+    --_hover-state-layer-opacity: 0;
+    --_pressed-state-layer-opacity: 0;
     --_container-padding-inline: 12px;
     --_outline-color: transparent;
+    --_text-interaction-color: var(--md-sys-color-primary);
 
     &:not(:disabled):hover {
-      --_label-color: var(--ui-button-text-color, var(--md-text-button-hover-label-text-color, var(--md-sys-color-primary)));
-      --_icon-color: var(--ui-button-icon-color, var(--md-text-button-hover-icon-color, var(--md-sys-color-primary)));
+      --_label-color: color-mix(
+        in srgb,
+        var(--ui-button-text-color, var(--md-text-button-hover-label-text-color, var(--_text-interaction-color))) 80%,
+        white
+      );
+      --_icon-color: color-mix(
+        in srgb,
+        var(--ui-button-icon-color, var(--md-text-button-hover-icon-color, var(--_text-interaction-color))) 80%,
+        white
+      );
     }
 
     &:not(:disabled):active {
-      --_label-color: var(--ui-button-text-color, var(--md-text-button-pressed-label-text-color, var(--md-sys-color-primary)));
-      --_icon-color: var(--ui-button-icon-color, var(--md-text-button-pressed-icon-color, var(--md-sys-color-primary)));
+      --_label-color: color-mix(
+        in srgb,
+        var(--ui-button-text-color, var(--md-text-button-pressed-label-text-color, var(--_text-interaction-color))) 60%,
+        white
+      );
+      --_icon-color: color-mix(
+        in srgb,
+        var(--ui-button-icon-color, var(--md-text-button-pressed-icon-color, var(--_text-interaction-color))) 60%,
+        white
+      );
     }
 
     &:not(:disabled):focus-visible {

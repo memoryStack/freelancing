@@ -1,0 +1,112 @@
+.ui-icon {
+  --_icon-size: 24px;
+  --_container-size: 40px;
+  --_icon-color: var(--md-comp-icon-color, var(--md-sys-color-primary));
+  --_bg-opacity: var(--md-comp-icon-background-opacity, 0.1);
+  --_shape-radius: var(--md-sys-shape-corner-full, 9999px);
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  inline-size: var(--_container-size);
+  block-size: var(--_container-size);
+  min-inline-size: var(--_container-size);
+  min-block-size: var(--_container-size);
+  color: var(--_icon-color);
+  border-radius: var(--_shape-radius);
+  line-height: 1;
+  flex-shrink: 0;
+
+  &__glyph {
+    inline-size: var(--_icon-size);
+    block-size: var(--_icon-size);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    > svg {
+      inline-size: 100%;
+      block-size: 100%;
+      stroke: currentColor;
+    }
+  }
+
+  &--outlined {
+    background: transparent;
+  }
+
+  &--outlined-with-background {
+    background: color-mix(in srgb, var(--_icon-color) calc(var(--_bg-opacity) * 100%), transparent);
+  }
+
+  &--filled {
+    background: transparent;
+
+    .ui-icon__glyph > svg {
+      fill: currentColor;
+      stroke: none;
+    }
+  }
+
+  &--filled-with-background {
+    background: color-mix(in srgb, var(--_icon-color) calc(var(--_bg-opacity) * 100%), transparent);
+
+    .ui-icon__glyph > svg {
+      fill: currentColor;
+      stroke: none;
+    }
+  }
+
+  &--round {
+    --_shape-radius: var(--md-sys-shape-corner-full, 9999px);
+  }
+
+  &--square {
+    --_shape-radius: calc(var(--_container-size) * 0.3);
+  }
+
+  &--xsmall {
+    --_icon-size: 20px;
+    --_container-size: 32px;
+  }
+
+  &--small {
+    --_icon-size: 24px;
+    --_container-size: 40px;
+  }
+
+  &--medium {
+    --_icon-size: 32px;
+    --_container-size: 56px;
+  }
+
+  &--large {
+    --_icon-size: 40px;
+    --_container-size: 96px;
+  }
+
+  &--xlarge {
+    --_icon-size: 56px;
+    --_container-size: 136px;
+  }
+
+  &--primary {
+    --_icon-color: var(--md-comp-icon-primary-color, var(--md-sys-color-primary));
+  }
+
+  &--secondary {
+    --_icon-color: var(--md-comp-icon-secondary-color, var(--md-sys-color-secondary));
+  }
+
+  &--error {
+    --_icon-color: var(--md-comp-icon-error-color, var(--md-sys-color-error));
+  }
+
+  &--tertiary {
+    --_icon-color: var(--md-comp-icon-tertiary-color, var(--md-sys-color-tertiary));
+  }
+
+  &--neutral {
+    --_icon-color: var(--md-comp-icon-neutral-color, var(--md-sys-color-on-surface-variant));
+  }
+}

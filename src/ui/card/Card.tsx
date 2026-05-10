@@ -19,6 +19,9 @@ export interface CardProps extends Omit<HTMLAttributes<HTMLDivElement>, "childre
   children?: ReactNode;
   variant?: CardVariant;
   disabled?: boolean;
+  nonInteractive?: boolean;
+  stateLayer?: boolean;
+  shadow?: boolean;
 }
 
 const CLASSES = {
@@ -31,13 +34,26 @@ const CLASSES = {
 };
 
 export const Card = forwardRef<HTMLDivElement, CardProps>(function Card(
-  { className, children, variant = CARD_VARIANTS.ELEVATED, disabled = false, tabIndex, ...props },
+  {
+    className,
+    children,
+    variant = CARD_VARIANTS.ELEVATED,
+    disabled = false,
+    nonInteractive = false,
+    stateLayer = false,
+    shadow = true,
+    tabIndex,
+    ...props
+  },
   ref,
 ) {
   return (
     <div
       {...props}
       ref={ref}
+      data-inactive={nonInteractive ? "" : undefined}
+      data-state-layer={stateLayer ? "on" : "off"}
+      data-shadow={shadow ? "on" : "off"}
       tabIndex={disabled ? -1 : (tabIndex ?? 0)}
       aria-disabled={disabled}
       className={clsx(CLASSES.base, CLASSES.variant[variant], className)}

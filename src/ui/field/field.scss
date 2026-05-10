@@ -3,10 +3,15 @@
   --_field-radius: 4px;
   --_field-outline-width: 1px;
   --_field-outline-width-focused: 3px;
+  --_field-focus-ring-width: calc(var(--_field-outline-width-focused) - var(--_field-outline-width));
   --_field-outline-color: var(--md-sys-color-outline);
   --_field-label-color: var(--md-sys-color-on-surface-variant);
   --_field-input-color: var(--md-sys-color-on-surface);
-  --_field-placeholder-color: var(--md-sys-color-on-surface-variant);
+  --_field-placeholder-color: color-mix(
+    in srgb,
+    var(--md-sys-color-on-surface-variant) 45%,
+    var(--md-sys-color-surface)
+  );
   --_field-supporting-color: var(--md-sys-color-on-surface-variant);
   --_field-leading-icon-color: var(--md-sys-color-on-surface-variant);
   --_field-trailing-icon-color: var(--md-sys-color-on-surface-variant);
@@ -24,6 +29,13 @@
   margin-block-end: 4px;
 }
 
+.ui-field__required-indicator {
+  color: var(--md-sys-color-error);
+  margin-inline-start: 2px;
+  font-size: 0.8em;
+  line-height: 0;
+}
+
 .ui-field__control-container {
   position: relative;
   display: flex;
@@ -36,7 +48,7 @@
   padding-inline: 16px;
   transition:
     border-color 120ms ease-out,
-    border-width 120ms ease-out;
+    box-shadow 120ms ease-out;
   cursor: text;
 }
 
@@ -129,7 +141,7 @@
 }
 
 .ui-field[data-focused]:not([data-disabled]) .ui-field__control-container {
-  border-width: var(--_field-outline-width-focused);
+  box-shadow: 0 0 0 var(--_field-focus-ring-width) var(--_field-outline-color);
 }
 
 /* Error */
@@ -144,14 +156,14 @@
 }
 
 /* Error + hover */
-.ui-field[data-invalid]:not([data-disabled]):hover {
-  --_field-outline-color: var(--md-sys-color-on-error-container);
-  --_field-label-color: var(--md-sys-color-on-error-container);
-  --_field-input-color: var(--md-sys-color-on-surface);
-  --_field-supporting-color: var(--md-sys-color-error);
-  --_field-leading-icon-color: var(--md-sys-color-on-surface-variant);
-  --_field-trailing-icon-color: var(--md-sys-color-on-error-container);
-}
+// .ui-field[data-invalid]:not([data-disabled]):hover {
+//   --_field-outline-color: var(--md-sys-color-on-error-container);
+//   --_field-label-color: var(--md-sys-color-on-error-container);
+//   --_field-input-color: var(--md-sys-color-on-surface);
+//   --_field-supporting-color: var(--md-sys-color-error);
+//   --_field-leading-icon-color: var(--md-sys-color-on-surface-variant);
+//   --_field-trailing-icon-color: var(--md-sys-color-on-error-container);
+// }
 
 /* Error + focus */
 .ui-field[data-invalid][data-focused]:not([data-disabled]) {

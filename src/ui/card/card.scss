@@ -62,9 +62,31 @@
     --_state-layer-opacity: 0.1;
   }
 
+  /* Top-level behavior switches to avoid variant-specific prop selectors. */
+  &[data-shadow="off"],
+  &[data-shadow="off"]:hover,
+  &[data-shadow="off"]:active,
+  &[data-shadow="off"]:focus-visible {
+    --_container-elevation: 0px;
+    box-shadow: none;
+  }
+
+  &[data-state-layer="off"],
+  &[data-state-layer="off"]:hover,
+  &[data-state-layer="off"]:active,
+  &[data-state-layer="off"]:focus-visible {
+    --_state-layer-color: transparent;
+    --_state-layer-opacity: 0;
+  }
+
   &:not([aria-disabled="true"]):focus-visible {
     outline: var(--_focus-indicator-thickness) solid var(--_focus-indicator-color);
     outline-offset: var(--_focus-indicator-offset);
+  }
+
+  &[data-inactive] {
+    cursor: default;
+    pointer-events: none;
   }
 
   &[aria-disabled="true"] {
@@ -85,6 +107,9 @@
 
     &:not([aria-disabled="true"]):focus-visible {
       --_container-elevation: var(--md-elevated-card-focus-container-elevation, var(--md-sys-elevation-level1, 1px));
+    }
+
+    &:not([aria-disabled="true"]):focus-visible {
       --_state-layer-color: var(--md-sys-color-on-surface);
       --_state-layer-opacity: var(--md-elevated-card-focus-state-layer-opacity, 0.1);
     }
@@ -119,6 +144,9 @@
 
     &:not([aria-disabled="true"]):focus-visible {
       --_container-elevation: var(--md-filled-card-focus-container-elevation, var(--md-sys-elevation-level0, 0px));
+    }
+
+    &:not([aria-disabled="true"]):focus-visible {
       --_state-layer-color: var(--md-sys-color-on-surface);
       --_state-layer-opacity: var(--md-filled-card-focus-state-layer-opacity, 0.1);
     }
@@ -157,9 +185,12 @@
 
     &:not([aria-disabled="true"]):focus-visible {
       --_container-elevation: var(--md-outlined-card-focus-container-elevation, var(--md-sys-elevation-level0, 0px));
+      --_outline-color: var(--md-outlined-card-focus-outline-color, var(--md-sys-color-on-surface));
+    }
+
+    &:not([aria-disabled="true"]):focus-visible {
       --_state-layer-color: var(--md-sys-color-on-surface);
       --_state-layer-opacity: var(--md-outlined-card-focus-state-layer-opacity, 0.1);
-      --_outline-color: var(--md-outlined-card-focus-outline-color, var(--md-sys-color-on-surface));
     }
 
     &[aria-disabled="true"] {

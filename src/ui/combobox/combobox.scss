@@ -8,7 +8,11 @@
   --_combobox-outline-color: var(--md-sys-color-outline);
   --_combobox-label-color: var(--md-sys-color-on-surface-variant);
   --_combobox-input-color: var(--md-sys-color-on-surface);
-  --_combobox-placeholder-color: var(--md-sys-color-on-surface-variant);
+  --_combobox-placeholder-color: color-mix(
+    in srgb,
+    var(--md-sys-color-on-surface-variant) 45%,
+    var(--md-sys-color-surface)
+  );
   --_combobox-icon-color: var(--md-sys-color-on-surface-variant);
   --_combobox-supporting-color: var(--md-sys-color-on-surface-variant);
   --_combobox-caret-color: var(--md-sys-color-primary);

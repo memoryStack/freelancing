@@ -7,6 +7,36 @@
   gap: 10px;
 }
 
+.ui-radio-group-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.ui-radio-group-field__label {
+  color: var(--md-sys-color-on-surface-variant);
+  margin-block-end: 4px;
+}
+
+.ui-radio-group-field__required-indicator {
+  color: var(--md-sys-color-error);
+  margin-inline-start: 2px;
+  font-size: 0.8em;
+  line-height: 0;
+}
+
+.ui-radio-group-field__description,
+.ui-radio-group-field__error {
+  margin-block-start: 4px;
+}
+
+.ui-radio-group-field__description {
+  color: var(--md-sys-color-on-surface-variant);
+}
+
+.ui-radio-group-field__error {
+  color: var(--md-sys-color-error);
+}
+
 .ui-radio-group[data-disabled] {
   opacity: 1;
 }

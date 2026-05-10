@@ -65,6 +65,8 @@ export function TextArea({
   name,
   required,
   placeholder,
+  onBlur,
+  onFocus,
   ...props
 }: TextAreaProps) {
   const generatedId = useId();
@@ -79,6 +81,10 @@ export function TextArea({
   const resolvedValue = useMemo(() => (isControlled ? value ?? "" : uncontrolledValue), [isControlled, value, uncontrolledValue]);
 
   const handleContainerMouseDown = (event: MouseEvent<HTMLDivElement>) => {
+    if (event.target === textareaRef.current) {
+      return;
+    }
+
     event.preventDefault();
     textareaRef.current?.focus();
   };
@@ -91,14 +97,17 @@ export function TextArea({
       data-disabled={disabled ? "" : undefined}
     >
       {label ? (
-        <Text
-          as="label"
+        <label
           htmlFor={resolvedId}
-          variant={TYPOGRAPHY.BODY_LARGE}
-          className={clsx("ui-textarea__label", labelClassName)}
+          className={clsx("ui-textarea__label", TYPOGRAPHY_CLASSES[TYPOGRAPHY.BODY_LARGE], labelClassName)}
         >
           {label}
-        </Text>
+          {required ? (
+            <sup className="ui-textarea__required-indicator" aria-hidden="true">
+              *
+            </sup>
+          ) : null}
+        </label>
       ) : null}
 
       <div className={clsx("ui-textarea__control-container", controlContainerClassName)} onMouseDown={handleContainerMouseDown}>
@@ -117,8 +126,14 @@ export function TextArea({
           aria-describedby={describedBy}
           className={clsx("ui-textarea__control", TYPOGRAPHY_CLASSES[TYPOGRAPHY.BODY_LARGE], controlClassName)}
           value={resolvedValue}
-          onFocus={() => setIsFocused(true)}
-          onBlur={() => setIsFocused(false)}
+          onFocus={(event) => {
+            setIsFocused(true);
+            onFocus?.(event);
+          }}
+          onBlur={(event) => {
+            setIsFocused(false);
+            onBlur?.(event);
+          }}
           onChange={(event) => {
             const nextValue = event.target.value;
             if (!isControlled) {

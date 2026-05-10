@@ -62,6 +62,7 @@ export interface IconButtonProps extends Omit<BaseButtonProps, "className" | "ch
   icon: ReactNode;
   selected?: boolean;
   isToggle?: boolean;
+  nonInteractive?: boolean;
 }
 
 const CLASSES = {
@@ -114,6 +115,7 @@ export const IconButton = forwardRef<HTMLElement, IconButtonProps>(function Icon
     size = ICON_BUTTON_SIZES.SMALL,
     widthVariant = ICON_BUTTON_WIDTH_VARIANTS.DEFAULT,
     isToggle = false,
+    nonInteractive = false,
     ...props
   },
   ref,
@@ -140,7 +142,10 @@ export const IconButton = forwardRef<HTMLElement, IconButtonProps>(function Icon
       {...props}
       ref={ref}
       disabled={disabled}
-      aria-pressed={selected}
+      aria-pressed={nonInteractive ? undefined : selected}
+      aria-disabled={nonInteractive || undefined}
+      tabIndex={nonInteractive ? -1 : props.tabIndex}
+      data-non-interactive={nonInteractive ? "" : undefined}
       className={ getMergeClassName()}
     >
       <span className="ui-icon-button__icon">{icon}</span>

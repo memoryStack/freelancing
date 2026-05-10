@@ -91,6 +91,11 @@
     cursor: default;
   }
 
+  &[data-non-interactive] {
+    cursor: default;
+    pointer-events: none;
+  }
+
   &--xsmall {
     --_icon-size: var(--md-icon-button-xsmall-icon-size, 20px);
     --_pressed-border-radius: var(--md-icon-button-xsmall-pressed-container-shape, 8px);
