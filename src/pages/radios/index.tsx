@@ -1,5 +1,5 @@
 import { useId, useState } from "react";
-import { RadioGroup, RadioItem, RADIO_GROUP_SUPPORTED_PROPS, RADIO_ITEM_SUPPORTED_PROPS } from "../../ui";
+import { RadioGroup, RadioItem, RADIO_GROUP_SUPPORTED_PROPS, RADIO_ITEM_SUPPORTED_PROPS } from "@freelancing/ui";
 
 export function RadioShowcasePage() {
   const legendId = useId();

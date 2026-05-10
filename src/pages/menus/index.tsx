@@ -1,5 +1,5 @@
 import { Copy, Eye, MoreHorizontal, Pencil, ChevronRight } from "lucide-react";
-import { Button, Menu } from "../../ui";
+import { Button, Menu } from "@freelancing/ui";
 
 export function MenuShowcasePage() {
   return (

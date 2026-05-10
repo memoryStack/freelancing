@@ -1,5 +1,5 @@
 import { CircleAlertIcon } from "lucide-react";
-import { Button, Dialog } from "../../ui";
+import { Button, Dialog } from "@freelancing/ui";
 
 export function DialogShowcasePage() {
   return (

@@ -1,4 +1,4 @@
-import { TextArea } from "../../ui";
+import { TextArea } from "@freelancing/ui";
 
 export function TextAreaShowcasePage() {
   return (

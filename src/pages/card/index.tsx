@@ -1,7 +1,7 @@
 import {
     Card,
     CARD_VARIANTS,
-} from "../../ui";
+} from "@freelancing/ui";
     
 export function CardShowcasePage() {
     return (

@@ -1,4 +1,4 @@
-import { TEXT_COLORS, Text, TYPOGRAPHY, type TypographyVariant } from "../../ui";
+import { TEXT_COLORS, Text, TYPOGRAPHY, type TypographyVariant } from "@freelancing/ui";
 
 const TYPOGRAPHY_VARIANTS = Object.values(TYPOGRAPHY) as TypographyVariant[];
 

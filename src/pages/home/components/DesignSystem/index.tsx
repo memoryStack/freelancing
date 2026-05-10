@@ -1,5 +1,5 @@
 import '@material/web/button/elevated-button.js';
-import { Button, IconButton, ICON_BUTTON_VARIANTS } from '../../../../ui';
+import { Button, IconButton, ICON_BUTTON_VARIANTS } from '@freelancing/ui';
 import { HeartIcon, PlusIcon, Settings } from 'lucide-react';
 import './custom-css.scss';
 

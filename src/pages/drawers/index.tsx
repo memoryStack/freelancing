@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Drawer, DRAWER_SIDE_SIZES, DRAWER_VARIANTS } from "../../ui";
+import { Drawer, DRAWER_SIDE_SIZES, DRAWER_VARIANTS } from "@freelancing/ui";
 
 export function DrawerShowcasePage() {
   const [sideSmallOpen, setSideSmallOpen] = useState(false);

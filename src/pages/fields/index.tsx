@@ -1,4 +1,4 @@
-import { Field } from "../../ui";
+import { Field } from "@freelancing/ui";
 import { Search, X } from "lucide-react";
 
 export function FieldShowcasePage() {

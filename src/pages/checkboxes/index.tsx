@@ -1,5 +1,5 @@
 import { useId, useState } from "react";
-import { Checkbox, CheckboxGroup, CHECKBOX_GROUP_SUPPORTED_PROPS, CHECKBOX_SUPPORTED_PROPS } from "../../ui";
+import { Checkbox, CheckboxGroup, CHECKBOX_GROUP_SUPPORTED_PROPS, CHECKBOX_SUPPORTED_PROPS } from "@freelancing/ui";
 
 const GROUP_OPTIONS = ["fuji-apple", "gala-apple", "granny-smith-apple"] as const;
 

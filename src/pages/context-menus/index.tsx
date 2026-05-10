@@ -1,5 +1,5 @@
 import { Copy, Eye, Pencil, Trash2 } from "lucide-react";
-import { ContextMenu } from "../../ui";
+import { ContextMenu } from "@freelancing/ui";
 
 export function ContextMenuShowcasePage() {
   return (

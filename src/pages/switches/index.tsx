@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Switch } from "../../ui";
+import { Switch } from "@freelancing/ui";
 
 export function SwitchShowcasePage() {
   const [checked, setChecked] = useState(true);

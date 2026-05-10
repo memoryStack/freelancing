@@ -1,5 +1,5 @@
 import { CircleHelpIcon } from "lucide-react";
-import { IconButton, ICON_BUTTON_VARIANTS, Tooltip, TOOLTIP_VARIANTS } from "../../ui";
+import { IconButton, ICON_BUTTON_VARIANTS, Tooltip, TOOLTIP_VARIANTS } from "@freelancing/ui";
 
 export function TooltipShowcasePage() {
   return (

@@ -7,7 +7,7 @@ import {
   type IconButtonSize,
   type IconButtonVariant,
   type IconButtonWidthVariant,
-} from "../../ui";
+} from "@freelancing/ui";
 
 const VARIANTS = Object.values(ICON_BUTTON_VARIANTS) as IconButtonVariant[];
 const SIZES = Object.values(ICON_BUTTON_SIZES) as IconButtonSize[];

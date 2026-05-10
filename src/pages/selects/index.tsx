@@ -1,4 +1,4 @@
-import { Select } from "../../ui";
+import { Select } from "@freelancing/ui";
 
 const PRIORITY_ITEMS = [
   { value: "low", label: "Low" },

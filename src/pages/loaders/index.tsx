@@ -1,4 +1,4 @@
-import { Loader } from "../../ui";
+import { Loader } from "@freelancing/ui";
 
 export function LoaderShowcasePage() {
   return (

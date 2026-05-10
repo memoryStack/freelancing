@@ -2,7 +2,7 @@ import {
   Divider,
   type DividerStrength,
   DIVIDER_STRENGTHS,
-} from "../../ui";
+} from "@freelancing/ui";
 
 export function DividerShowcasePage() {
   return (

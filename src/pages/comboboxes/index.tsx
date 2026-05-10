@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Combobox } from "../../ui";
+import { Combobox } from "@freelancing/ui";
 
 const FRUIT_ITEMS = [
   { value: "apple", label: "Apple" },

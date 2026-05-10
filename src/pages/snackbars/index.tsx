@@ -1,4 +1,4 @@
-import { Button, SnackbarProvider, useSnackbar } from "../../ui";
+import { Button, SnackbarProvider, useSnackbar } from "@freelancing/ui";
 
 function SnackbarDemo() {
   const { showSnackbar } = useSnackbar();
