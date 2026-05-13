@@ -1,0 +1,170 @@
+@import "./theme-ref-palette.css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Light Theme - Uber style (white background, black text) */
+  
+  /* Primary: Black */
+  --md-sys-color-primary: var(--md-ref-palette-primary0);
+  --md-sys-color-on-primary: var(--md-ref-palette-primary100);
+  --md-sys-color-primary-container: var(--md-ref-palette-primary95);
+  --md-sys-color-on-primary-container: var(--md-ref-palette-primary10);
+  
+  /* Secondary: Gray */
+  --md-sys-color-secondary: var(--md-ref-palette-secondary30);
+  --md-sys-color-on-secondary: var(--md-ref-palette-secondary100);
+  --md-sys-color-secondary-container: var(--md-ref-palette-secondary95);
+  --md-sys-color-on-secondary-container: var(--md-ref-palette-secondary10);
+  
+  /* Tertiary */
+  --md-sys-color-tertiary: var(--md-ref-palette-tertiary40);
+  --md-sys-color-on-tertiary: var(--md-ref-palette-tertiary100);
+  --md-sys-color-tertiary-container: var(--md-ref-palette-tertiary95);
+  --md-sys-color-on-tertiary-container: var(--md-ref-palette-tertiary10);
+  
+  /* Error */
+  --md-sys-color-error: var(--md-ref-palette-error40);
+  --md-sys-color-on-error: var(--md-ref-palette-error100);
+  --md-sys-color-error-container: var(--md-ref-palette-error90);
+  --md-sys-color-on-error-container: var(--md-ref-palette-error10);
+
+  /* Success */
+  --md-sys-color-success: var(--md-ref-palette-success40);
+  --md-sys-color-on-success: var(--md-ref-palette-success100);
+  --md-sys-color-success-container: var(--md-ref-palette-success90);
+  --md-sys-color-on-success-container: var(--md-ref-palette-success10);
+  
+  /* Background: White */
+  --md-sys-color-background: var(--md-ref-palette-neutral100);
+  --md-sys-color-on-background: var(--md-ref-palette-neutral0);
+  
+  /* Surface: White */
+  --md-sys-color-surface: var(--md-ref-palette-neutral100);
+  --md-sys-color-on-surface: var(--md-ref-palette-neutral0);
+  
+  /* Surface Variant */
+  --md-sys-color-surface-variant: var(--md-ref-palette-neutral-variant95);
+  --md-sys-color-on-surface-variant: var(--md-ref-palette-neutral-variant20);
+
+  /* Surface containers */
+  --md-sys-color-surface-container-lowest: var(--md-ref-palette-neutral-variant100);
+  --md-sys-color-surface-container-low: var(--md-ref-palette-neutral-variant98);
+  --md-sys-color-surface-container: var(--md-ref-palette-neutral-variant95);
+  --md-sys-color-surface-container-high: var(--md-ref-palette-neutral-variant90);
+  --md-sys-color-surface-container-highest: var(--md-ref-palette-neutral-variant85);
+
+  /* Inverse */
+  --md-sys-color-inverse-surface: var(--md-ref-palette-neutral0);
+  --md-sys-color-inverse-on-surface: var(--md-ref-palette-neutral95);
+  --md-sys-color-inverse-primary: var(--md-ref-palette-primary90);
+  
+  /* Surface Tint */
+  --md-sys-color-surface-tint: var(--md-sys-color-primary);
+  
+  /* Outline */
+  --md-sys-color-outline: var(--md-ref-palette-neutral-variant40);
+  --md-sys-color-outline-variant: var(--md-ref-palette-neutral-variant85);
+  
+  /* Shadow */
+  --md-sys-color-shadow: var(--md-ref-palette-neutral0);
+
+  /* Typography - Roboto font (Uber-like) */
+  --md-ref-typeface-plain: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --md-ref-typeface-brand: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --md-ref-typeface-weight-regular: 400;
+  --md-ref-typeface-weight-medium: 500;
+  --md-ref-typeface-weight-bold: 700;
+
+  /* Typescale tokens */
+  --md-sys-typescale-label-small-font: var(--md-ref-typeface-plain);
+  --md-sys-typescale-label-small-size: 11px;
+  --md-sys-typescale-label-small-line-height: 16px;
+  --md-sys-typescale-label-small-weight: var(--md-ref-typeface-weight-medium);
+
+  --md-sys-typescale-label-medium-font: var(--md-ref-typeface-plain);
+  --md-sys-typescale-label-medium-size: 12px;
+  --md-sys-typescale-label-medium-line-height: 16px;
+  --md-sys-typescale-label-medium-weight: var(--md-ref-typeface-weight-medium);
+
+  --md-sys-typescale-label-large-font: var(--md-ref-typeface-plain);
+  --md-sys-typescale-label-large-size: 14px;
+  --md-sys-typescale-label-large-line-height: 20px;
+  --md-sys-typescale-label-large-weight: var(--md-ref-typeface-weight-medium);
+
+  --md-sys-typescale-body-small-font: var(--md-ref-typeface-plain);
+  --md-sys-typescale-body-small-size: 12px;
+  --md-sys-typescale-body-small-line-height: 16px;
+  --md-sys-typescale-body-small-weight: var(--md-ref-typeface-weight-regular);
+
+  --md-sys-typescale-body-medium-font: var(--md-ref-typeface-plain);
+  --md-sys-typescale-body-medium-size: 14px;
+  --md-sys-typescale-body-medium-line-height: 20px;
+  --md-sys-typescale-body-medium-weight: var(--md-ref-typeface-weight-regular);
+
+  --md-sys-typescale-body-large-font: var(--md-ref-typeface-plain);
+  --md-sys-typescale-body-large-size: 16px;
+  --md-sys-typescale-body-large-line-height: 24px;
+  --md-sys-typescale-body-large-weight: var(--md-ref-typeface-weight-regular);
+
+  --md-sys-typescale-title-small-font: var(--md-ref-typeface-plain);
+  --md-sys-typescale-title-small-size: 14px;
+  --md-sys-typescale-title-small-line-height: 20px;
+  --md-sys-typescale-title-small-weight: var(--md-ref-typeface-weight-medium);
+
+  --md-sys-typescale-title-medium-font: var(--md-ref-typeface-plain);
+  --md-sys-typescale-title-medium-size: 16px;
+  --md-sys-typescale-title-medium-line-height: 24px;
+  --md-sys-typescale-title-medium-weight: var(--md-ref-typeface-weight-medium);
+
+  --md-sys-typescale-title-large-font: var(--md-ref-typeface-brand);
+  --md-sys-typescale-title-large-size: 22px;
+  --md-sys-typescale-title-large-line-height: 28px;
+  --md-sys-typescale-title-large-weight: var(--md-ref-typeface-weight-medium);
+
+  --md-sys-typescale-headline-small-font: var(--md-ref-typeface-brand);
+  --md-sys-typescale-headline-small-size: 24px;
+  --md-sys-typescale-headline-small-line-height: 32px;
+  --md-sys-typescale-headline-small-weight: var(--md-ref-typeface-weight-regular);
+
+  --md-sys-typescale-headline-medium-font: var(--md-ref-typeface-brand);
+  --md-sys-typescale-headline-medium-size: 28px;
+  --md-sys-typescale-headline-medium-line-height: 36px;
+  --md-sys-typescale-headline-medium-weight: var(--md-ref-typeface-weight-regular);
+
+  --md-sys-typescale-headline-large-font: var(--md-ref-typeface-brand);
+  --md-sys-typescale-headline-large-size: 32px;
+  --md-sys-typescale-headline-large-line-height: 40px;
+  --md-sys-typescale-headline-large-weight: var(--md-ref-typeface-weight-regular);
+}
+
+/* Dark theme */
+.dark {
+  /* Primary: White on dark */
+  --md-sys-color-primary: var(--md-ref-palette-primary100);
+  --md-sys-color-on-primary: var(--md-ref-palette-primary0);
+  --md-sys-color-primary-container: var(--md-ref-palette-primary20);
+  --md-sys-color-on-primary-container: var(--md-ref-palette-primary95);
+  
+  /* Secondary */
+  --md-sys-color-secondary: var(--md-ref-palette-secondary80);
+  --md-sys-color-on-secondary: var(--md-ref-palette-secondary10);
+  --md-sys-color-secondary-container: var(--md-ref-palette-secondary20);
+  --md-sys-color-on-secondary-container: var(--md-ref-palette-secondary95);
+  
+  /* Background: Dark */
+  --md-sys-color-background: var(--md-ref-palette-neutral0);
+  --md-sys-color-on-background: var(--md-ref-palette-neutral95);
+  
+  /* Surface: Dark */
+  --md-sys-color-surface: var(--md-ref-palette-neutral10);
+  --md-sys-color-on-surface: var(--md-ref-palette-neutral95);
+  
+  /* Surface Variant */
+  --md-sys-color-surface-variant: var(--md-ref-palette-neutral-variant20);
+  --md-sys-color-on-surface-variant: var(--md-ref-palette-neutral-variant80);
+
+  /* Outline */
+  --md-sys-color-outline: var(--md-ref-palette-neutral-variant60);
+  --md-sys-color-outline-variant: var(--md-ref-palette-neutral-variant30);
+}

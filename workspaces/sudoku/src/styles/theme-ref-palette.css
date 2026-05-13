@@ -1,0 +1,120 @@
+:root {
+  /* Uber-inspired black and white palette */
+  /* Primary: Black */
+  --md-ref-palette-primary0: #000000;
+  --md-ref-palette-primary10: #1A1A1A;
+  --md-ref-palette-primary20: #333333;
+  --md-ref-palette-primary30: #4D4D4D;
+  --md-ref-palette-primary40: #666666;
+  --md-ref-palette-primary50: #808080;
+  --md-ref-palette-primary60: #999999;
+  --md-ref-palette-primary70: #B3B3B3;
+  --md-ref-palette-primary80: #CCCCCC;
+  --md-ref-palette-primary90: #E6E6E6;
+  --md-ref-palette-primary95: #F2F2F2;
+  --md-ref-palette-primary98: #FAFAFA;
+  --md-ref-palette-primary99: #FDFDFD;
+  --md-ref-palette-primary100: #FFFFFF;
+
+  /* Secondary: Gray */
+  --md-ref-palette-secondary0: #000000;
+  --md-ref-palette-secondary10: #1C1C1C;
+  --md-ref-palette-secondary20: #333333;
+  --md-ref-palette-secondary30: #4F4F4F;
+  --md-ref-palette-secondary40: #6B6B6B;
+  --md-ref-palette-secondary50: #888888;
+  --md-ref-palette-secondary60: #A3A3A3;
+  --md-ref-palette-secondary70: #BFBFBF;
+  --md-ref-palette-secondary80: #D9D9D9;
+  --md-ref-palette-secondary90: #EBEBEB;
+  --md-ref-palette-secondary95: #F5F5F5;
+  --md-ref-palette-secondary98: #FAFAFA;
+  --md-ref-palette-secondary99: #FDFDFD;
+  --md-ref-palette-secondary100: #FFFFFF;
+
+  /* Tertiary: Lighter Gray */
+  --md-ref-palette-tertiary0: #000000;
+  --md-ref-palette-tertiary10: #1E1E1E;
+  --md-ref-palette-tertiary20: #363636;
+  --md-ref-palette-tertiary30: #525252;
+  --md-ref-palette-tertiary40: #707070;
+  --md-ref-palette-tertiary50: #8C8C8C;
+  --md-ref-palette-tertiary60: #A8A8A8;
+  --md-ref-palette-tertiary70: #C4C4C4;
+  --md-ref-palette-tertiary80: #DDDDDD;
+  --md-ref-palette-tertiary90: #EEEEEE;
+  --md-ref-palette-tertiary95: #F7F7F7;
+  --md-ref-palette-tertiary98: #FBFBFB;
+  --md-ref-palette-tertiary99: #FDFDFD;
+  --md-ref-palette-tertiary100: #FFFFFF;
+
+  /* Error: Red (for mistakes) */
+  --md-ref-palette-error0: #000000;
+  --md-ref-palette-error10: #410E0B;
+  --md-ref-palette-error20: #601410;
+  --md-ref-palette-error30: #8C1D18;
+  --md-ref-palette-error40: #B3261E;
+  --md-ref-palette-error50: #DC362E;
+  --md-ref-palette-error60: #E46962;
+  --md-ref-palette-error70: #EC928E;
+  --md-ref-palette-error80: #F2B8B5;
+  --md-ref-palette-error90: #F9DEDC;
+  --md-ref-palette-error95: #FCEEEE;
+  --md-ref-palette-error99: #FFFBF9;
+  --md-ref-palette-error100: #FFFFFF;
+
+  /* Neutral: Pure Black to White */
+  --md-ref-palette-neutral0: #000000;
+  --md-ref-palette-neutral5: #0D0D0D;
+  --md-ref-palette-neutral10: #1A1A1A;
+  --md-ref-palette-neutral15: #262626;
+  --md-ref-palette-neutral20: #333333;
+  --md-ref-palette-neutral25: #404040;
+  --md-ref-palette-neutral30: #4D4D4D;
+  --md-ref-palette-neutral35: #595959;
+  --md-ref-palette-neutral40: #666666;
+  --md-ref-palette-neutral50: #808080;
+  --md-ref-palette-neutral60: #999999;
+  --md-ref-palette-neutral70: #B3B3B3;
+  --md-ref-palette-neutral80: #CCCCCC;
+  --md-ref-palette-neutral90: #E6E6E6;
+  --md-ref-palette-neutral95: #F2F2F2;
+  --md-ref-palette-neutral98: #FAFAFA;
+  --md-ref-palette-neutral99: #FDFDFD;
+  --md-ref-palette-neutral100: #FFFFFF;
+
+  /* Neutral Variant: Slightly warmer grays */
+  --md-ref-palette-neutral-variant0: #000000;
+  --md-ref-palette-neutral-variant5: #0E0E0E;
+  --md-ref-palette-neutral-variant10: #1B1B1B;
+  --md-ref-palette-neutral-variant15: #272727;
+  --md-ref-palette-neutral-variant20: #343434;
+  --md-ref-palette-neutral-variant25: #414141;
+  --md-ref-palette-neutral-variant30: #4E4E4E;
+  --md-ref-palette-neutral-variant35: #5A5A5A;
+  --md-ref-palette-neutral-variant40: #676767;
+  --md-ref-palette-neutral-variant50: #818181;
+  --md-ref-palette-neutral-variant60: #9A9A9A;
+  --md-ref-palette-neutral-variant70: #B4B4B4;
+  --md-ref-palette-neutral-variant80: #CDCDCD;
+  --md-ref-palette-neutral-variant90: #E7E7E7;
+  --md-ref-palette-neutral-variant95: #F3F3F3;
+  --md-ref-palette-neutral-variant98: #FAFAFA;
+  --md-ref-palette-neutral-variant99: #FDFDFD;
+  --md-ref-palette-neutral-variant100: #FFFFFF;
+
+  /* Success: Green (for correct numbers) */
+  --md-ref-palette-success0: #000000;
+  --md-ref-palette-success10: #0B2A0F;
+  --md-ref-palette-success20: #163E18;
+  --md-ref-palette-success30: #1E5820;
+  --md-ref-palette-success40: #2B7A2B;
+  --md-ref-palette-success50: #3D9A3D;
+  --md-ref-palette-success60: #58B558;
+  --md-ref-palette-success70: #7BC77B;
+  --md-ref-palette-success80: #A1D9A1;
+  --md-ref-palette-success90: #C9EBC9;
+  --md-ref-palette-success95: #E5F6E5;
+  --md-ref-palette-success99: #F8FDF8;
+  --md-ref-palette-success100: #FFFFFF;
+}
