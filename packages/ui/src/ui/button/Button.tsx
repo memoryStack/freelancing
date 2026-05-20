@@ -120,6 +120,7 @@ export const Button = forwardRef<HTMLElement, ButtonProps>(function Button(
     <BaseButton
       {...restProps}
       ref={ref}
+      onClick={onClick}
       disabled={disabled}
       aria-busy={loading || undefined}
       data-loading={loading ? "" : undefined}

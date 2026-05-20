@@ -1,0 +1,3606 @@
+{
+  "/Users/admin/Documents/p_p/freelancing/workspaces/sudoku/vite.config.ts": {
+    "mtime": 1778444189.0,
+    "hash": "d00cb4439deefcc1f8ffcc0d74725b61"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/sudoku/src/main.tsx": {
+    "mtime": 1778444189.0,
+    "hash": "aa555d0ae44f619e185a0e96f0726d40"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/sudoku/src/app/App.tsx": {
+    "mtime": 1778444189.0,
+    "hash": "27bc25f656b34cc6b92c0718e1824cc5"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/sudoku/src/components/layout/Footer.tsx": {
+    "mtime": 1778444189.0,
+    "hash": "cf658009db56620f90a2db81de5e8f07"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/sudoku/src/components/layout/Header.tsx": {
+    "mtime": 1778444189.0,
+    "hash": "a9c3c39483aa5f1eb0ebb08a30e1b272"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/sudoku/src/components/shared/SettingsPanel.tsx": {
+    "mtime": 1778444189.0,
+    "hash": "11740c9f35c9bbf419842a50a0b1973c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/sudoku/src/pages/game/index.tsx": {
+    "mtime": 1778444870.865641,
+    "hash": "2988f11e03983de402c36bb9d3ecf673"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/sudoku/src/pages/game/components/SudokuGrid.tsx": {
+    "mtime": 1778444189.0,
+    "hash": "971e9c3fe727ed2e1f1d9d1f594dbff4"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/sudoku/src/pages/game/components/NumberPad.tsx": {
+    "mtime": 1778444189.0,
+    "hash": "5d6c278b81c477b4ac6c8cff0704f679"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/vite.config.ts": {
+    "mtime": 1776167020.9836364,
+    "hash": "9347c67795b1fd4ca5530c712893f851"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/web-test-runner.config.js": {
+    "mtime": 1776247370.3704364,
+    "hash": "835460afef9f9c9b428eb81955e9a806"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/common.ts": {
+    "mtime": 1776247370.6415288,
+    "hash": "4466f87e2fa0f267e7d70609eef5d16f"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/all.ts": {
+    "mtime": 1776247370.8833232,
+    "hash": "78ea9dea3092cb3361446f47ebd09246"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/commitlint.config.js": {
+    "mtime": 1776247371.0054133,
+    "hash": "3afd606a05ed0a6dd3d445a25d4e6346"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/tabs/secondary-tab.ts": {
+    "mtime": 1776247370.2980006,
+    "hash": "9c45bf4896958229c9d2fbf0c1c974c6"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/tabs/tabs_test.ts": {
+    "mtime": 1776247370.3043556,
+    "hash": "aa3fb2f253b31972a72b515a33b5457b"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/tabs/primary-tab.ts": {
+    "mtime": 1776247370.304508,
+    "hash": "5a2ae74eaaa33f46d0cdf67fb6ae2465"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/tabs/tabs.ts": {
+    "mtime": 1776247370.3046627,
+    "hash": "e9c75e73608c20967b72fde828a84657"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/tabs/harness.ts": {
+    "mtime": 1776247370.3051271,
+    "hash": "a00de1f144b367b47a07d1128aa0ec3e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/tabs/demo/demo.ts": {
+    "mtime": 1776247370.2967312,
+    "hash": "2d70bbf3ce980bdfbdb7537724494fa0"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/tabs/demo/stories.ts": {
+    "mtime": 1776247370.2978194,
+    "hash": "f4ffea5894f4d7c42d8466939ce163cb"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/tabs/internal/secondary-tab.ts": {
+    "mtime": 1776247370.299182,
+    "hash": "207c3a95d76618f4b9f0f66a70999e17"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/tabs/internal/tab.ts": {
+    "mtime": 1776247370.2999785,
+    "hash": "7aff30d028540a0c2df3e30f35bfac73"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/tabs/internal/tabs-styles.cssresult.ts": {
+    "mtime": 1776247370.3007662,
+    "hash": "6d0640412e948f8c7dd56c925921cc18"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/tabs/internal/primary-tab.ts": {
+    "mtime": 1776247370.3010616,
+    "hash": "ad76a1573e773fda43ac438f0f3b9c55"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/tabs/internal/secondary-tab-styles.cssresult.ts": {
+    "mtime": 1776247370.3018188,
+    "hash": "50d1c137575a97f2310e07a400174356"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/tabs/internal/primary-tab-styles.cssresult.ts": {
+    "mtime": 1776247370.3026152,
+    "hash": "023fdc3cad2a0bf858e5b6598987603b"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/tabs/internal/tabs.ts": {
+    "mtime": 1776247370.303188,
+    "hash": "771c0f9cc687e8a5a3e1f8116bfbadb2"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/tabs/internal/tab-styles.cssresult.ts": {
+    "mtime": 1776247370.3040402,
+    "hash": "111d9d1e8795899b5c5147cc894d8cec"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/card/outlined-card.ts": {
+    "mtime": 1776247370.3067632,
+    "hash": "b36a5dabba22f4f52f39576ba430e175"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/card/filled-card.ts": {
+    "mtime": 1776247370.306937,
+    "hash": "8d18214d9130b58fe1829a0987caceb5"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/card/elevated-card_test.ts": {
+    "mtime": 1776247370.307254,
+    "hash": "805f45c4c9faba06ff760f9f6b21d137"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/card/outlined-card_test.ts": {
+    "mtime": 1776247370.3075874,
+    "hash": "5d92d968179a72163e8673a570a3bf53"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/card/filled-card_test.ts": {
+    "mtime": 1776247370.3124406,
+    "hash": "d3e313025039dffe1c0c460a394ee752"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/card/elevated-card.ts": {
+    "mtime": 1776247370.3126247,
+    "hash": "8a0e8f848970764228ec635574721a4b"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/card/demo/demo.ts": {
+    "mtime": 1776247370.3058066,
+    "hash": "a7605f5cf57f8d59e113f0f102cc95f7"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/card/demo/stories.ts": {
+    "mtime": 1776247370.306455,
+    "hash": "4be4a9d0af5526616620bf38e2195d94"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/card/internal/elevated-styles.cssresult.ts": {
+    "mtime": 1776247370.3083968,
+    "hash": "0531b6eab8c0a402c9a8118e4d9699e4"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/card/internal/card.ts": {
+    "mtime": 1776247370.3105369,
+    "hash": "d98f002d9aaf80121dda71aff14d29c3"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/card/internal/outlined-styles.cssresult.ts": {
+    "mtime": 1776247370.3111346,
+    "hash": "9d61204a81611268ba852ad273388a26"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/card/internal/filled-styles.cssresult.ts": {
+    "mtime": 1776247370.3115923,
+    "hash": "49c6732fc4c8628cc39e1411b1ab0282"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/card/internal/shared-styles.cssresult.ts": {
+    "mtime": 1776247370.3120186,
+    "hash": "61d364c4baa01e75811e0697dbaf28b3"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/navigationdrawer/navigation-drawer.ts": {
+    "mtime": 1776247370.317218,
+    "hash": "a12d66b68cf33610ba555eb8a84b9b3f"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/navigationdrawer/navigation-drawer-modal.ts": {
+    "mtime": 1776247370.317492,
+    "hash": "ff82b582908b9d1ab259cce8da636570"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/navigationdrawer/internal/navigation-drawer-modal-styles.cssresult.ts": {
+    "mtime": 1776247370.3135593,
+    "hash": "8092c3a40ef6db97da6e11d55293a232"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/navigationdrawer/internal/navigation-drawer.ts": {
+    "mtime": 1776247370.3153732,
+    "hash": "c30645c865d451c4a8a7db6a4861cbb9"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/navigationdrawer/internal/navigation-drawer-modal.ts": {
+    "mtime": 1776247370.3156047,
+    "hash": "0380232d3732cbc732424f9aa953002d"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/navigationdrawer/internal/navigation-drawer-styles.cssresult.ts": {
+    "mtime": 1776247370.316794,
+    "hash": "c629ae2de38c40e21c4425fe0c42b197"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/navigationdrawer/internal/shared-styles.cssresult.ts": {
+    "mtime": 1776247370.317012,
+    "hash": "56213065c5805ac625e12ec6e4a06260"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/navigationbar/navigation-bar.ts": {
+    "mtime": 1776247370.318541,
+    "hash": "bd2a922a6b9cc1da86b1fe43cb67edbe"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/navigationbar/md-navigation-bar_test.ts": {
+    "mtime": 1776247370.320711,
+    "hash": "99408b18b28261cabbab98d5e3f3880c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/navigationbar/harness.ts": {
+    "mtime": 1776247370.3210344,
+    "hash": "e26f498f223283d8d6874f29bd1eaae2"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/navigationbar/demo/demo.ts": {
+    "mtime": 1776247370.3179545,
+    "hash": "0e9527ba924a1ca489987437feee0b30"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/navigationbar/demo/stories.ts": {
+    "mtime": 1776247370.3183687,
+    "hash": "cabb071c52e05df222b9f9b48ec8b9c6"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/navigationbar/internal/state.ts": {
+    "mtime": 1776247370.3188128,
+    "hash": "11b9d2cd22f11b2d656d91788c1bac15"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/navigationbar/internal/navigation-bar.ts": {
+    "mtime": 1776247370.3191047,
+    "hash": "de06357af213dbcf75cc71c4d577618f"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/navigationbar/internal/navigation-bar-styles.cssresult.ts": {
+    "mtime": 1776247370.319389,
+    "hash": "e7e3ad44fdd801e2a846f03cc9067d67"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/navigationbar/internal/constants.ts": {
+    "mtime": 1776247370.3198535,
+    "hash": "9c607c085af2ed27b8c20a4f9d7cbb71"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/behaviors/custom-state-set.ts": {
+    "mtime": 1776247370.3217075,
+    "hash": "d684d1f0ffdae7c2de09bd8b5ab7a5f5"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/behaviors/focusable.ts": {
+    "mtime": 1776247370.3219492,
+    "hash": "def28af8a99019fa4f00ad69a399e5d4"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/behaviors/form-associated.ts": {
+    "mtime": 1776247370.3222594,
+    "hash": "6d7eb8107d1391cc806487e7325f19eb"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/behaviors/custom-state-set_test.ts": {
+    "mtime": 1776247370.3225424,
+    "hash": "d597b9e3a436723b454a562321a834c3"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/behaviors/form-associated_test.ts": {
+    "mtime": 1776247370.3228304,
+    "hash": "7f1b1eb2b1e6f045e3ce8feb52ade659"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/behaviors/focusable_test.ts": {
+    "mtime": 1776247370.323113,
+    "hash": "4ba0a77633a6dbb35dea46db52f28940"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/behaviors/element-internals_test.ts": {
+    "mtime": 1776247370.3234017,
+    "hash": "9072ce69373cafdae3ac3e28e11cde24"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/behaviors/constraint-validation_test.ts": {
+    "mtime": 1776247370.3237176,
+    "hash": "78271557f305e89e4d72819c8760ec4e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/behaviors/on-report-validity_test.ts": {
+    "mtime": 1776247370.3240662,
+    "hash": "8dd6ca69c8a50096652a3130429cc938"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/behaviors/constraint-validation.ts": {
+    "mtime": 1776247370.3244016,
+    "hash": "d049a3b28e786ee6235e2757091891f9"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/behaviors/form-submitter_test.ts": {
+    "mtime": 1776247370.3247018,
+    "hash": "570cd12615b4385d9ff2dd4406e0b6b0"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/behaviors/mixin.ts": {
+    "mtime": 1776247370.3249176,
+    "hash": "35a7787c4ebb5b28ebb860fbb6bcc738"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/behaviors/form-submitter.ts": {
+    "mtime": 1776247370.3250878,
+    "hash": "e067ce6d591fec62f4d2bd13017999bb"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/behaviors/on-report-validity.ts": {
+    "mtime": 1776247370.3276668,
+    "hash": "6730efc06a31e354411c19fe761342c7"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/behaviors/element-internals.ts": {
+    "mtime": 1776247370.3278096,
+    "hash": "b5af3a111e631b49737bffd01c7b7b02"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/behaviors/validators/select-validator.ts": {
+    "mtime": 1776247370.3254426,
+    "hash": "c60f0496ef17705af51c87b46fab3d36"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/behaviors/validators/validator_test.ts": {
+    "mtime": 1776247370.3259602,
+    "hash": "991468fe86e6b4c2f9cfb8038d1e191c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/behaviors/validators/checkbox-validator_test.ts": {
+    "mtime": 1776247370.3261218,
+    "hash": "9eb687d6c92c725b98d998bba5a649d4"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/behaviors/validators/text-field-validator_test.ts": {
+    "mtime": 1776247370.3264365,
+    "hash": "775bad6931db86ec31530f62c5af26a6"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/behaviors/validators/text-field-validator.ts": {
+    "mtime": 1776247370.3266363,
+    "hash": "5e4ec1456121b6a1f10e5f816ffe8e44"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/behaviors/validators/radio-validator.ts": {
+    "mtime": 1776247370.3267798,
+    "hash": "625005c35050923b882942ffecae4b7a"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/behaviors/validators/checkbox-validator.ts": {
+    "mtime": 1776247370.3269227,
+    "hash": "9ffa6fcbd70609e09245979e1d9f503b"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/behaviors/validators/select-validator_test.ts": {
+    "mtime": 1776247370.3270555,
+    "hash": "ca1fa5646ce4fc7c1301286701cdddd0"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/behaviors/validators/radio-validator_test.ts": {
+    "mtime": 1776247370.3271923,
+    "hash": "74484501e28d1d561bd8bcb6876ff800"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/behaviors/validators/validator.ts": {
+    "mtime": 1776247370.327367,
+    "hash": "1e904570d0d025bee52f23b39ec67cd0"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/item/item.ts": {
+    "mtime": 1776247370.3285644,
+    "hash": "f9b4dcdaf00d836d1fd59490d6034238"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/item/demo/demo.ts": {
+    "mtime": 1776247370.3281567,
+    "hash": "2d5b8282824e72d4d7293b374597c069"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/item/demo/stories.ts": {
+    "mtime": 1776247370.3284285,
+    "hash": "62a88e12cef4b0348ebf86cf2bb755a6"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/item/internal/item.ts": {
+    "mtime": 1776247370.3287942,
+    "hash": "f77d7c093308dd5cbda2137653a6d263"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/item/internal/item-styles.cssresult.ts": {
+    "mtime": 1776247370.3297353,
+    "hash": "ef527582d7e12b745fa4abd3365ffab0"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/styles/adopt-styles_test.ts": {
+    "mtime": 1776247370.3317635,
+    "hash": "d5d3c8baaf23d1eae45f3c5e977c028a"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/styles/m3.cssresult.ts": {
+    "mtime": 1776247370.33207,
+    "hash": "62aefe70a4531db3afeffa8b9012a45d"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/styles/adopt-styles.ts": {
+    "mtime": 1776247370.3349586,
+    "hash": "795e0b71d80aadc3456695142f4e23d8"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/styles/icon/md-icon.cssresult.ts": {
+    "mtime": 1776247370.3367617,
+    "hash": "9d4bc5bf61ab1b15abc6b809639fdf1f"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/radio/radio.cssresult.ts": {
+    "mtime": 1776247370.3380296,
+    "hash": "a669f54658424ed9ea6fe1a8bb194f29"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/radio/radio.ts": {
+    "mtime": 1776247370.338361,
+    "hash": "e7032937f34f64036bf1cb66fe9f0706"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/radio/md-radio.ts": {
+    "mtime": 1776247370.3389723,
+    "hash": "700e286c2af9c4b3f9af3e01d3156606"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/radio/demo/demo.ts": {
+    "mtime": 1776247370.3377297,
+    "hash": "fc70344784b91537cc152a5d0e1354a0"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/radio/demo/stories.ts": {
+    "mtime": 1776247370.3378842,
+    "hash": "b528ba3396372937ef48e9e660a183bd"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/card/md-card.ts": {
+    "mtime": 1776247370.3414729,
+    "hash": "549f9d9daa1912f357bf79d53115513e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/card/card.ts": {
+    "mtime": 1776247370.3420365,
+    "hash": "42deb8fff3277a67868b17c01c11046d"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/card/card.cssresult.ts": {
+    "mtime": 1776247370.3423162,
+    "hash": "d5659fbaa279c4dedd91fe24bdb8ce59"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/card/demo/demo.ts": {
+    "mtime": 1776247370.340231,
+    "hash": "ad31c9f3e0f4e06f6ee09b0d7ec266e1"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/card/demo/stories.ts": {
+    "mtime": 1776247370.3408663,
+    "hash": "a2148a8db07c3cb58dd4a9445d4a633b"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/fab/md-fab.ts": {
+    "mtime": 1776247370.3429186,
+    "hash": "a7c56f07194b3e040fb4d3da8769b623"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/fab/fab.ts": {
+    "mtime": 1776247370.3431451,
+    "hash": "8cf70e73d954691db94ede147e934251"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/fab/fab.cssresult.ts": {
+    "mtime": 1776247370.3441036,
+    "hash": "5c2b9e115fd6fbee255b2167a41ade9a"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/fab/demo/demo.ts": {
+    "mtime": 1776247370.342633,
+    "hash": "e6430350f7144567c4935ac663b72fc0"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/fab/demo/stories.ts": {
+    "mtime": 1776247370.3427744,
+    "hash": "c6c8a46e8d20b5c77bd2b2a9aa018058"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/checkbox/md-checkbox.ts": {
+    "mtime": 1776247370.345043,
+    "hash": "19793771fa9ba2e813eb8a2dcdcac6c4"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/checkbox/checkbox.ts": {
+    "mtime": 1776247370.3452163,
+    "hash": "8797f53f5454ef1e29bf1b9e2de47855"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/checkbox/checkbox.cssresult.ts": {
+    "mtime": 1776247370.345545,
+    "hash": "b1ecb34af3986e846fc3028a310f7bfa"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/checkbox/demo/demo.ts": {
+    "mtime": 1776247370.3445656,
+    "hash": "9e577402e300cda05bca96bf97c4bd32"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/checkbox/demo/stories.ts": {
+    "mtime": 1776247370.344714,
+    "hash": "9958ac51547aa81bea3837fd33b0809b"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/ripple/ripple.ts": {
+    "mtime": 1776247370.3473885,
+    "hash": "ed566d78e7bffdf022623da2430a6f7f"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/ripple/ripple.cssresult.ts": {
+    "mtime": 1776247370.3478212,
+    "hash": "59d88e4bf3620f18210a794823cc55ae"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/ripple/demo/demo.ts": {
+    "mtime": 1776247370.3466215,
+    "hash": "831cd50091d52c51ff64e584adf6f5a5"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/ripple/demo/stories.ts": {
+    "mtime": 1776247370.3469093,
+    "hash": "c2ed6c95a475e719dc43fb847176f84e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/shared/pseudo-classes.ts": {
+    "mtime": 1776247370.3482556,
+    "hash": "7114c444656223138e4058e4f8b53df9"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/focus/focus-ring.ts": {
+    "mtime": 1776247370.348903,
+    "hash": "83bf0c224d62959fa486a9238c5582a4"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/focus/focus-ring.cssresult.ts": {
+    "mtime": 1776247370.3496253,
+    "hash": "1604ee4dc53ed2b7cf4f06b17a9b5d82"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/focus/demo/demo.ts": {
+    "mtime": 1776247370.3486147,
+    "hash": "e45a18bac8a436627f28c0b73a7b624c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/focus/demo/stories.ts": {
+    "mtime": 1776247370.3487592,
+    "hash": "0b6bcf0857d27dfc993a14b631d22c51"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/button/button.cssresult.ts": {
+    "mtime": 1776247370.3510046,
+    "hash": "3370890a1c378be3c89a2db8fbe37014"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/button/button.ts": {
+    "mtime": 1776247370.3519008,
+    "hash": "d28a643d591b123357ec70e148448502"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/button/md-button.ts": {
+    "mtime": 1776247370.3523173,
+    "hash": "4c02de0d09ffeae71d7ca69f3df5dc14"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/button/demo/demo.ts": {
+    "mtime": 1776247370.3503356,
+    "hash": "f46738b03f2ce92b4db260f394624881"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/button/demo/stories.ts": {
+    "mtime": 1776247370.3506718,
+    "hash": "600461359c69d187a27d7ad014bd9ff5"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/divider/divider.cssresult.ts": {
+    "mtime": 1776247370.354504,
+    "hash": "50fbfde4d6f5605be4584f23d9b7a634"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/divider/md-divider.ts": {
+    "mtime": 1776247370.3546734,
+    "hash": "8622cfe2bcaa2bd0ca124ecd4a7d0f16"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/divider/divider.ts": {
+    "mtime": 1776247370.3550751,
+    "hash": "ee4056223508a735701f2e13bd5546fc"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/divider/demo/demo.ts": {
+    "mtime": 1776247370.3534553,
+    "hash": "62fbf0d582e8574405f743e800a4852f"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/gb/components/divider/demo/stories.ts": {
+    "mtime": 1776247370.3537047,
+    "hash": "4b49889d34bfe46ce4dfda1b9cf46d4c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/segmentedbuttonset/outlined-segmented-button-set.ts": {
+    "mtime": 1776247370.3593333,
+    "hash": "f15fe9c756a66f1c31f2c0e5f2d66f0d"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/segmentedbuttonset/demo/demo.ts": {
+    "mtime": 1776247370.3557377,
+    "hash": "b13f9847d73dd7230cd6fcb68fe3c96d"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/segmentedbuttonset/demo/stories.ts": {
+    "mtime": 1776247370.3563595,
+    "hash": "45d78ce18d3a46def37120e6e9902bd5"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/segmentedbuttonset/internal/outlined-segmented-button-set.ts": {
+    "mtime": 1776247370.3577743,
+    "hash": "a8820f4fe8cc9f11d008a73d28b6d145"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/segmentedbuttonset/internal/outlined-styles.cssresult.ts": {
+    "mtime": 1776247370.3583012,
+    "hash": "06def218afc485768a6beeca562db867"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/segmentedbuttonset/internal/segmented-button-set.ts": {
+    "mtime": 1776247370.358628,
+    "hash": "439e95eb520af688119940c90fbabee0"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/segmentedbuttonset/internal/shared-styles.cssresult.ts": {
+    "mtime": 1776247370.3591888,
+    "hash": "fd2f8eaca70da3214a692de6a10e1978"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/segmentedbutton/outlined-segmented-button.ts": {
+    "mtime": 1776247370.359594,
+    "hash": "54ae81fec15e5e9f19cc40a9f539510e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/segmentedbutton/internal/outlined-segmented-button.ts": {
+    "mtime": 1776247370.3602433,
+    "hash": "24520fe3c5465ece89af5fef2b47b6b0"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/segmentedbutton/internal/segmented-button.ts": {
+    "mtime": 1776247370.3617482,
+    "hash": "2cd379ca54f08e346db0de103262d297"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/segmentedbutton/internal/outlined-styles.cssresult.ts": {
+    "mtime": 1776247370.3620725,
+    "hash": "09a43fe160315b32ef7d2b2846a6ba5c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/segmentedbutton/internal/shared-styles.cssresult.ts": {
+    "mtime": 1776247370.3626926,
+    "hash": "a440a9812d6fd96b3d4ca050c68b60fd"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/navigationtab/navigation-tab.ts": {
+    "mtime": 1776247370.3630834,
+    "hash": "0cd5036eec6d371c8b50a22917b4396e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/navigationtab/md-navigation-tab_test.ts": {
+    "mtime": 1776247370.3651974,
+    "hash": "28e25c3ed3f290dc51afdf8ca55d76a9"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/navigationtab/harness.ts": {
+    "mtime": 1776247370.365363,
+    "hash": "0991bfe8af1b0610f31b9516508f3402"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/navigationtab/internal/state.ts": {
+    "mtime": 1776247370.363337,
+    "hash": "bfd4ade844ddcc775c3e17ce3483680c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/navigationtab/internal/navigation-tab.ts": {
+    "mtime": 1776247370.3638506,
+    "hash": "a497e9821d2e07708f5ed08c965650de"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/navigationtab/internal/navigation-tab-styles.cssresult.ts": {
+    "mtime": 1776247370.3643878,
+    "hash": "ef30089df26e9fe9fe372b162e853638"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/badge/badge.ts": {
+    "mtime": 1776247370.3680415,
+    "hash": "4cbbba2b170076b012e81e93f791bdab"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/badge/badge_test.ts": {
+    "mtime": 1776247370.368222,
+    "hash": "e5b1135b0075883cde32861910545750"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/badge/internal/badge-styles.cssresult.ts": {
+    "mtime": 1776247370.3668256,
+    "hash": "e7d2affb4402542f6ab7137809681ec6"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/badge/internal/badge.ts": {
+    "mtime": 1776247370.367395,
+    "hash": "a2b761bd5a8b67d18c836485d326c872"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/migrations/v2/query-selector-aria_test.ts": {
+    "mtime": 1776247370.3690982,
+    "hash": "6a4c96f78e33966e7336e45f48be3121"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/migrations/v2/query-selector-aria.ts": {
+    "mtime": 1776247370.3700743,
+    "hash": "a56cd82ee2d9cfa532d8cb3521f12e59"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/types/css-imports.d.ts": {
+    "mtime": 1776247370.3708832,
+    "hash": "afa551b82caaa2fd70002dc8f9c61d29"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/radio/radio_test.ts": {
+    "mtime": 1776247370.3723805,
+    "hash": "b79759df203dfc793c7fadd03c794200"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/radio/radio.ts": {
+    "mtime": 1776247370.3726416,
+    "hash": "2552e1e9b09c4acc1999c9598d9e8e1e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/radio/harness.ts": {
+    "mtime": 1776247370.3755574,
+    "hash": "55dc5ff11e3f51098bd84b6394f5a083"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/radio/demo/demo.ts": {
+    "mtime": 1776247370.3712704,
+    "hash": "5c4468123f0750a854b6eb3f38e38404"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/radio/demo/stories.ts": {
+    "mtime": 1776247370.372057,
+    "hash": "be8c3eb636d880ebcf2918e90a1f0e91"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/radio/internal/radio.ts": {
+    "mtime": 1776247370.3731992,
+    "hash": "835297f20736014414f12aa897d4ae32"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/radio/internal/single-selection-controller.ts": {
+    "mtime": 1776247370.373543,
+    "hash": "b74ebb64a5ce0ff366927a1a96f6dd7d"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/radio/internal/radio-styles.cssresult.ts": {
+    "mtime": 1776247370.3751957,
+    "hash": "f6c79dc830c57f91af86affb63f26ac8"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/progress/linear-progress_test.ts": {
+    "mtime": 1776247370.377045,
+    "hash": "070fab7eccb24479c94951772517d5a2"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/progress/circular-progress_test.ts": {
+    "mtime": 1776247370.3772464,
+    "hash": "eb3e7ada1862e3183200e008428ebabc"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/progress/linear-progress.ts": {
+    "mtime": 1776247370.377502,
+    "hash": "d08acb4cf5539d7a0eae1d94e1b6dee7"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/progress/circular-progress.ts": {
+    "mtime": 1776247370.382757,
+    "hash": "1e304d9309aa49ac096644facfb036fd"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/progress/harness.ts": {
+    "mtime": 1776247370.3834133,
+    "hash": "27b6fccb3d654aa6f16385c206ecc8f3"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/progress/demo/demo.ts": {
+    "mtime": 1776247370.3765144,
+    "hash": "fe6d2a47d9266218aa5343c3d5692dd7"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/progress/demo/stories.ts": {
+    "mtime": 1776247370.3768904,
+    "hash": "857e199fea892e27f5f6147a1fad9921"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/progress/internal/progress.ts": {
+    "mtime": 1776247370.378465,
+    "hash": "9446c795996e4c8fbb9b31b064434116"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/progress/internal/circular-progress-styles.cssresult.ts": {
+    "mtime": 1776247370.379229,
+    "hash": "e35ac3661bd84e90e38af12e6bc71f64"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/progress/internal/linear-progress.ts": {
+    "mtime": 1776247370.3794825,
+    "hash": "a61e666f40688cc9e09b6ccf85d6dee3"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/progress/internal/linear-progress-styles.cssresult.ts": {
+    "mtime": 1776247370.3799958,
+    "hash": "036e8fe3371b7db3920291e9bee22dd6"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/progress/internal/circular-progress.ts": {
+    "mtime": 1776247370.3816154,
+    "hash": "6231d87eeab77ba9cb74b70d78a84469"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/chips/input-chip_test.ts": {
+    "mtime": 1776247370.3859587,
+    "hash": "56ee4341b7e259e5f0c81a5f94c20164"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/chips/filter-chip.ts": {
+    "mtime": 1776247370.4090753,
+    "hash": "ca82ddc136956f662c296bf1c1597f8c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/chips/filter-chip_test.ts": {
+    "mtime": 1776247370.409247,
+    "hash": "dc106f86af4b36a0909205e4933adfd1"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/chips/assist-chip.ts": {
+    "mtime": 1776247370.40944,
+    "hash": "b23550e2bc1abf5179345292b47a2dcf"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/chips/harness.ts": {
+    "mtime": 1776247370.4096198,
+    "hash": "038c605393aba7834597f6384de29b6c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/chips/suggestion-chip_test.ts": {
+    "mtime": 1776247370.4098573,
+    "hash": "7d55de729ed009a88b4192d5987139b5"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/chips/assist-chip_test.ts": {
+    "mtime": 1776247370.4100676,
+    "hash": "7adb4c6c3bc3057ff51afbca2a24fef6"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/chips/suggestion-chip.ts": {
+    "mtime": 1776247370.410335,
+    "hash": "d03de35d5f9ac685ae8132cdfadc0a70"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/chips/chip-set.ts": {
+    "mtime": 1776247370.4105766,
+    "hash": "73fbab779853956e9c7c982603c210e0"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/chips/input-chip.ts": {
+    "mtime": 1776247370.4108026,
+    "hash": "872a524c323be12cdd61d7d2fb52e296"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/chips/demo/demo.ts": {
+    "mtime": 1776247370.3849921,
+    "hash": "2be9c1ac43edbf824f0ba0135f8deb7c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/chips/demo/stories.ts": {
+    "mtime": 1776247370.3855708,
+    "hash": "437b6e0dbd6e4dc5b9d9294d1d47d3cd"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/chips/internal/chip_test.ts": {
+    "mtime": 1776247370.3877072,
+    "hash": "5c94e8e6805dd05c6e8710b8000f86cb"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/chips/internal/input-chip_test.ts": {
+    "mtime": 1776247370.391507,
+    "hash": "1221897fd0c53580103538820d687c06"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/chips/internal/input-styles.cssresult.ts": {
+    "mtime": 1776247370.3922658,
+    "hash": "d7debc98acd0516621d8d933f7a114c8"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/chips/internal/elevated-styles.cssresult.ts": {
+    "mtime": 1776247370.39264,
+    "hash": "7ce4b7500d62a94021db94f411479535"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/chips/internal/suggestion-styles.cssresult.ts": {
+    "mtime": 1776247370.3930776,
+    "hash": "0f6dfd63913fc753b3cd842282665761"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/chips/internal/filter-styles.cssresult.ts": {
+    "mtime": 1776247370.3956292,
+    "hash": "3086299bf7361091b16242615842d45a"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/chips/internal/chip-set-styles.cssresult.ts": {
+    "mtime": 1776247370.3959613,
+    "hash": "2c5f76293b065a91b83d54c3269f6444"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/chips/internal/chip-set_test.ts": {
+    "mtime": 1776247370.3977213,
+    "hash": "c0e05b0b265f14666e45c2febbb925e4"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/chips/internal/multi-action-chip_test.ts": {
+    "mtime": 1776247370.3982286,
+    "hash": "aab50569914f66a71b30457c6ae55178"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/chips/internal/selectable-styles.cssresult.ts": {
+    "mtime": 1776247370.4008272,
+    "hash": "94f9482b327a2a08c201a0dddb8d87ae"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/chips/internal/chip.ts": {
+    "mtime": 1776247370.4015386,
+    "hash": "cecacea23ad29ad8c2dec59fd3ad5ec7"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/chips/internal/filter-chip.ts": {
+    "mtime": 1776247370.4019127,
+    "hash": "4d9fa2ae0364e8fe7ed5b65eaca5aa36"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/chips/internal/trailing-icons.ts": {
+    "mtime": 1776247370.4042468,
+    "hash": "4741cef26010fd69ca37b1abe5af043b"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/chips/internal/filter-chip_test.ts": {
+    "mtime": 1776247370.4045613,
+    "hash": "9ac7e802793c7edbd1c489360f1edd83"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/chips/internal/assist-chip.ts": {
+    "mtime": 1776247370.4047923,
+    "hash": "8601a07dbd9ac0df6966b32e1e04c692"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/chips/internal/assist-styles.cssresult.ts": {
+    "mtime": 1776247370.4051335,
+    "hash": "e1a92303cb3f720f7e9fb46dd8fa931c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/chips/internal/trailing-icon-styles.cssresult.ts": {
+    "mtime": 1776247370.405379,
+    "hash": "029a9bf715f0527f865be388b75b875d"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/chips/internal/suggestion-chip_test.ts": {
+    "mtime": 1776247370.4059415,
+    "hash": "4c1e3dc336c3b5d198011cfb23febe76"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/chips/internal/assist-chip_test.ts": {
+    "mtime": 1776247370.4062085,
+    "hash": "04829cca07349770f4c8d49d2e956343"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/chips/internal/multi-action-chip.ts": {
+    "mtime": 1776247370.4068036,
+    "hash": "3c1580e9a1b205cb29d19ef14d3a78fa"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/chips/internal/suggestion-chip.ts": {
+    "mtime": 1776247370.4070988,
+    "hash": "161963e3973616b854069ac84257d35e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/chips/internal/chip-set.ts": {
+    "mtime": 1776247370.4074879,
+    "hash": "cc6065bacd11e740c9f4836227cf42ae"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/chips/internal/shared-styles.cssresult.ts": {
+    "mtime": 1776247370.407763,
+    "hash": "d8c3b291667b89e4bc0bc7ccbdf9bfa2"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/chips/internal/input-chip.ts": {
+    "mtime": 1776247370.4082897,
+    "hash": "21141180f2d1aa943ed1cb8d4753f1b0"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/esbuild.config.mjs": {
+    "mtime": 1776247370.6209314,
+    "hash": "fa371999e4a5b35422c23f932d640285"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/stories/material-collection.ts": {
+    "mtime": 1776247370.6111884,
+    "hash": "4d2870b4795fdb42e3a65a6526d29345"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/stories/index.ts": {
+    "mtime": 1776247370.6125946,
+    "hash": "088cf5348dd5ccfa69d65d4875a79a45"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/stories/knobs.ts": {
+    "mtime": 1776247370.6129236,
+    "hash": "9700b140b7f3270a6f53c7438fa26344"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/stories/story.ts": {
+    "mtime": 1776247370.613219,
+    "hash": "aaffe7f562caaf823945f5490a063ffb"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/stories/theme-loader.ts": {
+    "mtime": 1776247370.61336,
+    "hash": "cdbe70b2620ba08348b974d17d30c3d3"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/stories/components/stories-renderer.ts": {
+    "mtime": 1776247370.6115384,
+    "hash": "323e48308f2761b9bf4c8543080ebeb7"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/stories/components/knob-ui-components.ts": {
+    "mtime": 1776247370.6118653,
+    "hash": "427907ae41d1bd42300be6592cf594f1"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/stories/components/story-knob-panel.ts": {
+    "mtime": 1776247370.6121714,
+    "hash": "8ba2df8faac812a2a208fedfb7e9c78d"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/stories/components/story-renderer.ts": {
+    "mtime": 1776247370.6123178,
+    "hash": "75443e31732b863bc513e4be21b0cadb"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/scripts/copy-stories.mjs": {
+    "mtime": 1776247370.6160443,
+    "hash": "17916fffb3b3d1141b49042701913b72"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/scripts/copy-docs.mjs": {
+    "mtime": 1776247370.6163344,
+    "hash": "9f0e92c2a5adfce51504795bb4c8c3ee"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/ssr.ts": {
+    "mtime": 1776247370.6271508,
+    "hash": "fc1c172704c6303b96275dbcfb077767"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/svg/material-design-logo.ts": {
+    "mtime": 1776247370.6212544,
+    "hash": "c437e42736313f357615aa33eac8a905"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/types/color-events.ts": {
+    "mtime": 1776247370.6214697,
+    "hash": "e047e8a7adf1f97145f07195a458335b"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/types/is-land.d.ts": {
+    "mtime": 1776247370.6216035,
+    "hash": "c492d12294a60eafdd1b6fabefde2975"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/signals/signal-element.ts": {
+    "mtime": 1776247370.6218152,
+    "hash": "57c2fae9c08436d01b7c4e32d8411e5e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/signals/inert.ts": {
+    "mtime": 1776247370.6219552,
+    "hash": "b6440986342cc5c85a40dcde9d30c6ac"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/signals/drawer-open-state.ts": {
+    "mtime": 1776247370.6221027,
+    "hash": "faf900c7d8d65b4896db6674411edc16"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/utils/theme.ts": {
+    "mtime": 1776247370.6224494,
+    "hash": "f106141238c2467c319e34699f8c95b3"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/utils/apply-theme-string.ts": {
+    "mtime": 1776247370.622583,
+    "hash": "2d0d4efd7a3f3d72230f6325a5cd9718"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/utils/material-color-helpers.ts": {
+    "mtime": 1776247370.6228905,
+    "hash": "76b8acc028db8ee2527a3447779d67fa"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/inline/apply-saved-theme.ts": {
+    "mtime": 1776247370.62312,
+    "hash": "d668abcb2abd66d3856162995f993caf"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/components/nav-drawer.ts": {
+    "mtime": 1776247370.623524,
+    "hash": "a58834830354709fa894b25518cb70e4"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/components/hct-slider.ts": {
+    "mtime": 1776247370.623707,
+    "hash": "3125ffe3ab68a29960f4c91d35d88ca5"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/components/catalog-component-header.ts": {
+    "mtime": 1776247370.623849,
+    "hash": "89d4c23d73e844298d9f77589a783f96"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/components/copy-code-button.ts": {
+    "mtime": 1776247370.6239796,
+    "hash": "73177ee746fddae76a25f172f5f52420"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/components/catalog-component-header-title.ts": {
+    "mtime": 1776247370.624117,
+    "hash": "e636e161e4d45da0d793be1a092c400a"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/components/top-app-bar.ts": {
+    "mtime": 1776247370.62429,
+    "hash": "af1f973b3f16e079bc36acd9ee9759b9"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/components/drag-playground.ts": {
+    "mtime": 1776247370.6244798,
+    "hash": "2277c199e3ea05ef4a531707aefc8cf4"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/components/theme-changer.ts": {
+    "mtime": 1776247370.624762,
+    "hash": "1f7f792d9f937be88ad0a48150526111"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/ssr-utils/lit-hydrate-support.ts": {
+    "mtime": 1776247370.6250565,
+    "hash": "38d046a9bdbf24b7704d6daf3ff888bd"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/ssr-utils/dsd-polyfill.ts": {
+    "mtime": 1776247370.6253068,
+    "hash": "a01d5c85d10232ed6172c7ebedab813b"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/ssr-utils/lit-island.ts": {
+    "mtime": 1776247370.625833,
+    "hash": "72572c92a923055a2f9c64ac815a096e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/pages/home-page.ts": {
+    "mtime": 1776247370.6261868,
+    "hash": "c8028dc0ac1ea020d2adc8c0f87460b8"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/pages/components.ts": {
+    "mtime": 1776247370.6264484,
+    "hash": "8506e1828636235ea67fba9387ae2f90"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/pages/stories.ts": {
+    "mtime": 1776247370.626812,
+    "hash": "218d376d8feef9eae8254268a63e25ca"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/pages/global.ts": {
+    "mtime": 1776247370.626989,
+    "hash": "2b07e89bb28311756be36e46f7932713"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/hydration-entrypoints/navigation.ts": {
+    "mtime": 1776247370.6274226,
+    "hash": "bfed71dee52a9beb69706c85dc865d54"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/hydration-entrypoints/menu.ts": {
+    "mtime": 1776247370.6276596,
+    "hash": "13d59c7d948fbb6a2f001628780c83bc"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/hydration-entrypoints/playground-elements.ts": {
+    "mtime": 1776247370.6291752,
+    "hash": "5577ddb1b6bfe9de1322ba96647a2174"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/hydration-entrypoints/copy-code-button.ts": {
+    "mtime": 1776247370.6293192,
+    "hash": "f121cf3d3abb3a2c5f6942f0983def3f"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/hydration-entrypoints/components/checkbox.ts": {
+    "mtime": 1776247370.6279883,
+    "hash": "a14fc2e3c889b7785f316b26878d3201"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/hydration-entrypoints/components/select.ts": {
+    "mtime": 1776247370.6281211,
+    "hash": "fb9ad05811a1cdf76a586d922ff34ddd"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/hydration-entrypoints/components/fab.ts": {
+    "mtime": 1776247370.6282609,
+    "hash": "7c71eece7f22fb9110481faa0b2a99cf"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/hydration-entrypoints/components/button.ts": {
+    "mtime": 1776247370.628397,
+    "hash": "8089238d1f2e84a3f07be7111fbd7fb9"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/hydration-entrypoints/components/menu.ts": {
+    "mtime": 1776247370.62854,
+    "hash": "b01cdda23e1ff34024c4fc90dbbe9183"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/hydration-entrypoints/components/icon-button.ts": {
+    "mtime": 1776247370.628736,
+    "hash": "d917124fdb1dd233b2a49ba5b9ec2973"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/hydration-entrypoints/components/text-field.ts": {
+    "mtime": 1776247370.628891,
+    "hash": "b739a8269eacc452d292ae8d48e18afa"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/src/hydration-entrypoints/components/list.ts": {
+    "mtime": 1776247370.6290288,
+    "hash": "af3c5f084cb1d112946c3cfccc9eb9dd"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/fab/branded-fab.ts": {
+    "mtime": 1776247370.6309617,
+    "hash": "cbbdb4d9d9b8f8f36f063c68648cf4ac"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/fab/fab.ts": {
+    "mtime": 1776247370.6313548,
+    "hash": "288a901658b19714c4b1701ac422d005"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/fab/fab_test.ts": {
+    "mtime": 1776247370.6370094,
+    "hash": "4db718b9aedaa4c935aaba718ef69aeb"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/fab/harness.ts": {
+    "mtime": 1776247370.6372788,
+    "hash": "cf2890ee12c49520bad7afd473525fcd"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/fab/demo/demo.ts": {
+    "mtime": 1776247370.6297586,
+    "hash": "2e4babe52c51f86e7211e981415149e0"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/fab/demo/stories.ts": {
+    "mtime": 1776247370.630771,
+    "hash": "ae19652a66aba9ba7489c9dfdd1f2b2d"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/fab/internal/fab-branded-styles.cssresult.ts": {
+    "mtime": 1776247370.6328886,
+    "hash": "4cc7e5f79316203169d511c2e37c55ef"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/fab/internal/forced-colors-styles.cssresult.ts": {
+    "mtime": 1776247370.6338048,
+    "hash": "bdf4b07f871a3353e075db7a31a570dd"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/fab/internal/fab.ts": {
+    "mtime": 1776247370.6339457,
+    "hash": "6a5086eaf1761088691630fbfc82a815"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/fab/internal/fab-styles.cssresult.ts": {
+    "mtime": 1776247370.6346486,
+    "hash": "0570bbc96414676a32b7323a4914204f"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/fab/internal/shared.ts": {
+    "mtime": 1776247370.6354313,
+    "hash": "bf13c56ebad485025e4f7bd15d9ee484"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/fab/internal/shared-styles.cssresult.ts": {
+    "mtime": 1776247370.6367261,
+    "hash": "ecaa56b791dcd557df198360e8ccd177"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/internal/motion/animation.ts": {
+    "mtime": 1776247370.6376448,
+    "hash": "462c5be2e19488bfd045b0b3e34d8459"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/internal/motion/animation_test.ts": {
+    "mtime": 1776247370.6378644,
+    "hash": "852271f5680f757aebf1a883970c8ac0"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/internal/controller/is-rtl.ts": {
+    "mtime": 1776247370.6384983,
+    "hash": "9dab9873bd4d1da0092bd574f69b8e65"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/internal/controller/is-rtl_test.ts": {
+    "mtime": 1776247370.6386273,
+    "hash": "3826ce96537d521b7e569a8d1958b25b"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/internal/controller/string-converter_test.ts": {
+    "mtime": 1776247370.6387496,
+    "hash": "2d2400610dc73d7fb05bb2f2fe46bbf2"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/internal/controller/attachable-controller.ts": {
+    "mtime": 1776247370.6390295,
+    "hash": "0dd695c4e04a6a3a202533b037d5fea4"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/internal/controller/string-converter.ts": {
+    "mtime": 1776247370.6391675,
+    "hash": "921f91877bbd66c499fdcf9c76753ebf"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/internal/aria/aria_test.ts": {
+    "mtime": 1776247370.6395047,
+    "hash": "37c08b0d15335bffb43636d53c769e99"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/internal/aria/delegate.ts": {
+    "mtime": 1776247370.639762,
+    "hash": "6cac029c7db22e8e93d03a660996aed2"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/internal/aria/delegate_test.ts": {
+    "mtime": 1776247370.6400385,
+    "hash": "7833e3bfcd10011acfa07d4781015ae9"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/internal/aria/aria.ts": {
+    "mtime": 1776247370.6402278,
+    "hash": "8b441ae13b4d8e905f32fbc53fc7f5fc"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/internal/events/dispatch-hooks.ts": {
+    "mtime": 1776247370.6404982,
+    "hash": "f989e522c92d0d4f855ed5a766d6c74d"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/internal/events/dispatch-hooks_test.ts": {
+    "mtime": 1776247370.6406891,
+    "hash": "8b0a64d01bd0acd9a905110161a4a753"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/internal/events/redispatch-event_test.ts": {
+    "mtime": 1776247370.6408727,
+    "hash": "05052b88044917baa1da8a88300a2e2d"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/internal/events/redispatch-event.ts": {
+    "mtime": 1776247370.641032,
+    "hash": "7dbd6da3312de46df95031efdec1d41d"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/internal/events/form-label-activation_test.ts": {
+    "mtime": 1776247370.6411653,
+    "hash": "71ca8929d1ac29fb85766ccdcae25c20"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/internal/events/form-label-activation.ts": {
+    "mtime": 1776247370.6413145,
+    "hash": "139b4048a99ff6ea7b0330bb407f362b"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/checkbox/checkbox.ts": {
+    "mtime": 1776247370.642788,
+    "hash": "7228e712bc4df2db95ce59c23ea5fcec"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/checkbox/checkbox_test.ts": {
+    "mtime": 1776247370.6450934,
+    "hash": "cfe999b27ad00a1c24c455f562bbd50f"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/checkbox/harness.ts": {
+    "mtime": 1776247370.6452234,
+    "hash": "3fe8c7130901021c6f0f3f49ae0d2e7f"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/checkbox/demo/demo.ts": {
+    "mtime": 1776247370.6418784,
+    "hash": "bfc572db4dbde8e3cb93f08ba26735ca"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/checkbox/demo/stories.ts": {
+    "mtime": 1776247370.6426568,
+    "hash": "ba46eb9cec5fb4febedd4f7ed5d948b1"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/checkbox/internal/checkbox.ts": {
+    "mtime": 1776247370.6432753,
+    "hash": "231dae675f53995281ac5c6827554293"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/checkbox/internal/checkbox-styles.cssresult.ts": {
+    "mtime": 1776247370.6438992,
+    "hash": "09a05564fbe684f18872379659204f4b"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/checkbox/internal/checkbox_test.ts": {
+    "mtime": 1776247370.6445584,
+    "hash": "da0ec407a0270023a1604ee5dd53b450"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/textfield/filled-text-field_test.ts": {
+    "mtime": 1776247370.6463404,
+    "hash": "e37c53cb837c7c62a968f3aa50d0be73"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/textfield/harness_test.ts": {
+    "mtime": 1776247370.6466274,
+    "hash": "be2b0a07523be0cb878661f2ee8ca3d8"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/textfield/outlined-text-field_test.ts": {
+    "mtime": 1776247370.6467614,
+    "hash": "23a67a86806d459362b626ff41d1d4c6"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/textfield/filled-text-field.ts": {
+    "mtime": 1776247370.6470165,
+    "hash": "2ac7807508a4efa049dea6e7419b6c4f"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/textfield/outlined-text-field.ts": {
+    "mtime": 1776247370.6515515,
+    "hash": "4446746911cf3edba013df220effc426"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/textfield/harness.ts": {
+    "mtime": 1776247370.6518886,
+    "hash": "27b892fc6e9b7bcf107f4a260922dc6e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/textfield/demo/demo.ts": {
+    "mtime": 1776247370.6456149,
+    "hash": "50daedd45d190dd9f2540822f0d79fb9"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/textfield/demo/stories.ts": {
+    "mtime": 1776247370.6460967,
+    "hash": "af31e5e2548ca43ecb79bda55ef09d0b"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/textfield/internal/filled-text-field.ts": {
+    "mtime": 1776247370.6479518,
+    "hash": "25292eefb7f4256aed72d98e791148af"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/textfield/internal/outlined-text-field.ts": {
+    "mtime": 1776247370.6489954,
+    "hash": "55f975c878921c64f1d1380b8ebe64af"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/textfield/internal/text-field_test.ts": {
+    "mtime": 1776247370.6494188,
+    "hash": "8a633611a177bf27661c406e6de79db7"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/textfield/internal/outlined-styles.cssresult.ts": {
+    "mtime": 1776247370.6502635,
+    "hash": "289f5b3cf87506d8a48c78620d9d2854"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/textfield/internal/text-field.ts": {
+    "mtime": 1776247370.6505551,
+    "hash": "c964aba9b46db5cea1f5ea300b636e9c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/textfield/internal/filled-styles.cssresult.ts": {
+    "mtime": 1776247370.650848,
+    "hash": "58430a84643758a2174781fc2471cf1f"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/textfield/internal/shared-styles.cssresult.ts": {
+    "mtime": 1776247370.6513872,
+    "hash": "7e1abd1a87763f9a67d18f3efb09e7fd"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/slider/slider_test.ts": {
+    "mtime": 1776247370.6571164,
+    "hash": "f84dcbaecd4a53892d9f50790c09cd38"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/slider/slider.ts": {
+    "mtime": 1776247370.6572542,
+    "hash": "cb3e219d4d91ac494c78fc07c8666292"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/slider/harness.ts": {
+    "mtime": 1776247370.6576555,
+    "hash": "b10cf59c5fe606442175ad26c213d887"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/slider/demo/demo.ts": {
+    "mtime": 1776247370.6524067,
+    "hash": "cd7f0d1acc0a3721200d9406eb9f741d"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/slider/demo/stories.ts": {
+    "mtime": 1776247370.6529074,
+    "hash": "24e30ff91a2372c2861d4422367e07c6"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/slider/internal/forced-colors-styles.cssresult.ts": {
+    "mtime": 1776247370.6544206,
+    "hash": "d7b87239e19e1ad55b5970b27d92b77e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/slider/internal/slider-styles.cssresult.ts": {
+    "mtime": 1776247370.6551921,
+    "hash": "31c73e896e71cddbeee49e6b707df8d7"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/slider/internal/slider.ts": {
+    "mtime": 1776247370.6557283,
+    "hash": "b0d429508fbf48e95ef291151e5b1d4d"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/ripple/ripple.ts": {
+    "mtime": 1776247370.6598213,
+    "hash": "dc413b60d64605026881c50845f811ca"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/ripple/ripple_test.ts": {
+    "mtime": 1776247370.6625955,
+    "hash": "39198767df08fc46236ba405b0ce7963"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/ripple/demo/demo.ts": {
+    "mtime": 1776247370.6587372,
+    "hash": "6f9f2250c9257ed965323b3b4537c18e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/ripple/demo/stories.ts": {
+    "mtime": 1776247370.6596448,
+    "hash": "d8fc076abd4616defdbeb659a7920993"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/ripple/internal/ripple-styles.cssresult.ts": {
+    "mtime": 1776247370.6606407,
+    "hash": "c90095c04e646f539e453234403fdcc2"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/ripple/internal/ripple.ts": {
+    "mtime": 1776247370.661239,
+    "hash": "6d9f6fbbd66572b2ae93ee91c2e12557"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/ripple/internal/ripple_test.ts": {
+    "mtime": 1776247370.661512,
+    "hash": "b109c67290fde136d5a3259bbd2ef679"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/field/outlined-field_test.ts": {
+    "mtime": 1776247370.836332,
+    "hash": "e86275e65dcf299ab5be7e538231e65c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/field/filled-field.ts": {
+    "mtime": 1776247370.8367167,
+    "hash": "7a504d73915154bebd61471abb59c124"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/field/outlined-field.ts": {
+    "mtime": 1776247370.8373337,
+    "hash": "90691d910fcf79042dead193f8e8ec4e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/field/filled-field_test.ts": {
+    "mtime": 1776247370.837593,
+    "hash": "00342702d3e617f83407a7a907f89761"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/field/harness.ts": {
+    "mtime": 1776247370.8383706,
+    "hash": "0a5347e5415e40b9b42f603aba7b62ae"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/field/demo/demo.ts": {
+    "mtime": 1776247370.8011715,
+    "hash": "73fa3c40aaac3725e1e8c3e7fb850bd1"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/field/demo/stories.ts": {
+    "mtime": 1776247370.8017864,
+    "hash": "3bd4f1a54bc26a849f4e8b8e7ab6a85d"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/field/internal/field_test.ts": {
+    "mtime": 1776247370.8202357,
+    "hash": "d1fb89e8697173a368b7b0c784d04c1b"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/field/internal/filled-field.ts": {
+    "mtime": 1776247370.8310952,
+    "hash": "c0f801e68a2b03a1b334f16ced05a01e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/field/internal/outlined-styles.cssresult.ts": {
+    "mtime": 1776247370.8325047,
+    "hash": "b783ee8b92d7f75e266ac80b2cdc003c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/field/internal/outlined-field.ts": {
+    "mtime": 1776247370.833232,
+    "hash": "fa8d3cfbbf6943a1a06c9875a1f942d2"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/field/internal/filled-styles.cssresult.ts": {
+    "mtime": 1776247370.8335445,
+    "hash": "1ca32d904c4c295ca2f455c0badd4248"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/field/internal/field.ts": {
+    "mtime": 1776247370.8350747,
+    "hash": "49f8647286c3d973e802bf406bc97850"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/field/internal/shared-styles.cssresult.ts": {
+    "mtime": 1776247370.8358524,
+    "hash": "64304231069e29f4e25037e452792977"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/focus/md-focus-ring_test.ts": {
+    "mtime": 1776247370.8495324,
+    "hash": "2f6f592eaa3f33da165ebab6c2098ee4"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/focus/md-focus-ring.ts": {
+    "mtime": 1776247370.8520174,
+    "hash": "6d9c5927a231e697c85c33cd69446346"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/focus/demo/demo.ts": {
+    "mtime": 1776247370.8406029,
+    "hash": "189b03389f98b1b29853ec7bd98f541d"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/focus/demo/stories.ts": {
+    "mtime": 1776247370.8417,
+    "hash": "1b8e994f99ac0bac0342d4a0bd688012"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/focus/internal/focus-ring-styles.cssresult.ts": {
+    "mtime": 1776247370.8440135,
+    "hash": "95fb92f4fd404323a39416ddcdb0ea8e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/focus/internal/focus-ring.ts": {
+    "mtime": 1776247370.8451178,
+    "hash": "e819ecde5216f51443d694208c4f031d"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/focus/internal/focus-ring_test.ts": {
+    "mtime": 1776247370.8463123,
+    "hash": "b1587d1eb19fc9d57958c8f372a36994"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/dialog/dialog_test.ts": {
+    "mtime": 1776247370.857708,
+    "hash": "c7d56764bc091aa8c59de46f2c7b6281"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/dialog/dialog.ts": {
+    "mtime": 1776247370.8618095,
+    "hash": "635de718c7d74b9d12a0da40d11fc2df"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/dialog/harness.ts": {
+    "mtime": 1776247370.8620148,
+    "hash": "d04b86a720713c696a9c3b1db768c4cb"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/dialog/demo/demo.ts": {
+    "mtime": 1776247370.8547847,
+    "hash": "37c79ddefc3c1819bfdb903cf0a445c9"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/dialog/demo/stories.ts": {
+    "mtime": 1776247370.8569531,
+    "hash": "8dab1d72e924d2328f0f7532f707945f"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/dialog/internal/dialog-styles.cssresult.ts": {
+    "mtime": 1776247370.859148,
+    "hash": "38d32dd7064d2fce35e003a41c28b796"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/dialog/internal/dialog.ts": {
+    "mtime": 1776247370.8611019,
+    "hash": "c7bac0b4c2f3d8afccdc467a77d1ba39"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/dialog/internal/animations.ts": {
+    "mtime": 1776247370.8613722,
+    "hash": "ac9a8fd50368fa108e921d95663a84f0"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/testing/environment.ts": {
+    "mtime": 1776247370.862834,
+    "hash": "323c4a23ae6a26a4bf77c08133794f19"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/testing/skip-animations.ts": {
+    "mtime": 1776247370.8632872,
+    "hash": "f74dfaf8c1e592e51963eda5661ca5a9"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/testing/skip-animations_test.ts": {
+    "mtime": 1776247370.8635337,
+    "hash": "48651d98b663573694ff270d60067f59"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/testing/forms.ts": {
+    "mtime": 1776247370.8640869,
+    "hash": "006080311b7f2cff1b7c62f33221e147"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/testing/templates.ts": {
+    "mtime": 1776247370.8644495,
+    "hash": "f3de59c4a4b79a65ecfa427f6d104143"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/testing/transform-pseudo-classes.ts": {
+    "mtime": 1776247370.8648148,
+    "hash": "f9f2a00f10bb80707aca7c0cfd6078e6"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/testing/harness.ts": {
+    "mtime": 1776247370.8821502,
+    "hash": "8f296c901265349361ec8832c0d41d92"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/testing/table/test-table.ts": {
+    "mtime": 1776247370.8655562,
+    "hash": "071cd09798697740926f67072b131254"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/testing/table/internal/test-table-styles.cssresult.ts": {
+    "mtime": 1776247370.867082,
+    "hash": "aebe06dad4c5a36eca3360110165b14d"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/testing/table/internal/test-table_test.ts": {
+    "mtime": 1776247370.867327,
+    "hash": "d00db2f62125362189bdf310ed021fa1"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/testing/table/internal/test-table.ts": {
+    "mtime": 1776247370.8676753,
+    "hash": "ff463abfa7a049db1ec40c6cbdc05705"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/button/text-button.ts": {
+    "mtime": 1776247370.8845732,
+    "hash": "714f6402f3893c05c596904ce4619455"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/button/outlined-button.ts": {
+    "mtime": 1776247370.8885133,
+    "hash": "054891bed3a2d73c01dc2de0176318f5"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/button/outlined-button_test.ts": {
+    "mtime": 1776247370.8889186,
+    "hash": "d304e3153e20882dcf6c6b3a8a5097a7"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/button/filled-tonal-button.ts": {
+    "mtime": 1776247370.889231,
+    "hash": "96285628849668d307431882bef7dbc7"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/button/elevated-button_test.ts": {
+    "mtime": 1776247370.8895226,
+    "hash": "adc2af327b7c0ec8afcb03f329031056"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/button/filled-tonal-button_test.ts": {
+    "mtime": 1776247370.8900876,
+    "hash": "1a370c67570605c460b8b7b8360b8786"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/button/filled-button_test.ts": {
+    "mtime": 1776247370.8902802,
+    "hash": "3d458a1c1e98a24e7b9e60c1de382293"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/button/elevated-button.ts": {
+    "mtime": 1776247370.8906107,
+    "hash": "ee283f3ffa7c2726c3cd45eb95499b98"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/button/filled-button.ts": {
+    "mtime": 1776247370.9050708,
+    "hash": "3792ac70d2dc59c95fc01464e1043d24"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/button/text-button_test.ts": {
+    "mtime": 1776247370.90522,
+    "hash": "8319c5f7b49aed0641570a1207ef0da0"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/button/harness.ts": {
+    "mtime": 1776247370.90537,
+    "hash": "1fb838773787715257288acb9616d9d3"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/button/demo/demo.ts": {
+    "mtime": 1776247370.887276,
+    "hash": "af1bb6e913764b19dae77720cab9c8ec"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/button/demo/stories.ts": {
+    "mtime": 1776247370.8881857,
+    "hash": "c0222a11444def53a07c7a4df251209c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/button/internal/text-button.ts": {
+    "mtime": 1776247370.8917134,
+    "hash": "70f8c05de7d910368b99c1814c9b7f2b"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/button/internal/outlined-button.ts": {
+    "mtime": 1776247370.8920786,
+    "hash": "480f33d0f157c110a6473052dabbddf9"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/button/internal/shared-elevation-styles.cssresult.ts": {
+    "mtime": 1776247370.8927636,
+    "hash": "9744b26bf7709835a1baec7fbd5661f3"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/button/internal/elevated-styles.cssresult.ts": {
+    "mtime": 1776247370.8937583,
+    "hash": "9b51cef680c9e679e9de766674c4bd6f"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/button/internal/filled-tonal-button.ts": {
+    "mtime": 1776247370.8939104,
+    "hash": "d4578646077055d4732736540afc188d"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/button/internal/filled-tonal-styles.cssresult.ts": {
+    "mtime": 1776247370.897028,
+    "hash": "fb6084c77acfb9c529d60b47e97c6406"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/button/internal/elevated-button.ts": {
+    "mtime": 1776247370.8980134,
+    "hash": "54b89c08601884126c7d06a469955e24"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/button/internal/button.ts": {
+    "mtime": 1776247370.898927,
+    "hash": "a0217b7d9570f7c15720479d8bd2ee29"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/button/internal/text-styles.cssresult.ts": {
+    "mtime": 1776247370.8991852,
+    "hash": "bc21162307f4d0f82a5fbf9dc3636298"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/button/internal/button_test.ts": {
+    "mtime": 1776247370.9006271,
+    "hash": "1c59389d82bf046c07879d8861bd5e91"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/button/internal/filled-button.ts": {
+    "mtime": 1776247370.9021225,
+    "hash": "69552ff842e339c87f9f63541eb42b98"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/button/internal/outlined-styles.cssresult.ts": {
+    "mtime": 1776247370.9024389,
+    "hash": "f3b122e9b186e1931e954b5e3aaa66e4"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/button/internal/filled-styles.cssresult.ts": {
+    "mtime": 1776247370.9037943,
+    "hash": "9be70261d15280d8e0d6e3be63925e48"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/button/internal/shared-styles.cssresult.ts": {
+    "mtime": 1776247370.9044156,
+    "hash": "43a4ba207f34d538c6b491f9e9e94855"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/list/list_test.ts": {
+    "mtime": 1776247370.9134333,
+    "hash": "26b21ba7218e17624bcf77b575e68050"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/list/list-item_test.ts": {
+    "mtime": 1776247370.9297736,
+    "hash": "d0dbfd486ea64306e974c34acc591969"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/list/list.ts": {
+    "mtime": 1776247370.9311373,
+    "hash": "cc91f6c90c51dbbb60245ffa84e14e06"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/list/list-item.ts": {
+    "mtime": 1776247370.9324756,
+    "hash": "fe5bfbaafe61067674425c2efb4c42d1"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/list/harness.ts": {
+    "mtime": 1776247370.934796,
+    "hash": "9a4654267af7b0724873a000944a69c2"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/list/demo/demo.ts": {
+    "mtime": 1776247370.9070585,
+    "hash": "03a33c235637b756c148e528e11ce93e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/list/demo/stories.ts": {
+    "mtime": 1776247370.9078386,
+    "hash": "95225684718bbd01fab14618a886c4e1"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/list/test/assets.ts": {
+    "mtime": 1776247370.910225,
+    "hash": "a5b41ede2316c1efc548332b320e6a93"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/list/internal/list-controller.ts": {
+    "mtime": 1776247370.9151566,
+    "hash": "000ba44368174ed1b1d045d3fdefd900"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/list/internal/list-styles.cssresult.ts": {
+    "mtime": 1776247370.9264517,
+    "hash": "16e1f351ce962245853ee99c6b87e28f"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/list/internal/list.ts": {
+    "mtime": 1776247370.9278557,
+    "hash": "5bc74885e2b1b5e7b6c15a83b05c9c31"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/list/internal/list-navigation-helpers.ts": {
+    "mtime": 1776247370.9289887,
+    "hash": "6209b2a6ef0c4b508ccd7d542e381ac6"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/list/internal/listitem/list-item-styles.cssresult.ts": {
+    "mtime": 1776247370.9209993,
+    "hash": "06a839fc78594d0e4927ead6c1803289"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/list/internal/listitem/list-item.ts": {
+    "mtime": 1776247370.92248,
+    "hash": "a6d8a4999ada7d9b8fcf1ee9f09247f5"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/list/internal/listitem/harness.ts": {
+    "mtime": 1776247370.9239705,
+    "hash": "7db88683f80d3016aefe764ef0cc235c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/divider/divider_test.ts": {
+    "mtime": 1776247370.9380167,
+    "hash": "199b8cbf1136c827d00eb548ad58c7b6"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/divider/divider.ts": {
+    "mtime": 1776247370.9423473,
+    "hash": "636f759a8c484d4b826a53ef4b1d32bb"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/divider/demo/demo.ts": {
+    "mtime": 1776247370.9361405,
+    "hash": "d9ef4146a7b95d4254b31fc3c03f83d7"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/divider/demo/stories.ts": {
+    "mtime": 1776247370.9371643,
+    "hash": "13278276e2b5bd0985143673bdd34415"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/divider/internal/divider.ts": {
+    "mtime": 1776247370.9406083,
+    "hash": "8276c059bad0c8ddf8b021701805b2cc"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/divider/internal/divider-styles.cssresult.ts": {
+    "mtime": 1776247370.9411204,
+    "hash": "82699be41cc20469a9db09fb2ccd7e07"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/menu/menu.ts": {
+    "mtime": 1776247370.968418,
+    "hash": "ae4cc80beb7bc3708fb8e9076ce64d45"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/menu/menu_test.ts": {
+    "mtime": 1776247370.9690497,
+    "hash": "18f08c342442a4ca176bd47a9ddef130"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/menu/sub-menu.ts": {
+    "mtime": 1776247370.9723153,
+    "hash": "f3d713fe04226d98208af0ffc531cb43"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/menu/menu-item.ts": {
+    "mtime": 1776247370.9727278,
+    "hash": "36dcdb9eb459034e1cab670dec410202"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/menu/harness.ts": {
+    "mtime": 1776247370.974149,
+    "hash": "899164082ad7c6533ffdf54bc4c658f4"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/menu/demo/demo.ts": {
+    "mtime": 1776247370.9439578,
+    "hash": "3acbc30ef0dba1f91dbae939db120e5a"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/menu/demo/stories.ts": {
+    "mtime": 1776247370.9451396,
+    "hash": "b696d1de5b0483d8c0987bd6bfa015af"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/menu/internal/menu-styles.cssresult.ts": {
+    "mtime": 1776247370.9465828,
+    "hash": "c9944ce3651f4a01614bf27815962a97"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/menu/internal/menu.ts": {
+    "mtime": 1776247370.951821,
+    "hash": "2062998b3ee30739047415b49fd7bcee"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/menu/internal/types.ts": {
+    "mtime": 1776247370.9537444,
+    "hash": "6021816568b7422cd544978054c943e4"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/menu/internal/menuitem/menu-item-styles.cssresult.ts": {
+    "mtime": 1776247370.9474232,
+    "hash": "400ae36aa9ea322fed46a7dd79d9428f"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/menu/internal/menuitem/menu-item.ts": {
+    "mtime": 1776247370.948756,
+    "hash": "098407062dac9295f005e35e44d237d4"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/menu/internal/menuitem/harness.ts": {
+    "mtime": 1776247370.9492195,
+    "hash": "0b55e1f520e095bab330f41760ed2f1a"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/menu/internal/submenu/sub-menu.ts": {
+    "mtime": 1776247370.9590127,
+    "hash": "76ef7809010b3b8f47fb56613fadfc97"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/menu/internal/submenu/sub-menu-styles.cssresult.ts": {
+    "mtime": 1776247370.961063,
+    "hash": "ab20dbdbbbff25a8ef9fbdca7cc537f2"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/menu/internal/controllers/menuItemController.ts": {
+    "mtime": 1776247370.9618635,
+    "hash": "6a4073c9953a2caa7720a575f564e1b0"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/menu/internal/controllers/surfacePositionController.ts": {
+    "mtime": 1776247370.9625516,
+    "hash": "ebab393d76d46424a70d50f6aa1143e3"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/menu/internal/controllers/typeaheadController.ts": {
+    "mtime": 1776247370.9630387,
+    "hash": "6d2a36c976fef773a2b7ef31cdc626c1"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/menu/internal/controllers/shared.ts": {
+    "mtime": 1776247370.964246,
+    "hash": "5a7589529fc3f7975249f0ac6a4d796a"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/scripts/component-custom-elements.d.ts": {
+    "mtime": 1776247370.9759052,
+    "hash": "7d00050848b0b17025ac914dde9fc337"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/scripts/component-custom-elements.ts": {
+    "mtime": 1776247370.9773438,
+    "hash": "52f4391771e7ab99131670337daf514a"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/scripts/css-to-ts.js": {
+    "mtime": 1776247370.9783545,
+    "hash": "13f59e7fc5e28ab98fe94ef23b2b6f4d"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/scripts/css-to-ts.d.ts": {
+    "mtime": 1776247370.9786682,
+    "hash": "a9d594261bb8359e30c13ab509e9d98e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/scripts/update-sass-ext-docs.js": {
+    "mtime": 1776247370.979056,
+    "hash": "5158a6933e628ad98a3bdd691953be50"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/scripts/update-sass-ext-docs.d.ts": {
+    "mtime": 1776247370.9805713,
+    "hash": "729287d7877503371b17915b95fff382"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/scripts/css-to-ts.ts": {
+    "mtime": 1776247370.9839425,
+    "hash": "93c1c0c5ed7436e84aad5671961ce6b4"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/scripts/update-sass-ext-docs.ts": {
+    "mtime": 1776247370.9850307,
+    "hash": "a693e0c4f8b0907e7c2c31d09c794dfb"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/scripts/component-custom-elements.js": {
+    "mtime": 1776247370.9854095,
+    "hash": "97ce8eb4dd6927fb278b07c8a1859732"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/scripts/size/update-size.ts": {
+    "mtime": 1776247370.9815593,
+    "hash": "586ded640e7998142752a5e5b4fb9440"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/scripts/size/bundle-size.ts": {
+    "mtime": 1776247370.98182,
+    "hash": "6dbd7f30181634a29c248fa7eedcac7c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/scripts/size/update-size.d.ts": {
+    "mtime": 1776247370.9819877,
+    "hash": "2a388ff42f2a2380e10be0c171ba28b7"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/scripts/size/update-size.js": {
+    "mtime": 1776247370.9821477,
+    "hash": "e8483a6988eac87eac0600f4dfe1b095"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/scripts/size/bundle-size.d.ts": {
+    "mtime": 1776247370.982289,
+    "hash": "7e6b1e766cc8cdac8852cc48f3efb0f1"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/scripts/size/bundle-size.js": {
+    "mtime": 1776247370.9827862,
+    "hash": "725f26cfb70bcb37812158ddb85180d4"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/scripts/analyzer/markdown-tree-builder.js": {
+    "mtime": 1776247370.987146,
+    "hash": "1ca04d7e03c275b2a4af7e8ae9d21d2e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/scripts/analyzer/analyze-element.js": {
+    "mtime": 1776247370.988257,
+    "hash": "d924f4a0bae14cdb5329527704c67f02"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/scripts/analyzer/update-docs.ts": {
+    "mtime": 1776247370.9903607,
+    "hash": "2eef2d72a44136964d33a0a2c88512bc"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/scripts/analyzer/markdown-tree-builder.d.ts": {
+    "mtime": 1776247370.9916496,
+    "hash": "2e4e5e8084e58180606c8ce503bbc1e3"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/scripts/analyzer/element-docs-map.js": {
+    "mtime": 1776247370.9918132,
+    "hash": "8cf74334341ef1b20435fd3ac91908db"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/scripts/analyzer/update-docs.js": {
+    "mtime": 1776247370.992237,
+    "hash": "428558572f3ca620c03bacf5926305e6"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/scripts/analyzer/markdown-tree-builder.ts": {
+    "mtime": 1776247370.9924064,
+    "hash": "a8440536cdcd25cbc900651a87ad5fba"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/scripts/analyzer/analyze-element.ts": {
+    "mtime": 1776247370.9930747,
+    "hash": "0960a42fb83dd50d3492805d09a44f4c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/scripts/analyzer/update-docs.d.ts": {
+    "mtime": 1776247370.9933314,
+    "hash": "2a388ff42f2a2380e10be0c171ba28b7"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/scripts/analyzer/element-docs-map.d.ts": {
+    "mtime": 1776247370.9937057,
+    "hash": "373b9da72440470cde7c2d59ba509ca6"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/scripts/analyzer/element-docs-map.ts": {
+    "mtime": 1776247370.993929,
+    "hash": "f5d92070e29e52556351bd4258eed9d2"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/scripts/analyzer/analyze-element.d.ts": {
+    "mtime": 1776247370.9942012,
+    "hash": "a7d64296183b988667c9d5b5a77eff09"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/typography/md-typescale-styles.ts": {
+    "mtime": 1776247370.9952977,
+    "hash": "d4a647c36fe79ef5738f77ffe86a0937"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/typography/md-typescale-styles.cssresult.ts": {
+    "mtime": 1776247370.9964275,
+    "hash": "f4cad714b74040cce32a618a3a133496"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/elevation/elevation_test.ts": {
+    "mtime": 1776247370.9979138,
+    "hash": "31db7f92021aac7647ae329193a90aa7"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/elevation/elevation.ts": {
+    "mtime": 1776247371.0000207,
+    "hash": "f231795b1bef45861d746d977c8d92fd"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/elevation/demo/demo.ts": {
+    "mtime": 1776247370.996911,
+    "hash": "b683104d82205c6bf304cce1b7c281bf"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/elevation/demo/stories.ts": {
+    "mtime": 1776247370.99774,
+    "hash": "fed9d6001d267d16636dc2971a201ba2"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/elevation/internal/elevation-styles.cssresult.ts": {
+    "mtime": 1776247370.9982677,
+    "hash": "26c00f5db2b16999f480b1542b23c42d"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/elevation/internal/elevation.ts": {
+    "mtime": 1776247370.9993582,
+    "hash": "dbcbf8155034302cfc3cbdae4e87449d"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/switch/switch.ts": {
+    "mtime": 1776247371.0043316,
+    "hash": "40dd9a8a8ec74a21544c11cec6237c15"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/switch/switch_test.ts": {
+    "mtime": 1776247371.0045073,
+    "hash": "49e8b3a61beececd748e3383ac098035"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/switch/harness.ts": {
+    "mtime": 1776247371.004757,
+    "hash": "4d53340c5a7e914d93d9005bfa949460"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/switch/demo/demo.ts": {
+    "mtime": 1776247371.0006123,
+    "hash": "4da832e4cc3571e4a13fffdba72b40fa"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/switch/demo/stories.ts": {
+    "mtime": 1776247371.001051,
+    "hash": "644559be54415741da0f491872b2009c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/switch/internal/switch.ts": {
+    "mtime": 1776247371.0023632,
+    "hash": "737cf0607b5525b8975d437f3e32880b"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/switch/internal/switch_test.ts": {
+    "mtime": 1776247371.0032086,
+    "hash": "c83426127bfefc8a9d623c4e981616a6"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/switch/internal/switch-styles.cssresult.ts": {
+    "mtime": 1776247371.003838,
+    "hash": "aeecd5449c6770a8852a595b495fba14"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/iconbutton/icon-button_test.ts": {
+    "mtime": 1776247371.007181,
+    "hash": "474b3ba01f649bbedce4210fe87d05e8"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/iconbutton/outlined-icon-button.ts": {
+    "mtime": 1776247371.0074997,
+    "hash": "926854034af762b2c0d5ee2b68e1675e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/iconbutton/filled-icon-button.ts": {
+    "mtime": 1776247371.0175092,
+    "hash": "806db930b92cd7c18dffabb26c3daf07"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/iconbutton/filled-tonal-icon-button.ts": {
+    "mtime": 1776247371.0178783,
+    "hash": "dd1b5f3414ef97567c647c0d466ae31a"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/iconbutton/filled-tonal-icon-button_test.ts": {
+    "mtime": 1776247371.0184064,
+    "hash": "a24b18a429b26574f3b4c20842cd1a41"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/iconbutton/outlined-icon-button_test.ts": {
+    "mtime": 1776247371.018837,
+    "hash": "8393b2f943b4a31ae5808ffe40dce9d6"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/iconbutton/icon-button.ts": {
+    "mtime": 1776247371.020762,
+    "hash": "f267eb5ace82045ecc6e247276b0dfce"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/iconbutton/filled-icon-button_test.ts": {
+    "mtime": 1776247371.0214818,
+    "hash": "55d377cdc9bd98b3a98d021fa96d65e0"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/iconbutton/harness.ts": {
+    "mtime": 1776247371.0224178,
+    "hash": "fafab6e90de5a311b1a114f5e74a398c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/iconbutton/demo/demo.ts": {
+    "mtime": 1776247371.006084,
+    "hash": "cdaff380d5edf9e12670c5cc061c1479"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/iconbutton/demo/stories.ts": {
+    "mtime": 1776247371.0068552,
+    "hash": "7c1ee1246fa3b2d6db71f66ac2a8daed"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/iconbutton/internal/filled-tonal-styles.cssresult.ts": {
+    "mtime": 1776247371.010445,
+    "hash": "334296ac5df7668b636db7bbec642194"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/iconbutton/internal/icon-button.ts": {
+    "mtime": 1776247371.0141425,
+    "hash": "b7f73f98503cce53802056321fc39d5e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/iconbutton/internal/outlined-styles.cssresult.ts": {
+    "mtime": 1776247371.0148776,
+    "hash": "30c4fb2a7029101c6189825e0fe9a40d"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/iconbutton/internal/standard-styles.cssresult.ts": {
+    "mtime": 1776247371.015752,
+    "hash": "919665607d6ea5c98c7c53c66bd86eda"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/iconbutton/internal/filled-styles.cssresult.ts": {
+    "mtime": 1776247371.0162559,
+    "hash": "59926a331e5513289016a0c6958ea3a5"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/iconbutton/internal/shared-styles.cssresult.ts": {
+    "mtime": 1776247371.0173185,
+    "hash": "24f3c062d58abc7ad34a97cb81f20bf5"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/select/select-option.ts": {
+    "mtime": 1776247371.0251813,
+    "hash": "57343d39fb7ea16f7b8b79393eaaa5f2"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/select/outlined-select.ts": {
+    "mtime": 1776247371.0253491,
+    "hash": "e420732b729c9fb11dce3cbda5858ff8"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/select/select_test.ts": {
+    "mtime": 1776247371.031321,
+    "hash": "5246da0aa3451f9b6f1dfff3c07ab1ff"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/select/harness.ts": {
+    "mtime": 1776247371.0315654,
+    "hash": "19a040d6fe06747fce4bdb74976bbf4f"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/select/filled-select.ts": {
+    "mtime": 1776247371.0317328,
+    "hash": "5f453339344285a5bf355e5097a8f19e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/select/demo/demo.ts": {
+    "mtime": 1776247371.022946,
+    "hash": "f6dd49b3fb4d24c78e8ebeb79a80cc76"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/select/demo/stories.ts": {
+    "mtime": 1776247371.023721,
+    "hash": "719b75e09848f840f2c7bf75cc382721"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/select/test/assets.ts": {
+    "mtime": 1776247371.024852,
+    "hash": "a5b41ede2316c1efc548332b320e6a93"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/select/internal/select.ts": {
+    "mtime": 1776247371.0269184,
+    "hash": "81c33c6557cdddad7ebcf6a861811b4f"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/select/internal/outlined-select.ts": {
+    "mtime": 1776247371.0272574,
+    "hash": "b203706c7fbb4ad867a33506697cefac"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/select/internal/shared.ts": {
+    "mtime": 1776247371.0279076,
+    "hash": "889029b6e0b4e1f5bc95b980defdc63b"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/select/internal/filled-select-styles.cssresult.ts": {
+    "mtime": 1776247371.0292578,
+    "hash": "c517a2d78cf035b33e0a70cb89457d3a"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/select/internal/filled-select.ts": {
+    "mtime": 1776247371.0297945,
+    "hash": "e0e176039edea8f41bbc97c7bb46e6e6"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/select/internal/outlined-select-styles.cssresult.ts": {
+    "mtime": 1776247371.0301309,
+    "hash": "00f4d9dde7f3821d3f73b60678b8385c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/select/internal/shared-styles.cssresult.ts": {
+    "mtime": 1776247371.030871,
+    "hash": "d188bfdbe5a4849d57dcba1924a7c25b"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/select/internal/selectoption/select-option.ts": {
+    "mtime": 1776247371.028488,
+    "hash": "013beb6e3a26fe1b706c04b542bb5227"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/select/internal/selectoption/selectOptionController.ts": {
+    "mtime": 1776247371.0287936,
+    "hash": "db6497ac20626deefee65629080659c4"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/select/internal/selectoption/harness.ts": {
+    "mtime": 1776247371.0289729,
+    "hash": "cb2d5f29d452849032787c4c683bcf13"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/icon/icon_test.ts": {
+    "mtime": 1776247371.0323193,
+    "hash": "8b829080baf53b3be2ab55301f6a4f40"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/icon/icon.ts": {
+    "mtime": 1776247371.0346704,
+    "hash": "8d47df243b167a3752ed04f630131971"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/icon/internal/icon-styles.cssresult.ts": {
+    "mtime": 1776247371.0326877,
+    "hash": "57a4b9364012cdf3810f333be9a5c1f8"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/icon/internal/icon.ts": {
+    "mtime": 1776247371.0341978,
+    "hash": "eb8b758129b40fc33b5954114f77b434"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/sass/ext/tests.cssresult.ts": {
+    "mtime": 1776247371.0386114,
+    "hash": "6a6d91e61f5e343a59e1cf0114dcc02c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/tokens/v0_192/lib.test.cssresult.ts": {
+    "mtime": 1776247371.059044,
+    "hash": "11dcdbe311513d6be12918dbd5ea6910"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/tokens/v0_192/index.test.cssresult.ts": {
+    "mtime": 1776247371.06031,
+    "hash": "33ff9c51ca43f0a6a439ba54458cb524"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/tokens/versions/v0_192/lib.test.cssresult.ts": {
+    "mtime": 1776247371.1352305,
+    "hash": "1f8f8657eafc925811b925cd058ec569"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/tokens/versions/v0_192/index.test.cssresult.ts": {
+    "mtime": 1776247371.1405497,
+    "hash": "e80d43c376fa56e88cda3ae903f1eb77"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/main.tsx": {
+    "mtime": 1778648110.4165144,
+    "hash": "4be0d43380cf74254298680d85d0e737"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/types/results.types.ts": {
+    "mtime": 1776167237.6679113,
+    "hash": "3c35a40b769a6c3650953ab3696cb614"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/types/styles.d.ts": {
+    "mtime": 1777171758.153916,
+    "hash": "d4b73df9b41bd6aeddc94c7958c6d743"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/types/index.ts": {
+    "mtime": 1776167237.6682503,
+    "hash": "ee362800af71d22a298e1f0a80558012"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/types/branch.types.ts": {
+    "mtime": 1776167237.668709,
+    "hash": "e429c6fdaeb583a54b2b65538f3eda33"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/types/testimonial.types.ts": {
+    "mtime": 1776167237.6690774,
+    "hash": "1bb660fcda59a2a609ba81b5d2cc5fcd"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/types/is-touch-device.d.ts": {
+    "mtime": 1776934982.4983675,
+    "hash": "5b2aa6a310fc7249ed2a97b73c3bf856"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/types/team.types.ts": {
+    "mtime": 1776167237.6692755,
+    "hash": "317eb3867a56ba524a0b1a22281bbd75"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/types/course.types.ts": {
+    "mtime": 1776167237.6694882,
+    "hash": "f6222f1252f2d3320a3eb506c2862b23"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/App.tsx": {
+    "mtime": 1779223142.4680357,
+    "hash": "c70412239b5db4787a8f66aae6c7ea49"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/aspect-ratio.tsx": {
+    "mtime": 1776167237.6711752,
+    "hash": "2c1c30af12401d88f8df52c3c235ed67"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/alert-dialog.tsx": {
+    "mtime": 1776167237.6714602,
+    "hash": "fffdba13911be5058cb47ae712dd00b6"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/pagination.tsx": {
+    "mtime": 1776167237.6718543,
+    "hash": "7531a02a3c7a33d56e2f668ffd7a0d35"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/tabs.tsx": {
+    "mtime": 1776167237.6722298,
+    "hash": "e85ffdace1c1d8b2e4c748c2877b9fe2"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/card.tsx": {
+    "mtime": 1776167237.6725903,
+    "hash": "1c1ec988ee2908e66b010798309baa58"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/slider.tsx": {
+    "mtime": 1776167237.6731122,
+    "hash": "276b72ee040e75c35385b068e6c279d2"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/popover.tsx": {
+    "mtime": 1776167237.673383,
+    "hash": "3db5181d3777cead79949d25c31872aa"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/progress.tsx": {
+    "mtime": 1776167237.6739902,
+    "hash": "a21bc28c146d6e943b3204b095f17a74"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/input-otp.tsx": {
+    "mtime": 1776167237.674322,
+    "hash": "a74758e038db3ef3301c58bd0ac01753"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/chart.tsx": {
+    "mtime": 1776167237.675351,
+    "hash": "42ef994d83724dcaacbdddeaddf7b18b"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/hover-card.tsx": {
+    "mtime": 1776167237.6755683,
+    "hash": "2225b5b5db78c8dde5f0aff6aa08458c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/sheet.tsx": {
+    "mtime": 1776167237.675979,
+    "hash": "14f866a1ec7bd747f499b606f8e40cb3"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/scroll-area.tsx": {
+    "mtime": 1776167237.676164,
+    "hash": "ceed8816f5ac36bda5c970e49fed5347"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/resizable.tsx": {
+    "mtime": 1776167237.6763363,
+    "hash": "dbedce80325c20ea43ce386433e87415"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/label.tsx": {
+    "mtime": 1776167237.6765106,
+    "hash": "06608274383a01446d19b9a7ed8148c3"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/sonner.tsx": {
+    "mtime": 1776167237.6767106,
+    "hash": "ace3a6465858e1f9a441724008f2d921"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/utils.ts": {
+    "mtime": 1776167237.6770062,
+    "hash": "d9837f38cc05303254571985e3164050"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/navigation-menu.tsx": {
+    "mtime": 1776167237.6775308,
+    "hash": "c6ecd95499ba6e8fe4d8fdd16be18d24"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/use-mobile.ts": {
+    "mtime": 1776167237.6777158,
+    "hash": "21f0293b823c5298aa735fc013840cff"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/accordion.tsx": {
+    "mtime": 1776167237.677979,
+    "hash": "b70c6a9ebee8874bb4e5880da21a4f44"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/drawer.tsx": {
+    "mtime": 1776167237.6782472,
+    "hash": "eb7f3850284135ed58adeeb2205e739c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/tooltip.tsx": {
+    "mtime": 1776167237.678505,
+    "hash": "7e731b948edb6f93cf7d1841d056e5bb"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/alert.tsx": {
+    "mtime": 1776167237.6787624,
+    "hash": "162e5c706a1cd900d863fd5a19a56507"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/switch.tsx": {
+    "mtime": 1776167237.6789625,
+    "hash": "24628008ea7aeeecdd193ca7de846552"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/calendar.tsx": {
+    "mtime": 1776167237.6791456,
+    "hash": "f5fd009223e3652640773e98dcc5e59f"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/breadcrumb.tsx": {
+    "mtime": 1776167237.67935,
+    "hash": "ffaa516f002d988d1a3d2cffb2a5f175"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/radio-group.tsx": {
+    "mtime": 1776167237.6795619,
+    "hash": "25f34d829563805260a4b1234bfcac3f"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/command.tsx": {
+    "mtime": 1776167237.6799612,
+    "hash": "41e1d0c759f0327b879dfec678cfe781"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/toggle-group.tsx": {
+    "mtime": 1776167237.680158,
+    "hash": "4bc07765706ef9a2e74f97de0fc0ecc0"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/avatar.tsx": {
+    "mtime": 1776167237.6803882,
+    "hash": "c8fcbe36f44f9d68c45ce38546bdda9c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/menubar.tsx": {
+    "mtime": 1776167237.6807559,
+    "hash": "c955592a9b680c223a6aa7ba5eca19af"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/dialog.tsx": {
+    "mtime": 1776167237.6809533,
+    "hash": "d908f64f8ea05b532d292ff2cfc0f9d0"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/badge.tsx": {
+    "mtime": 1776167237.6811626,
+    "hash": "027ca1b168b5a31ec381898dd0fad1d8"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/sidebar.tsx": {
+    "mtime": 1776167237.68212,
+    "hash": "6f2411b67de8153c8890d9688b636cb0"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/table.tsx": {
+    "mtime": 1776167237.682321,
+    "hash": "2066531279772875cba1f2c269fe23b4"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/separator.tsx": {
+    "mtime": 1776167237.6825397,
+    "hash": "8011cea02bdcd4a2e666dacb82cf43d6"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/button.tsx": {
+    "mtime": 1776167237.6827383,
+    "hash": "2a2ce95de39f4f4849f70bb615492ab7"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/toggle.tsx": {
+    "mtime": 1776167237.682976,
+    "hash": "4c8cf865ef8acde9a3558cb8c21ecdc4"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/checkbox.tsx": {
+    "mtime": 1776167237.6832,
+    "hash": "513285928084159260a7f0f6735f77c8"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/collapsible.tsx": {
+    "mtime": 1776167237.6834204,
+    "hash": "fb83308ef990f33e60b56b22c6adb007"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/dropdown-menu.tsx": {
+    "mtime": 1776167237.6838322,
+    "hash": "88eba49303246bd059776e95106373e5"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/select.tsx": {
+    "mtime": 1776167237.6843119,
+    "hash": "7efb1603282cbfbd4bb752fc6aa16465"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/textarea.tsx": {
+    "mtime": 1776167237.684547,
+    "hash": "9aa996cfdc9b59dd5e9cce00e5fb8280"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/input.tsx": {
+    "mtime": 1776167237.6847441,
+    "hash": "3a32dac1fb72ab6a6893f806aac049e0"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/skeleton.tsx": {
+    "mtime": 1776167237.6849577,
+    "hash": "a71aca7b1a33fbf0e5ecd93015c7804f"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/context-menu.tsx": {
+    "mtime": 1776167237.685307,
+    "hash": "d613a68dc16ac28500406d3ed7d1cc44"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/form.tsx": {
+    "mtime": 1776167237.6855223,
+    "hash": "7bd150b19048c2af09b63dd0a260b179"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/ui/carousel.tsx": {
+    "mtime": 1776167237.685942,
+    "hash": "c89d7f94c3d16dcf2d4e34f0b8034084"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/app/components/figma/ImageWithFallback.tsx": {
+    "mtime": 1776167237.686357,
+    "hash": "cf265545a904ec8dfc50a4dd25209a79"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/auth/authApi.ts": {
+    "mtime": 1779269886.9084218,
+    "hash": "f6a1005e7aee12dc42105f60d29758fc"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/auth/types.ts": {
+    "mtime": 1779269878.1316624,
+    "hash": "4470e37dc69e1d2c359d6ef81001257e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/auth/session.ts": {
+    "mtime": 1779257074.6525102,
+    "hash": "9e550fcd4c9ddb79595c2506bf4b56b5"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/auth/parseLoginResponse.ts": {
+    "mtime": 1778648031.9139528,
+    "hash": "9183dae65646b18603894423615d8606"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/auth/AuthContext.tsx": {
+    "mtime": 1779269943.406536,
+    "hash": "f59c6ea29d23cc2fa7ced0013d58e51d"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/auth/config.ts": {
+    "mtime": 1778986991.837824,
+    "hash": "5750205af25c923060afb3f010cc8af7"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/auth/countries.ts": {
+    "mtime": 1779217797.2252727,
+    "hash": "4166e7f98248093c0e45aa3dba6512f2"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/auth/cookies.ts": {
+    "mtime": 1778648024.3145926,
+    "hash": "d1316826d502d4b1ff95d200efce6c3c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/utils/constants.ts": {
+    "mtime": 1776167237.68694,
+    "hash": "5e32eb226483c42fc98ada780660a6cf"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/components/auth/UsernameSummary.tsx": {
+    "mtime": 1779217902.3160071,
+    "hash": "eaf1e1cad11a75eacf1e913014c1beab"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/components/auth/SlideSteps.tsx": {
+    "mtime": 1779217899.7543013,
+    "hash": "a448611c54ff39759eae898cbc5d33a1"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/components/auth/OtpField.tsx": {
+    "mtime": 1779217906.1454206,
+    "hash": "2a259fd9a2aae20562dc81494f686fc2"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/components/auth/AuthLoginShell.tsx": {
+    "mtime": 1779217880.7146816,
+    "hash": "b4bd2581da0f40c4b2213dc2bdfda113"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/components/layout/Footer.tsx": {
+    "mtime": 1776167237.6895947,
+    "hash": "0fc5f53073c8545b836ccdec9b26c1fc"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/components/layout/Header.tsx": {
+    "mtime": 1778756591.5741942,
+    "hash": "948a8eac46a6c05ddfd4f03cca7a11ad"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/components/shared/AnimatedCounter.tsx": {
+    "mtime": 1776167237.690359,
+    "hash": "d0fa7a2a4e95bd168b106448aa7a9fa7"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/components/shared/TeamMemberCard.tsx": {
+    "mtime": 1776167237.690762,
+    "hash": "338720618a415346cd550d2ae783538e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/components/shared/CourseCard.tsx": {
+    "mtime": 1776167237.6910362,
+    "hash": "7f4bc9a7a5a402d323b806dc5e8ef217"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/components/shared/BranchCard.tsx": {
+    "mtime": 1776167237.6913009,
+    "hash": "b00030c3fa7f187dfc2dd9df117b4fd3"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/components/shared/DemoPopup.tsx": {
+    "mtime": 1776167237.691695,
+    "hash": "a31872df254cb951a044223c6f5409f0"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/components/shared/DemoPopupPreview.tsx": {
+    "mtime": 1776167237.6920936,
+    "hash": "8a3012b70b8f0028b6714b1994061b99"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/hooks/useCounter.ts": {
+    "mtime": 1776167237.692615,
+    "hash": "8a7cf51495f278e91d72e49523f1c586"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/hooks/useScrollTimer.ts": {
+    "mtime": 1776167237.6928804,
+    "hash": "356cd1f374047b8c8da53061a4f38b86"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/pages/home/index.tsx": {
+    "mtime": 1776178295.5984335,
+    "hash": "071cff5f0dc164733331a69b6534dad6"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/pages/home/components/DesignSystem/index.tsx": {
+    "mtime": 1778417595.281182,
+    "hash": "431ba40bc476a67c28187b2273756fc9"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/pages/card/index.tsx": {
+    "mtime": 1778417595.2685087,
+    "hash": "b9c203e56fa3d0db603f75624fe510ae"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/pages/switches/index.tsx": {
+    "mtime": 1778417595.269302,
+    "hash": "3ca6c2036f5ca87909e8b49f24301ae7"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/pages/snackbars/index.tsx": {
+    "mtime": 1778417595.270048,
+    "hash": "92bf8aa5c147e403adc8c07e44aab8f5"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/pages/textareas/index.tsx": {
+    "mtime": 1778417595.2706513,
+    "hash": "2a4e4e2a002e3b447e9ec53916a75df1"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/pages/selects/index.tsx": {
+    "mtime": 1778417595.2713192,
+    "hash": "1b8c96e63db92c1b4ff1fde34a43b07a"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/pages/radios/index.tsx": {
+    "mtime": 1778417595.2717793,
+    "hash": "69d12f395bb80bfa71058fe5a3c12394"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/pages/dividers/index.tsx": {
+    "mtime": 1778417595.2728713,
+    "hash": "32a7badb17546242e43f3fe6c427ffd6"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/pages/context-menus/index.tsx": {
+    "mtime": 1778417595.2734678,
+    "hash": "f3c5de7737d9d7d6b6d27da2bf01e268"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/pages/icon-buttons/index.tsx": {
+    "mtime": 1778417595.2741292,
+    "hash": "7ed78bb86bb240e047f8e81306e6568b"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/pages/checkboxes/index.tsx": {
+    "mtime": 1778417595.275088,
+    "hash": "46852c1f603b32dd6b32e81cbde452df"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/pages/complete-profile/index.tsx": {
+    "mtime": 1779269984.7584774,
+    "hash": "716f4717b14db71cab18cf0bd7997c2c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/pages/comboboxes/index.tsx": {
+    "mtime": 1778417595.2760189,
+    "hash": "a1563ead49074235dcfbfc36757248e1"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/pages/menus/index.tsx": {
+    "mtime": 1778417595.2765982,
+    "hash": "c44a16c2df48a24a24ba5425a5eb2780"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/pages/dialogs/index.tsx": {
+    "mtime": 1778417595.277291,
+    "hash": "9f921d88fecb4e8bcf31920a08bae844"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/pages/fields/index.tsx": {
+    "mtime": 1778417595.2779763,
+    "hash": "6aabe8fc3c2f5381084a3623fa05230a"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/pages/text/index.tsx": {
+    "mtime": 1778417595.2784798,
+    "hash": "34ed83dcb7b2348467b5341f02cdc260"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/pages/drawers/index.tsx": {
+    "mtime": 1778417595.279251,
+    "hash": "9dae10cfe023b800c382941f15584404"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/pages/tooltips/index.tsx": {
+    "mtime": 1778417595.279731,
+    "hash": "b7c9eed63b81f39d9d8bbcccc9182504"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/pages/loaders/index.tsx": {
+    "mtime": 1778417595.2803266,
+    "hash": "13fbc3e10df19e8d8cf5f1f65da92b5d"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/pages/login/index.tsx": {
+    "mtime": 1779261114.5344808,
+    "hash": "1924245d4fe7aa83e81f90eaba4f5269"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/pages/login/sms.tsx": {
+    "mtime": 1779269952.1141238,
+    "hash": "70f1144aabbcf9e7228900da31c0b9bf"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/pages/login/email.tsx": {
+    "mtime": 1779269947.1371813,
+    "hash": "249bf3019caa4890afc87893b462b58c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/index.ts": {
+    "mtime": 1778416210.6511621,
+    "hash": "6ff5ef5c15aeae5e58fe2927225595fd"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/drawer/Drawer.tsx": {
+    "mtime": 1778416210.6329172,
+    "hash": "1b67b583d02b941dbfd97792dfb7c750"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/drawer/index.ts": {
+    "mtime": 1778416210.6332557,
+    "hash": "856a97b8e3916bc02359da0baf993bcf"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/tooltip/Tooltip.tsx": {
+    "mtime": 1778416210.6339655,
+    "hash": "c8cb1d6819e5ff67c3d6ed8b069cef4f"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/tooltip/index.ts": {
+    "mtime": 1778416210.6345716,
+    "hash": "3fe34a114e40fe1b75fe0656629847d7"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/radio/index.ts": {
+    "mtime": 1778416210.6356752,
+    "hash": "7fbdd0a016beacd5c116dc57a35e45a1"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/radio/RadioItem.tsx": {
+    "mtime": 1778416210.635987,
+    "hash": "230447bdee3c551d866c5aac60d6d053"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/radio/RadioGroup.tsx": {
+    "mtime": 1778416210.636583,
+    "hash": "b142a39171e63bbd147e1d62d6c135a5"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/card/Card.tsx": {
+    "mtime": 1778416210.6370082,
+    "hash": "19a5f406527e3b2e24fea0354a1b9949"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/card/index.ts": {
+    "mtime": 1778416210.6375282,
+    "hash": "686d6a0eda0686754e448d3dd39c0aff"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/snackbar/index.ts": {
+    "mtime": 1778416210.638341,
+    "hash": "c211da439efaeb4d4aad7487a112f7c8"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/snackbar/Snackbar.tsx": {
+    "mtime": 1778416210.6390498,
+    "hash": "4dae042810fc6000b0e56e6080afb7e6"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/checkbox/index.ts": {
+    "mtime": 1778416210.6400013,
+    "hash": "fb2db55be6586b5c14b59a96f5819964"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/checkbox/Checkbox.tsx": {
+    "mtime": 1778416210.6403716,
+    "hash": "e3ae19ce60d73e076c56d6f865c69232"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/field/Field.tsx": {
+    "mtime": 1779269981.0629034,
+    "hash": "0b3d5bb207030cc7f617b6b96e41d1dc"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/field/index.ts": {
+    "mtime": 1778416210.6416266,
+    "hash": "80cc38aeeed8f5e2e1354065427469c6"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/combobox/Combobox.tsx": {
+    "mtime": 1778416210.6427689,
+    "hash": "87e478594612b7a199b41959b4690f4b"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/combobox/index.ts": {
+    "mtime": 1778416210.6429384,
+    "hash": "9bb2fa3a2925a984c873d9480c95097d"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/context-menu/ContextMenu.tsx": {
+    "mtime": 1778416210.643486,
+    "hash": "40f553f51d39554928f033a060255aae"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/context-menu/index.ts": {
+    "mtime": 1778416210.6437967,
+    "hash": "b7313a3845ec627a5e73a4a8e4a18c10"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/dialog/Dialog.tsx": {
+    "mtime": 1778416210.644398,
+    "hash": "083d5d8eeb361af0ec0c7e4ae32cf25f"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/dialog/index.ts": {
+    "mtime": 1778416210.6446514,
+    "hash": "59d9b3a32165d37307c39839e25f7d8a"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/popover/Popover.tsx": {
+    "mtime": 1778416210.6449935,
+    "hash": "0e07084821f892c288bab316723262ea"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/popover/index.ts": {
+    "mtime": 1778416210.6452117,
+    "hash": "bcace898f8331e062d8f2c5c0e94ea2b"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/textarea/index.ts": {
+    "mtime": 1778416210.6459363,
+    "hash": "5732cbd4b33640b4a559616004ff2635"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/textarea/TextArea.tsx": {
+    "mtime": 1778416210.6462333,
+    "hash": "6baafd86db4c559e1548228c4b9631f6"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/button/index.ts": {
+    "mtime": 1778416210.6471765,
+    "hash": "c2db057162b9bec3c2035add4d0df34f"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/button/Button.tsx": {
+    "mtime": 1778756438.622385,
+    "hash": "8efde7e735e0af445712ed75dd2b35f9"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/loader/Loader.tsx": {
+    "mtime": 1778416210.6478393,
+    "hash": "34a5997145b14510a89440664e057048"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/loader/index.ts": {
+    "mtime": 1778416210.6482189,
+    "hash": "20ea198f766a99b02d161c8b0655e732"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/divider/Divider.tsx": {
+    "mtime": 1778416210.6486285,
+    "hash": "e5506e8de9e9d7e1534a065ff8cf0f2e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/divider/index.ts": {
+    "mtime": 1778416210.6489863,
+    "hash": "08d95fb148a5df6f84644cb1efb382ee"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/menu/Menu.tsx": {
+    "mtime": 1778416210.6497595,
+    "hash": "3954fc09807e26ef11be3e854a57c1d5"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/menu/index.ts": {
+    "mtime": 1778416210.6499279,
+    "hash": "5d310769b25fee45a7e102ff501dfe95"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/switch/Switch.tsx": {
+    "mtime": 1778416210.6502628,
+    "hash": "8e2d7bae262f2bb14176bc41170c122e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/switch/index.ts": {
+    "mtime": 1778416210.650434,
+    "hash": "40f1a502eab6f1038816f9f414cfc7f4"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/checkbox-group/CheckboxGroup.tsx": {
+    "mtime": 1778416210.651901,
+    "hash": "3e085b4d05dd2dedd0b77e5163f7f95c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/checkbox-group/index.ts": {
+    "mtime": 1778416210.6521502,
+    "hash": "23d9c3add42c35a414a7280dfa9e9b19"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/text/index.ts": {
+    "mtime": 1778416210.6526494,
+    "hash": "a5194e5170946cc52e059a01bbbbe8dd"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/text/Text.tsx": {
+    "mtime": 1778416210.6528096,
+    "hash": "dd77742e12d9c8ddc2f5b3908776acc0"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/select/index.ts": {
+    "mtime": 1778416210.6533878,
+    "hash": "630d9330f9a7d887906eecb5cb7e40e2"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/select/Select.tsx": {
+    "mtime": 1778416210.6536636,
+    "hash": "0f4db8397b4a397bdbc4bdc42220f9af"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/icon/Icon.tsx": {
+    "mtime": 1778416210.6540325,
+    "hash": "42be8d892a0b658b22d2e876f8aa36c7"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/icon/index.ts": {
+    "mtime": 1778416210.654592,
+    "hash": "6c32dc11ce03c8c29c32701703890855"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/icon-button/IconButton.tsx": {
+    "mtime": 1778444849.6792855,
+    "hash": "b92f3b37e565c0d684308fba98335e4a"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/icon-button/index.ts": {
+    "mtime": 1778416210.6559794,
+    "hash": "102752e71b4291d35143d46526924304"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/types/is-touch-device.d.ts": {
+    "mtime": 1778417590.2404006,
+    "hash": "5b2aa6a310fc7249ed2a97b73c3bf856"
+  },
+  "/Users/admin/Documents/p_p/freelancing/FIGMA-MAKE-GUIDELINES.md": {
+    "mtime": 1778426305.6890268,
+    "hash": "f669f310467173cd129a1b640826da11"
+  },
+  "/Users/admin/Documents/p_p/freelancing/README.md": {
+    "mtime": 1776913207.5699656,
+    "hash": "5d9fa31958c98321ac26986826b18c0b"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/sudoku/index.html": {
+    "mtime": 1778444189.0,
+    "hash": "57103ef5fbccd2ef429696982d517b72"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/sudoku/README.md": {
+    "mtime": 1778444189.0,
+    "hash": "ee13565f4875dc076528b9e6fe6dc27e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/index.html": {
+    "mtime": 1776586003.7497976,
+    "hash": "77933f6b376c18efcf44e820c0dd77d1"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/CSS-LEARNING.md": {
+    "mtime": 1776841960.4974601,
+    "hash": "b312a03694f9046e5a358241661796f9"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/CODE_OF_CONDUCT.md": {
+    "mtime": 1776247370.368632,
+    "hash": "07686b79f7baa36b067d120cbdcf3dd8"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/CHANGELOG.md": {
+    "mtime": 1776247370.3842008,
+    "hash": "097a72e1c66e8dc22a2107dafdb1a27c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/README.md": {
+    "mtime": 1776247370.8526847,
+    "hash": "83ffd8f2475c6aa44022ca15dcb6b135"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/CONTRIBUTING.md": {
+    "mtime": 1776247370.9063387,
+    "hash": "e8106070a04dcb04c5c4d70ddd237ce5"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/SECURITY.md": {
+    "mtime": 1776247371.5154245,
+    "hash": "ecb9a28a9ef03a3cef41b875ad338188"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/labs/README.md": {
+    "mtime": 1776247370.3212786,
+    "hash": "3b405ffa43117bba236c2cb51a990261"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/migrations/v2/README.md": {
+    "mtime": 1776247370.3693788,
+    "hash": "e2344ec5d01173b7efede43b6e95986a"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/stories/index.html": {
+    "mtime": 1776247370.6109383,
+    "hash": "8589258c28136c8fe384f67f18f08751"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/site/index.html": {
+    "mtime": 1776247370.6174848,
+    "hash": "1dce21b5d661707758a57351f08732f8"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/site/_includes/default.html": {
+    "mtime": 1776247370.6169484,
+    "hash": "84e512b0b345bfc1f78100005399a5c5"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/site/_includes/layouts/components.html": {
+    "mtime": 1776247370.6171958,
+    "hash": "fb319c19fd4306b462ef9186df578fd1"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/site/_includes/layouts/docs.html": {
+    "mtime": 1776247370.6173375,
+    "hash": "7465aab5eb97e7e78fb1594b85b0a352"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/site/stories/stories.html": {
+    "mtime": 1776247370.6196349,
+    "hash": "665eb0477dbc7dae0424f26b2a566acf"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/internal/README.md": {
+    "mtime": 1776247370.6393046,
+    "hash": "f8f863ed881755c3229ac2053ca1d16a"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/intro.md": {
+    "mtime": 1776247370.6712098,
+    "hash": "9f66e75f75de3db25043312f1494667c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/quick-start.md": {
+    "mtime": 1776247370.673078,
+    "hash": "d7d3d9377e32b68244fbbdb84996c8a0"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/support.md": {
+    "mtime": 1776247370.6736443,
+    "hash": "cfad8141a2d941793793f4dff719ebbb"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/roadmap.md": {
+    "mtime": 1776247370.7938604,
+    "hash": "56bfa8055df09de629d23204156e5257"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/size.md": {
+    "mtime": 1776247370.7949162,
+    "hash": "1f3cde1bf977ff0313d43f9ed7f96916"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/radio.md": {
+    "mtime": 1776247370.6741476,
+    "hash": "884676be7db6f5001a8b89ecad45d560"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/fab.md": {
+    "mtime": 1776247370.674476,
+    "hash": "1115a731e23ad097876b0fc491f7a736"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/slider.md": {
+    "mtime": 1776247370.6747649,
+    "hash": "6a99e85e1db2ccd5b2783ab3830970dd"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/menu.md": {
+    "mtime": 1776247370.675071,
+    "hash": "e515af8e52ddb45617ff357cd9dc821c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/button.md": {
+    "mtime": 1776247370.6755097,
+    "hash": "bc286a153bde7f852e80ed8b52adc4de"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/focus-ring.md": {
+    "mtime": 1776247370.7302792,
+    "hash": "9d696d42965a461e88e6b5f75ad46f31"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/checkbox.md": {
+    "mtime": 1776247370.730889,
+    "hash": "86dbe172d67a536f5f8f336257edd747"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/ripple.md": {
+    "mtime": 1776247370.7314093,
+    "hash": "2b13ff8fe9cb2d9e5c63575bc57a9fb9"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/progress.md": {
+    "mtime": 1776247370.732124,
+    "hash": "cd681ab51d883cad14a04f094e8146bf"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/select.md": {
+    "mtime": 1776247370.7326224,
+    "hash": "7a65a8942a4efebfc5edfb2bca546ed4"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/list.md": {
+    "mtime": 1776247370.7334003,
+    "hash": "dffbc328a908cb405fe707efdd1106d6"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/text-field.md": {
+    "mtime": 1776247370.7344673,
+    "hash": "d01b004a23f19ef70f90de9a85cfc95f"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/dialog.md": {
+    "mtime": 1776247370.7373695,
+    "hash": "3323a279372df4f752bcf58514a21db2"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/tabs.md": {
+    "mtime": 1776247370.7406547,
+    "hash": "56e5e9b9b8900c93b5c943ebbff763ec"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/icon.md": {
+    "mtime": 1776247370.7768507,
+    "hash": "a380599959c02023560f2226c549bad3"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/elevation.md": {
+    "mtime": 1776247370.7773283,
+    "hash": "42dcd29848771a6ead5c80de1f6a3f0e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/switch.md": {
+    "mtime": 1776247370.7783957,
+    "hash": "11f1de7e32ba495ffc18982af101366b"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/chip.md": {
+    "mtime": 1776247370.7801976,
+    "hash": "e64b1d213f25aed85b5588dba6b08f5d"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/icon-button.md": {
+    "mtime": 1776247370.781945,
+    "hash": "8fe85a3841b05e17724c6df6fc610b25"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/divider.md": {
+    "mtime": 1776247370.7821436,
+    "hash": "3248a38fbba69abef966d75ff7c98e0f"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/fab/usage-without-icon.html": {
+    "mtime": 1776247370.7412672,
+    "hash": "d38f0d680a6a2094d3484b92d2c191b9"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/fab/extended-fabs.html": {
+    "mtime": 1776247370.7416234,
+    "hash": "6cb3eb1c4e4a2c66b94e99eb675a8b50"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/fab/usage-branded-sizes.html": {
+    "mtime": 1776247370.7422276,
+    "hash": "7984793340021da4e215ab06e2bcbed5"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/fab/usage-branded-extended.html": {
+    "mtime": 1776247370.7424207,
+    "hash": "5bdba4f3e2d46f7adff50168e8d569c4"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/fab/usage-color.html": {
+    "mtime": 1776247370.7425954,
+    "hash": "2109ad1302839bdf3cbed55e11ceedca"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/fab/theming-branded.html": {
+    "mtime": 1776247370.7427814,
+    "hash": "ffd76b6dd3a37d86da117ae49a7c3733"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/fab/usage-lowered.html": {
+    "mtime": 1776247370.742958,
+    "hash": "f0229152434cc2632996fa909b779541"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/fab/theming-fab.html": {
+    "mtime": 1776247370.7431245,
+    "hash": "de5bd0b6669041303a8649bdc75fb99e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/fab/usage-branded.html": {
+    "mtime": 1776247370.7433023,
+    "hash": "99e096e238352ddaceb27b1f1d52d12c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/fab/usage-sizes.html": {
+    "mtime": 1776247370.7435677,
+    "hash": "3070c44008c192c66c227c576bc887ac"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/fab/usage-extended.html": {
+    "mtime": 1776247370.7437558,
+    "hash": "b74d85aa2ed5b193656a831af0936e5b"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/fab/usage-fab.html": {
+    "mtime": 1776247370.744264,
+    "hash": "90f277cb7b4203c967dcc9f2f529a540"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/fab/fabs.html": {
+    "mtime": 1776247370.7448373,
+    "hash": "852678887fd4c0469e4b9fa776c0bc5b"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/fab/theming-extended.html": {
+    "mtime": 1776247370.7451243,
+    "hash": "171a2e786975b63478dba16cd92f6afe"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/checkbox/theming.html": {
+    "mtime": 1776247370.745594,
+    "hash": "22d3901738e38418aef9d527e3e0302c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/checkbox/usage-label.html": {
+    "mtime": 1776247370.7459245,
+    "hash": "949688cab61e458967d9529ede5e4fb3"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/checkbox/usage.html": {
+    "mtime": 1776247370.746223,
+    "hash": "c2db142d25e277f8088f07c784de86f6"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/textfield/usage-icons.html": {
+    "mtime": 1776247370.7466636,
+    "hash": "9d446c5981ecd4cdebb93a7b16e001f0"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/textfield/usage-textarea.html": {
+    "mtime": 1776247370.7469761,
+    "hash": "324d2db36ccb3f5978171a6e2de23fcb"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/textfield/usage-char-counter.html": {
+    "mtime": 1776247370.747492,
+    "hash": "c7983669080c7347727086f9acce36c0"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/textfield/usage-type.html": {
+    "mtime": 1776247370.7478554,
+    "hash": "171f7d10818b1fd56781e8266227e975"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/textfield/usage-prefix.html": {
+    "mtime": 1776247370.748415,
+    "hash": "50bb0975cde6e5e98675b3b38991abac"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/textfield/usage-supporting-text.html": {
+    "mtime": 1776247370.7487507,
+    "hash": "763c34a49667b8f5635c9169734d1971"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/textfield/theming-filled.html": {
+    "mtime": 1776247370.7490406,
+    "hash": "416c68078fd0b2a0621fca6a817f2dd6"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/textfield/usage-label.html": {
+    "mtime": 1776247370.7506728,
+    "hash": "84c45397f64cca952d7f26d7f45275d3"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/textfield/usage.html": {
+    "mtime": 1776247370.7515912,
+    "hash": "8fccff446d121f860527cefeeaa7116e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/textfield/theming-outlined.html": {
+    "mtime": 1776247370.7520618,
+    "hash": "ccfa115b486e61bb159cd80b03e81400"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/list/theming-list.html": {
+    "mtime": 1776247370.752908,
+    "hash": "81444db7a7aec020650f0f41f875b46c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/list/usage-icon.html": {
+    "mtime": 1776247370.7532172,
+    "hash": "592f6eee11608046d7449c8f2a95849c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/list/theming-icon.html": {
+    "mtime": 1776247370.7534783,
+    "hash": "441f616e4db91fbdf3918c3b693e040a"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/list/theming-image.html": {
+    "mtime": 1776247370.753876,
+    "hash": "782c69759cf714272a92f78d0e34e6f8"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/list/usage-image.html": {
+    "mtime": 1776247370.7542775,
+    "hash": "94640a4b8c32d3d25ed9ed4ad6bf8e1e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/list/usage.html": {
+    "mtime": 1776247370.7546892,
+    "hash": "c1f69f1e60386c00d5f88e772cb95fbc"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/menu/usage-document.html": {
+    "mtime": 1776247370.7554865,
+    "hash": "2f53610372954884109da487886e444c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/menu/usage-fixed.html": {
+    "mtime": 1776247370.755807,
+    "hash": "fb18e18ba56d84e3ef2a5e7856522e1a"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/menu/usage-popover.html": {
+    "mtime": 1776247370.7563002,
+    "hash": "7513f00f50e5ec9a91402138e25a615c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/menu/theming.html": {
+    "mtime": 1776247370.7567637,
+    "hash": "446da682ed6c6c57367b8331ecc73541"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/menu/usage-submenu.html": {
+    "mtime": 1776247370.75746,
+    "hash": "212342fec84eed8589dd0b3cedfc0368"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/menu/usage.html": {
+    "mtime": 1776247370.7597404,
+    "hash": "6f1d3912626c5aff5684af4ff1e17b70"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/iconbutton/buttons.html": {
+    "mtime": 1776247370.7608051,
+    "hash": "9cc5dcff676f32d1c3d3b12df66b7829"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/iconbutton/theming-standard.html": {
+    "mtime": 1776247370.7611816,
+    "hash": "c7b9e819f8e1d181ed50ce4951e8d4ba"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/iconbutton/theming-filled-tonal.html": {
+    "mtime": 1776247370.7614553,
+    "hash": "9a8d66de226766bc149bdce41a6d2257"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/iconbutton/usage-standard.html": {
+    "mtime": 1776247370.7617583,
+    "hash": "597cd9035000797e529016a796c7f231"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/iconbutton/usage-toggle.html": {
+    "mtime": 1776247370.764758,
+    "hash": "7cf92c72f45d37dbc463f430f48400fd"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/iconbutton/usage-filled.html": {
+    "mtime": 1776247370.765771,
+    "hash": "2849b750d31b0208087f6a5fae0d473f"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/iconbutton/theming-filled.html": {
+    "mtime": 1776247370.7664335,
+    "hash": "4a878f52ffe9fddd4f9db59981c11f5b"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/iconbutton/usage-filled-tonal.html": {
+    "mtime": 1776247370.7670164,
+    "hash": "039bf3cb001db3cbc7656242beeb62df"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/iconbutton/usage-outlined.html": {
+    "mtime": 1776247370.7685668,
+    "hash": "37c270ed03e771eb80030d4d87532127"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/iconbutton/usage.html": {
+    "mtime": 1776247370.771023,
+    "hash": "5da6ce1dfd7f0b352caac8d39696881e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/iconbutton/theming-outlined.html": {
+    "mtime": 1776247370.7725732,
+    "hash": "3bff1c8154646e6cb5fe715ac41427ea"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/select/theming-filled.html": {
+    "mtime": 1776247370.7744908,
+    "hash": "ce30fa8e5bd5b3def890d4adbe22f0b1"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/select/usage.html": {
+    "mtime": 1776247370.7749305,
+    "hash": "68186a2bb6f962e6754599a249bfe52c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/figures/select/theming-outlined.html": {
+    "mtime": 1776247370.775312,
+    "hash": "30837039dfe5815e9622d9fe53786f69"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/theming/shape.md": {
+    "mtime": 1776247370.783604,
+    "hash": "b9bc08effab710f318a0719d5245620b"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/theming/README.md": {
+    "mtime": 1776247370.789296,
+    "hash": "cce5c1bcec8600d7888e150b73ae0271"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/theming/color.md": {
+    "mtime": 1776247370.791218,
+    "hash": "083edfb443d1662ad2125126ad1abb95"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/theming/typography.md": {
+    "mtime": 1776247370.7921712,
+    "hash": "b1bbf4923bdb5e30340ae571ef532799"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/sass/sass-ext.md": {
+    "mtime": 1776247370.7957923,
+    "hash": "b70ca853077d2a9a59ae18371643fa7b"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/switch/internal/README.md": {
+    "mtime": 1776247371.0020032,
+    "hash": "2eaaa767da5a11249208cb2da7720e77"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/tokens/versions/README.md": {
+    "mtime": 1776247371.4859908,
+    "hash": "5b40465ccb3b3248afe305097897c0e7"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/src/imports/pasted_text/figma-make-prompt.md": {
+    "mtime": 1776167237.6878812,
+    "hash": "eee35aaed240c1d8b2ff99e57064d437"
+  },
+  "/Users/admin/Documents/p_p/freelancing/packages/ui/src/ui/switch/anatomy.md": {
+    "mtime": 1778416210.6508427,
+    "hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/catalog/site/images/favicon.svg": {
+    "mtime": 1776247370.6189592,
+    "hash": "c4b283d0d64c9031c0e1b568bbc89e55"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/images/material-web.gif": {
+    "mtime": 1776247370.664001,
+    "hash": "d5cf4361dd4b0e00ef86a5bf76dac63c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/images/what-is-material.webp": {
+    "mtime": 1776247370.6665318,
+    "hash": "69bf8f20e9e4ff3c49837149a66c713a"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/tabs/hero.webp": {
+    "mtime": 1776247370.6761928,
+    "hash": "5365ab5f0d17951df91aa07407bd4a5b"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/tabs/scrollable.webp": {
+    "mtime": 1776247370.6764855,
+    "hash": "b4dce6a589c063bf53a2ce94fb9afdc8"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/tabs/theming.webp": {
+    "mtime": 1776247370.6767263,
+    "hash": "3d397bf58746ecc296103c4fbb501f66"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/tabs/usage.webp": {
+    "mtime": 1776247370.6774228,
+    "hash": "f96bd38b8e20d2b80c7260cca823863c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/radio/hero.webp": {
+    "mtime": 1776247370.6791708,
+    "hash": "22881b63ae0afa2b02eea2ff6da13a0b"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/progress/hero.webp": {
+    "mtime": 1776247370.6821587,
+    "hash": "2d3cfba23698f3e132c490cbf2f3a293"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/progress/theming-circular.webp": {
+    "mtime": 1776247370.6832995,
+    "hash": "8973e0249b05eeb01e060925d026b82d"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/progress/theming-linear.webp": {
+    "mtime": 1776247370.6835122,
+    "hash": "8b06278579ce8497ed9b16e6e00cabdd"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/chips/hero.webp": {
+    "mtime": 1776247370.6866775,
+    "hash": "f83fde9329bc3cb5864a7b12b602208f"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/fab/extended-fabs.webp": {
+    "mtime": 1776247370.687144,
+    "hash": "7c4068713fc480c7d8608928ec6755e7"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/fab/usage-without-icon.webp": {
+    "mtime": 1776247370.6873035,
+    "hash": "d0c08d212d43f238b583fb24bafba2a9"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/fab/hero.webp": {
+    "mtime": 1776247370.6876068,
+    "hash": "32deb1913a9bc985ecc2e79c4bd43ddb"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/fab/theming-branded.webp": {
+    "mtime": 1776247370.6877763,
+    "hash": "2c3b763290ea02c1702b2e79debaaacb"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/fab/small-fabs.webp": {
+    "mtime": 1776247370.6879406,
+    "hash": "5e4829240b9d095ca32bbe919f79ffb3"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/fab/usage-color.webp": {
+    "mtime": 1776247370.6881278,
+    "hash": "d9ccf17347d6899ce734504e0b5f3acf"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/fab/usage-branded-extended.webp": {
+    "mtime": 1776247370.6883357,
+    "hash": "a86f6a49dba94e36c56ba8cf88967eb0"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/fab/usage-branded-sizes.webp": {
+    "mtime": 1776247370.6888816,
+    "hash": "05e0fce87cc3f933bcec70a27419a377"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/fab/theming-fab.webp": {
+    "mtime": 1776247370.68941,
+    "hash": "b42634e7095e26b7e0b26bbeba6df275"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/fab/usage-lowered.webp": {
+    "mtime": 1776247370.6901345,
+    "hash": "a21e18b185765acf4c652033b62aecab"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/fab/usage-branded.webp": {
+    "mtime": 1776247370.6905441,
+    "hash": "ae1c12087e22754b0caf653307a8f0ad"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/fab/usage-sizes.webp": {
+    "mtime": 1776247370.6919408,
+    "hash": "e8a19f4d3b89c17cde38209e52e9046e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/fab/fabs.webp": {
+    "mtime": 1776247370.6941597,
+    "hash": "b5ad204e0a215070ab94f100eb580541"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/fab/usage-fab.webp": {
+    "mtime": 1776247370.694384,
+    "hash": "be004eef121d62e5dbed28e480a89680"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/fab/usage-extended.webp": {
+    "mtime": 1776247370.6946118,
+    "hash": "3f2ac95d0319ba1e0a65767b43ab1041"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/fab/theming-extended.webp": {
+    "mtime": 1776247370.6948287,
+    "hash": "0eeb840b9fbfa633295dde5da0354d80"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/checkbox/hero.webp": {
+    "mtime": 1776247370.6960692,
+    "hash": "b3f96a7c0bc70d9f9066d7d85c2cf018"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/checkbox/theming.webp": {
+    "mtime": 1776247370.6962645,
+    "hash": "ad437efda46da88edffd8a45e1207469"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/checkbox/usage.webp": {
+    "mtime": 1776247370.696566,
+    "hash": "ef484921a713e29900d69c2fa46bc62a"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/checkbox/usage-label.webp": {
+    "mtime": 1776247370.6967945,
+    "hash": "05f239b4fbe75edab940f3465eaf4733"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/textfield/usage-icons.webp": {
+    "mtime": 1776247370.6978748,
+    "hash": "c4fdaf7fe3c4f74a2b773fadbdb32800"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/textfield/hero.webp": {
+    "mtime": 1776247370.6997108,
+    "hash": "95d3a4baa488c212a3389bb06448ee97"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/textfield/usage-prefix.webp": {
+    "mtime": 1776247370.6998942,
+    "hash": "b6e3c07bbb2e4d8512d537c836b570cd"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/textfield/usage-type.webp": {
+    "mtime": 1776247370.7000713,
+    "hash": "efddd83cc328598832a41486218a1f15"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/textfield/usage-textarea.webp": {
+    "mtime": 1776247370.700241,
+    "hash": "41e2e5afbdd2e103cd528fc4ea1c6ba3"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/textfield/usage-char-counter.webp": {
+    "mtime": 1776247370.7004178,
+    "hash": "e752e8976d14d3f866a742855cd716f2"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/textfield/usage-supporting-text.webp": {
+    "mtime": 1776247370.7014909,
+    "hash": "5dd4150c3667a7fc2a0345285b6f8684"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/textfield/theming-filled.webp": {
+    "mtime": 1776247370.701719,
+    "hash": "424904fb36b01943354188258f97d8f4"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/textfield/theming-outlined.webp": {
+    "mtime": 1776247370.7019005,
+    "hash": "b1b9e9e5a492741f6dce29277b7ab989"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/textfield/usage.webp": {
+    "mtime": 1776247370.7020807,
+    "hash": "19c3f8c1b56b243f62da22ca5e9e06b4"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/textfield/usage-label.webp": {
+    "mtime": 1776247370.7029088,
+    "hash": "57dd233ba30751e556239e905099de99"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/slider/hero.webp": {
+    "mtime": 1776247370.7049458,
+    "hash": "2e567a3fd06b4abd7949de6c8e5e533c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/slider/theming.webp": {
+    "mtime": 1776247370.7051249,
+    "hash": "6954f0f149c1d09bdd6013782468b1c3"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/ripple/theming.gif": {
+    "mtime": 1776247370.7056296,
+    "hash": "dd466349b9b957939f61958d4c708a68"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/ripple/usage.gif": {
+    "mtime": 1776247370.7060208,
+    "hash": "eb661c4d778500e4b0f75fa08b2487bd"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/ripple/hero.gif": {
+    "mtime": 1776247370.706496,
+    "hash": "90a73f7eab27529a3c0266dd38200784"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/ripple/usage-unbounded.gif": {
+    "mtime": 1776247370.7069826,
+    "hash": "4fd280403987111c8542c77c6c6b4ff1"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/focus/theming.gif": {
+    "mtime": 1776247370.7075229,
+    "hash": "ddb02503c6f6e885174eea0ae74d8402"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/focus/usage.gif": {
+    "mtime": 1776247370.7079098,
+    "hash": "ad7054c5e63ca37cdab6fae2b63023a6"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/focus/usage-inward.gif": {
+    "mtime": 1776247370.708296,
+    "hash": "eadaa810d80b2ef6ae92126b5b9d5082"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/focus/hero.gif": {
+    "mtime": 1776247370.708752,
+    "hash": "e7ce5ceb8a2372558d9620110a84e1cb"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/focus/usage-animation.gif": {
+    "mtime": 1776247370.7090876,
+    "hash": "cc524c127c3632770e475b7cca2d5842"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/dialog/hero.webp": {
+    "mtime": 1776247370.7094982,
+    "hash": "30313b0431f1eef581b30968c5570578"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/button/usage-icon.webp": {
+    "mtime": 1776247370.7099879,
+    "hash": "cff85f2da0f93e91406549e694d78c83"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/button/hero.webp": {
+    "mtime": 1776247370.7107787,
+    "hash": "b4bd052456e1a0bbb06ca9d8563970f1"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/button/theming-elevated-button.webp": {
+    "mtime": 1776247370.7113106,
+    "hash": "c5f8795278cc985b21bbffd4089ac65e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/button/usage-filled-tonal-button.webp": {
+    "mtime": 1776247370.7116911,
+    "hash": "f0a5742bd6baf3390e60d26d87b7823f"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/button/theming-outlined-button.webp": {
+    "mtime": 1776247370.7122478,
+    "hash": "374a0dc85fbdba5534b1660feb73d371"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/button/theming-filled-tonal-button.webp": {
+    "mtime": 1776247370.712539,
+    "hash": "03af073f8dc0bb317ae5ddac4817de7f"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/button/usage-elevated-button.webp": {
+    "mtime": 1776247370.7127466,
+    "hash": "ec34ed5d954f5c6cc66521ca4e337557"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/button/usage-text-button.webp": {
+    "mtime": 1776247370.712955,
+    "hash": "7458356590414cc8b60639fc282fcd04"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/button/usage-outlined-button.webp": {
+    "mtime": 1776247370.7131255,
+    "hash": "2395011d3ebc5d58f916d99ecaad4eaa"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/button/types.webp": {
+    "mtime": 1776247370.713432,
+    "hash": "56592ed82cd08c1092683071133dbccf"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/button/theming-text-button.webp": {
+    "mtime": 1776247370.7136037,
+    "hash": "f0921a922a5f66aff09615ea07172bc2"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/button/theming-filled-button.webp": {
+    "mtime": 1776247370.713782,
+    "hash": "22f9d73902143a3ed0bb86613045d5e6"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/button/usage-filled-button.webp": {
+    "mtime": 1776247370.7139595,
+    "hash": "b93a1f78723fa6533314ae563f5cbbed"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/button/usage.webp": {
+    "mtime": 1776247370.7141237,
+    "hash": "8bd856727c519e5f1078ba001fef1698"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/list/usage-icon.webp": {
+    "mtime": 1776247370.7144172,
+    "hash": "b697560951fc78a344ec4a7a178249d1"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/list/theming-list.webp": {
+    "mtime": 1776247370.7146344,
+    "hash": "bc65beb21897ab2791cdb571b74ed57a"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/list/hero.webp": {
+    "mtime": 1776247370.7150042,
+    "hash": "e52d2f630a707b4120a9cb477e252ddf"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/list/theming-icon.webp": {
+    "mtime": 1776247370.7152104,
+    "hash": "ed684e4bd6d0137e831b9159433190ff"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/list/theming-image.webp": {
+    "mtime": 1776247370.7155428,
+    "hash": "c0c8225f8533e1565e2d34b8042743e3"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/list/usage-image.webp": {
+    "mtime": 1776247370.7159152,
+    "hash": "0803905ec1727f8dd8cd1d176970dd59"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/list/usage.webp": {
+    "mtime": 1776247370.716237,
+    "hash": "2d34445e56cb63f2435be520b7cde600"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/divider/usage-inset-start.webp": {
+    "mtime": 1776247370.7165222,
+    "hash": "5b39471aa8a5633b7a71ad728b30c733"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/divider/hero.webp": {
+    "mtime": 1776247370.7168427,
+    "hash": "0e4eb9dcda639b568e5fb6996128ae47"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/divider/usage-inset.webp": {
+    "mtime": 1776247370.717009,
+    "hash": "e023108ba82544bfb1e2d4dab444f320"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/divider/theming.webp": {
+    "mtime": 1776247370.7171726,
+    "hash": "f5fe4fed838b525af4b4c550e3fc7422"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/divider/usage.webp": {
+    "mtime": 1776247370.7173316,
+    "hash": "0f2830f19d2ed727555c45acb57b93b9"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/menu/hero.webp": {
+    "mtime": 1776247370.7179444,
+    "hash": "2f304a3f9dfd6e12822e2c7b969bcd3e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/menu/usage-fixed.webp": {
+    "mtime": 1776247370.718152,
+    "hash": "a472c6330ade761c22243e8fccb2e63a"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/menu/usage-document.webp": {
+    "mtime": 1776247370.718355,
+    "hash": "d5ff0ae980ca80fded5d6c16bc2e6955"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/menu/theming.webp": {
+    "mtime": 1776247370.7185426,
+    "hash": "53b5c05e4c25416dc2d0d3bc7080ce3a"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/menu/usage-popover.webp": {
+    "mtime": 1776247370.7188437,
+    "hash": "f4dde3c5fed806a33328463556189350"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/menu/usage-submenu.webp": {
+    "mtime": 1776247370.719043,
+    "hash": "01a69c52ef32312cde96ec0fdfabe093"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/menu/usage.webp": {
+    "mtime": 1776247370.719241,
+    "hash": "7929a875185cab91c0a34088c673991d"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/elevation/hero.webp": {
+    "mtime": 1776247370.7197394,
+    "hash": "14b8e65bd6bdf800e4d61ccef0e9e82e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/elevation/theming.webp": {
+    "mtime": 1776247370.720003,
+    "hash": "7754bc11f9a1df86b6324795e7bd52d8"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/elevation/usage-animation.gif": {
+    "mtime": 1776247370.7204616,
+    "hash": "3bccca456ece3e53425b38c279c9e2cb"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/elevation/usage.webp": {
+    "mtime": 1776247370.7207375,
+    "hash": "cdfde68c1b17fcf8b68924afd86d26e1"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/switch/hero.webp": {
+    "mtime": 1776247370.721418,
+    "hash": "9fe5e030eb4b6e43543ff9f735358bed"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/iconbutton/theming-standard.webp": {
+    "mtime": 1776247370.721703,
+    "hash": "735dab9593128d7e1a44d95263d46cca"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/iconbutton/buttons.webp": {
+    "mtime": 1776247370.721897,
+    "hash": "8a870b3117244e20e1303058d8c327ba"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/iconbutton/hero.webp": {
+    "mtime": 1776247370.72226,
+    "hash": "37fa4e2345e12ae1f49cf72334e269eb"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/iconbutton/usage-standard.webp": {
+    "mtime": 1776247370.7224383,
+    "hash": "81d308aa00983988d4b797f4fecdaaa4"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/iconbutton/theming-filled-tonal.webp": {
+    "mtime": 1776247370.7225952,
+    "hash": "c15e00432cb1914f6a84940588b1a69b"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/iconbutton/usage-filled.webp": {
+    "mtime": 1776247370.7227612,
+    "hash": "d3cb356707adce037edc5e50d8d07856"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/iconbutton/usage-toggle.webp": {
+    "mtime": 1776247370.7229695,
+    "hash": "4b2c09b0be3c802c3a5d12a6ddd3bb3b"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/iconbutton/usage-filled-tonal.webp": {
+    "mtime": 1776247370.7232141,
+    "hash": "80748beab3b69e49688aef5e9dc16fd3"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/iconbutton/theming-filled.webp": {
+    "mtime": 1776247370.723383,
+    "hash": "7fb358f81871e0594b189bb25347bb00"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/iconbutton/usage-outlined.webp": {
+    "mtime": 1776247370.7235472,
+    "hash": "e90b5f9808d3b133b204b56be613faf0"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/iconbutton/theming-outlined.webp": {
+    "mtime": 1776247370.7237067,
+    "hash": "d6003094d666a0c6185cfbaa9d71a912"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/iconbutton/usage.webp": {
+    "mtime": 1776247370.723859,
+    "hash": "b763aff512dd311d8e2677c5f3f5efa9"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/select/hero.webp": {
+    "mtime": 1776247370.724148,
+    "hash": "92898c86369a6b5648e1077b6c6a396a"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/select/theming-filled.webp": {
+    "mtime": 1776247370.7244055,
+    "hash": "697af17c97a1250f906745e080bff623"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/select/theming-outlined.webp": {
+    "mtime": 1776247370.724707,
+    "hash": "f8f982c3eb84ca677ae7d66f6f499ebf"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/select/usage.webp": {
+    "mtime": 1776247370.7250214,
+    "hash": "33539f2f487c09a4307ea66c9b73b4c7"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/icon/usage_sharp.webp": {
+    "mtime": 1776247370.7254593,
+    "hash": "218a7efdd3bb62af723baeff4c7447e2"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/icon/usage_rounded.webp": {
+    "mtime": 1776247370.7256901,
+    "hash": "25c4d3420c1807d7162fbb6771a9c1e7"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/icon/usage_filled.webp": {
+    "mtime": 1776247370.7260609,
+    "hash": "a09e33aac83c3e810d0854c9d61f0d2c"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/icon/theming.webp": {
+    "mtime": 1776247370.7262971,
+    "hash": "f120d3c3d9542dec314f0d52fa64ce98"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/icon/hero.gif": {
+    "mtime": 1776247370.727925,
+    "hash": "1e1eb1bb0eac0c24007f83e735f8b81e"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/components/images/icon/usage.webp": {
+    "mtime": 1776247370.7284398,
+    "hash": "3fa3aa8a9e4d6a4973e15a61c47b0540"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/theming/images/color-scheme-dark.webp": {
+    "mtime": 1776247370.7850893,
+    "hash": "032e13c6a00ec2b426c2df11bf4a45be"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/theming/images/color-scheme-light.webp": {
+    "mtime": 1776247370.7861943,
+    "hash": "887ad266543514a2ea81c43e91c13db7"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/design-system/material-web/docs/theming/images/theming.webp": {
+    "mtime": 1776247370.788147,
+    "hash": "49f142e5270cb27536d83edcf123c0da"
+  }
+}

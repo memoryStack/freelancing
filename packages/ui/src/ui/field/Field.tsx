@@ -15,6 +15,9 @@ export interface FieldProps {
   disabled?: boolean;
   invalid?: boolean;
   type?: "text" | "email" | "password" | "search" | "url" | "tel" | "number";
+  /** Hints mobile browsers to show an appropriate keyboard (e.g. `numeric` for OTP). */
+  inputMode?: "none" | "text" | "tel" | "url" | "email" | "numeric" | "decimal" | "search";
+  autoComplete?: string;
   placeholder?: string;
   value?: string;
   defaultValue?: string;
@@ -37,6 +40,8 @@ export const FIELD_SUPPORTED_PROPS = [
   "disabled",
   "invalid",
   "type",
+  "inputMode",
+  "autoComplete",
   "placeholder",
   "value",
   "defaultValue",
@@ -64,6 +69,8 @@ export function Field({
   disabled,
   invalid,
   type = "text",
+  inputMode,
+  autoComplete,
   placeholder,
   value,
   defaultValue,
@@ -93,6 +100,9 @@ export function Field({
   const resolvedValue = useMemo(() => {
     return isControlled ? (value ?? "") : uncontrolledValue;
   }, [isControlled, uncontrolledValue, value]);
+
+  const resolvedInputMode =
+    inputMode ?? (type === "tel" ? "tel" : type === "number" ? "numeric" : undefined);
 
   const handleContainerMouseDown = (event: MouseEvent<HTMLDivElement>) => {
     // this all is just to focus the input element
@@ -161,6 +171,8 @@ export function Field({
               <input
                 {...props}
                 ref={inputRef}
+                inputMode={resolvedInputMode}
+                autoComplete={autoComplete}
                 onBlur={(event) => {
                   props.onBlur?.(event);
                   onBlur?.();
