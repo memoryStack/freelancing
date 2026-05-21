@@ -78,16 +78,26 @@
 
 .ui-select__positioner {
   z-index: 60;
+  /* Reserve viewport edge space (safe areas on mobile, fixed margin on desktop). */
+  --_select-viewport-margin-block-start: max(12px, env(safe-area-inset-top, 0px));
+  --_select-viewport-margin-block-end: max(16px, env(safe-area-inset-bottom, 0px));
 }
 
 .ui-select__popup {
-  min-inline-size: var(--_list-container-min-width);
+  max-block-size: min(
+    var(--available-height),
+    calc(
+      100dvh - var(--_select-viewport-margin-block-start) - var(--_select-viewport-margin-block-end) -
+        8px
+    )
+  );
 }
 
 .ui-select__list {
   display: flex;
   flex-direction: column;
   gap: 2px;
+  overflow-y: auto;
 }
 
 .ui-select__item-indicator {

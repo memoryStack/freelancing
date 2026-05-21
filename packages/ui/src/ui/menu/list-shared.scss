@@ -50,7 +50,7 @@
   background: var(--_list-container-color);
   box-shadow: 0 6px 20px color-mix(in srgb, var(--_list-container-shadow-color) 18%, transparent);
   border: 1px solid var(--md-sys-color-outline-variant);
-  overflow: hidden;
+  // overflow: hidden;
   padding: 4px;
   display: flex;
   flex-direction: column;

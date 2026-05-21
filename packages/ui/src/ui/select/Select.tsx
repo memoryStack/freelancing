@@ -134,9 +134,19 @@ export function Select({
         ) : null}
 
         <BaseSelect.Portal>
-          <BaseSelect.Positioner className="ui-select__positioner" sideOffset={8} alignItemWithTrigger={false}>
+          <BaseSelect.Positioner
+            className="ui-select__positioner"
+            sideOffset={8}
+            alignItemWithTrigger={false}
+            collisionPadding={{
+              top: 12,
+              bottom: 16,
+              left: 8,
+              right: 8,
+            }}
+          >
             <BaseSelect.Popup className={clsx("ui-select__popup", "ui-list-popup", popupClassName)}>
-              <BaseSelect.List className="ui-select__list">
+              <BaseSelect.List className={clsx("ui-select__list", "base-ui-disable-scrollbar")}>
                 {items.map((item) => (
                   <BaseSelect.Item
                     key={item.value}
