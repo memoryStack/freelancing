@@ -1,13 +1,19 @@
-import Header from '../components/layout/Header';
-import Home from '../pages/home';
+import { Route, Routes } from "react-router";
+import { RequireAuth } from "../auth/AuthContext";
+import AppLayout from "./AppLayout";
+import Home from "../pages/home";
+import { LoginPage } from "../pages/login";
 
 export default function App() {
   return (
-    <div className="flex flex-col min-h-screen bg-white">
-      <Header />
-      <main className="flex-1">
-        <Home />
-      </main>
-    </div>
+    <Routes>
+      <Route path="/login" element={<LoginPage />} />
+
+      <Route element={<RequireAuth />}>
+        <Route element={<AppLayout />}>
+          <Route path="/" element={<Home />} />
+        </Route>
+      </Route>
+    </Routes>
   );
 }

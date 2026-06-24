@@ -1,5 +1,6 @@
 import { Button, Divider, Text, TextArea } from '@freelancing/ui';
 import { Heart, MessageCircle, Repeat2, Share } from 'lucide-react';
+import { UserAvatar } from '../../components/shared/UserIdentity';
 
 const SAMPLE_TWEETS = [
   {
@@ -90,9 +91,7 @@ export default function Home() {
 
       <div className="px-4 py-3 border-b border-[var(--md-sys-color-outline-variant)]">
         <div className="flex gap-3">
-          <div className="w-10 h-10 rounded-full bg-[var(--md-sys-color-primary-container)] flex-shrink-0 flex items-center justify-center">
-            <Text variant="label-large" className="text-[var(--md-sys-color-primary)]">Y</Text>
-          </div>
+          <UserAvatar />
           <div className="flex-1">
             <TextArea placeholder="What is happening?!" rows={3} />
             <div className="flex justify-end mt-2">
