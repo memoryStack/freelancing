@@ -21,6 +21,7 @@ export const COUNTRY_CODES: CountryCode[] = [
   { iso2: "SG", name: "Singapore", dialCode: "+65", flagUrl: flagUrl("SG") },
   { iso2: "AE", name: "United Arab Emirates", dialCode: "+971", flagUrl: flagUrl("AE") },
   { iso2: "JP", name: "Japan", dialCode: "+81", flagUrl: flagUrl("JP") },
+  { iso2: "NZ", name: "New Zealand", dialCode: "+64", flagUrl: flagUrl("NZ") },
 ];
 
 export const DEFAULT_COUNTRY_ISO2 = "IN";

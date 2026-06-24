@@ -1,7 +1,7 @@
-# Graph Report - freelancing  (2026-05-20)
+# Graph Report - freelancing  (2026-05-21)
 
 ## Corpus Check
-- 676 files · ~708,657 words
+- 676 files · ~708,713 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary

@@ -43,7 +43,6 @@ export function SmsLoginPage() {
         value: c.iso2,
         label: (
           <span className="inline-flex items-center gap-2">
-            <img src={c.flagUrl} alt="" className="h-4 w-6 shrink-0 object-cover" />
             {`${c.name}, ${c.iso2}, ${c.dialCode}`}
           </span>
         ),

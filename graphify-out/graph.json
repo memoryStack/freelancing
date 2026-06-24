@@ -18358,7 +18358,7 @@
       "label": "findCountryByIso2()",
       "file_type": "code",
       "source_file": "workspaces/design-system/src/auth/countries.ts",
-      "source_location": "L28",
+      "source_location": "L29",
       "id": "auth_countries_findcountrybyiso2",
       "community": 14,
       "norm_label": "findcountrybyiso2()"
@@ -18367,7 +18367,7 @@
       "label": "formatE164Phone()",
       "file_type": "code",
       "source_file": "workspaces/design-system/src/auth/countries.ts",
-      "source_location": "L32",
+      "source_location": "L33",
       "id": "auth_countries_formate164phone",
       "community": 14,
       "norm_label": "formate164phone()"
@@ -18799,7 +18799,7 @@
       "label": "SelectShowcasePage()",
       "file_type": "code",
       "source_file": "workspaces/design-system/src/pages/selects/index.tsx",
-      "source_location": "L10",
+      "source_location": "L38",
       "id": "selects_index_selectshowcasepage",
       "community": 96,
       "norm_label": "selectshowcasepage()"
@@ -19705,15 +19705,6 @@
       "norm_label": "select.tsx"
     },
     {
-      "label": "Select()",
-      "file_type": "code",
-      "source_file": "packages/ui/src/ui/select/Select.tsx",
-      "source_location": "L63",
-      "id": "select_select_select",
-      "community": 118,
-      "norm_label": "select()"
-    },
-    {
       "label": "Icon.tsx",
       "file_type": "code",
       "source_file": "packages/ui/src/ui/icon/Icon.tsx",
@@ -19757,6 +19748,15 @@
       "id": "packages_ui_src_types_is_touch_device_d_ts",
       "community": 218,
       "norm_label": "is-touch-device.d.ts"
+    },
+    {
+      "label": "Select()",
+      "file_type": "code",
+      "source_file": "packages/ui/src/ui/select/Select.tsx",
+      "source_location": "L63",
+      "community": 118,
+      "norm_label": "select()",
+      "id": "select_select_select"
     },
     {
       "label": "pickString()",
@@ -54751,9 +54751,9 @@
       "source_file": "workspaces/design-system/src/auth/authApi.ts",
       "source_location": "L101",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workspaces_design_system_src_auth_authapi_ts",
-      "target": "auth_authapi_fetchprofilerequirements",
-      "confidence_score": 1.0
+      "target": "auth_authapi_fetchprofilerequirements"
     },
     {
       "relation": "contains",
@@ -54848,9 +54848,9 @@
       "source_file": "workspaces/design-system/src/auth/authApi.ts",
       "source_location": "L114",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_authapi_fetchprofilerequirements",
-      "target": "auth_authapi_parseerrormessage",
-      "confidence_score": 1.0
+      "target": "auth_authapi_parseerrormessage"
     },
     {
       "relation": "imports",
@@ -54947,9 +54947,9 @@
       "source_file": "workspaces/design-system/src/auth/AuthContext.tsx",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workspaces_design_system_src_auth_authcontext_tsx",
-      "target": "auth_authapi_fetchprofilerequirements",
-      "confidence_score": 1.0
+      "target": "auth_authapi_fetchprofilerequirements"
     },
     {
       "relation": "contains",
@@ -55250,9 +55250,9 @@
       "source_file": "workspaces/design-system/src/pages/complete-profile/index.tsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workspaces_design_system_src_pages_complete_profile_index_tsx",
-      "target": "auth_countries_findcountrybyiso2",
-      "confidence_score": 1.0
+      "target": "auth_countries_findcountrybyiso2"
     },
     {
       "relation": "imports",
@@ -55272,9 +55272,9 @@
       "source_file": "workspaces/design-system/src/pages/complete-profile/index.tsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "workspaces_design_system_src_pages_complete_profile_index_tsx",
-      "target": "auth_countries_formate164phone",
-      "confidence_score": 1.0
+      "target": "auth_countries_formate164phone"
     },
     {
       "relation": "imports",
