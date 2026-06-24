@@ -23,6 +23,8 @@ export type ApiRequestOptions = {
   successTitle?: string;
   /** Snackbar description on success. */
   successMessage?: string;
+  /** Skip publishing auth events (e.g. session check endpoints). Default: false */
+  skipAuthEvent?: boolean;
 };
 
 export type ApiRequestConfig = AxiosRequestConfig & {

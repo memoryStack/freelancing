@@ -8,7 +8,9 @@ import {
   type ReactNode,
 } from "react";
 import { Navigate, Outlet, useLocation } from "react-router";
+import { apiClientEvents } from "../api/events";
 import { fetchSession, logout as logoutApi } from "./authApi";
+import { LoginDialog } from "./LoginDialog";
 import type { AuthUser, SessionState } from "./types";
 import {
   getDisplayName,
@@ -35,6 +37,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [user, setUser] = useState<AuthUser | null>(null);
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [isReady, setIsReady] = useState(false);
+  const [loginDialogOpen, setLoginDialogOpen] = useState(false);
 
   const applySession = useCallback((session: SessionState) => {
     if (session.kind === "authenticated") {
@@ -54,6 +57,12 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, [applySession]);
 
   useEffect(() => {
+    return apiClientEvents.on("auth:session-expired", () => {
+      setLoginDialogOpen(true);
+    });
+  }, []);
+
+  useEffect(() => {
     let cancelled = false;
 
     void (async () => {
@@ -70,6 +79,8 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, [refreshSession]);
 
   const logout = useCallback(() => {
+    setLoginDialogOpen(false);
+
     void logoutApi()
       .then((data) => {
         if (data?.logout_url) {
@@ -111,7 +122,20 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     ],
   );
 
-  return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
+  console.log('@@@@ value', loginDialogOpen);
+
+  return (
+    <AuthContext.Provider value={value}>
+      {children}
+      <LoginDialog
+        open={loginDialogOpen}
+        onOpenChange={setLoginDialogOpen}
+        onCancel={() => {
+          setLoginDialogOpen(false);
+        }}
+      />
+    </AuthContext.Provider>
+  );
 }
 
 export function useAuth() {

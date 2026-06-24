@@ -9,7 +9,9 @@ export { ApiClientError as AuthApiError };
 
 export async function fetchSession(): Promise<SessionState> {
   try {
-    const body = await apiClient.get<unknown>("/api/auth/me", { apiOptions: { showError: false } });
+    const body = await apiClient.get<unknown>("/api/auth/me", {
+      apiOptions: { showError: false, skipAuthEvent: true },
+    });
     return parseMeResponse(body, 200);
   } catch (error) {
     const status = error instanceof ApiClientError ? error.status : 0;

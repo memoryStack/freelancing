@@ -10,6 +10,7 @@ import {
   defaultErrorTitle,
   toApiClientError,
 } from "./errors";
+import { apiClientEvents } from "./events";
 import { notifySnackbar } from "./notifier";
 import type { ApiRequestConfig, ApiRequestOptions } from "./types";
 
@@ -48,6 +49,16 @@ function splitConfig(config?: ApiRequestConfig): {
   return { axiosConfig, apiOptions };
 }
 
+// const AUTH_EVENT_SKIP_PATHS = ["/api/auth/me", "/api/auth/logout"];
+const AUTH_EVENT_SKIP_PATHS = ["/api/auth/me"];
+
+function shouldPublishSessionExpired(url: string | undefined, options: ApiRequestOptions): boolean {
+  if (options.skipAuthEvent) return false;
+
+  const path = (url ?? "").split("?")[0];
+  return !AUTH_EVENT_SKIP_PATHS.some((skipPath) => path.endsWith(skipPath));
+}
+
 /**
  * Axios proxy that centralizes API calls and optional snackbar feedback.
  * Per-request `apiOptions` control whether errors/successes are surfaced automatically.
@@ -71,6 +82,7 @@ export class ApiClient {
   async request<T>(config: ApiRequestConfig): Promise<T> {
     const { axiosConfig, apiOptions } = splitConfig(config);
     const options = resolveOptions(apiOptions);
+    const requestConfig: ApiRequestConfig = { ...axiosConfig, apiOptions: options };
 
     try {
       const response: AxiosResponse<T> = await this.http.request<T>(axiosConfig);
@@ -82,8 +94,12 @@ export class ApiClient {
       return response.data;
     } catch (error) {
       const apiError = toApiClientError(error);
-
-      if (options.showError) {
+      const isSessionExpired = apiError.status === 401;
+      if (isSessionExpired && shouldPublishSessionExpired(axiosConfig.url, options)) {
+        apiClientEvents.emit("auth:session-expired", {
+          retry: () => this.request<T>(requestConfig),
+        });
+      } else if (options.showError) {
         showErrorSnackbar(apiError, options);
       }
 

@@ -16,8 +16,8 @@
     "hash": "961b9d6f0feedd7d0a5a059ba09a672c"
   },
   "/Users/admin/Documents/p_p/freelancing/workspaces/twitter/src/auth/authApi.ts": {
-    "mtime": 1782280422.5025952,
-    "hash": "f5aa05692d65d34e099c7aab635001b9"
+    "mtime": 1782290639.634337,
+    "hash": "ad31e3f074172e93a225a67a68b6b20f"
   },
   "/Users/admin/Documents/p_p/freelancing/workspaces/twitter/src/auth/types.ts": {
     "mtime": 1782280419.068503,
@@ -28,8 +28,12 @@
     "hash": "cc0a8ce54bb4546245a1e6cb99d7aa43"
   },
   "/Users/admin/Documents/p_p/freelancing/workspaces/twitter/src/auth/AuthContext.tsx": {
-    "mtime": 1782285850.04078,
-    "hash": "b2355e166c0a083f7044782cefc019db"
+    "mtime": 1782290681.713756,
+    "hash": "f6c2aa8e1365b286f02fbda3474b0c6d"
+  },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/twitter/src/auth/LoginCard.tsx": {
+    "mtime": 1782291331.3958924,
+    "hash": "3f67e7b932b7d469c4c500d7fa67f83d"
   },
   "/Users/admin/Documents/p_p/freelancing/workspaces/twitter/src/auth/index.ts": {
     "mtime": 1782280428.5616207,
@@ -43,12 +47,16 @@
     "mtime": 1782280420.1250198,
     "hash": "0881f858c9d18baf3c8240b88f0eb448"
   },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/twitter/src/auth/LoginDialog.tsx": {
+    "mtime": 1782291357.1879985,
+    "hash": "63df7c7d3bf27c56fd77f5e2c6ebe547"
+  },
   "/Users/admin/Documents/p_p/freelancing/workspaces/twitter/src/components/layout/Header.tsx": {
     "mtime": 1782285859.821099,
     "hash": "4a8f714600090e17829aff2cc8112d8c"
   },
   "/Users/admin/Documents/p_p/freelancing/workspaces/twitter/src/components/shared/UserIdentity.tsx": {
-    "mtime": 1782285853.674104,
+    "mtime": 1782287076.4001987,
     "hash": "4ab26677ecdf5a32019ceec00b40c716"
   },
   "/Users/admin/Documents/p_p/freelancing/workspaces/twitter/src/api/ApiProvider.tsx": {
@@ -60,20 +68,24 @@
     "hash": "041b74d8fe01e01d0922be1eec5eaeb0"
   },
   "/Users/admin/Documents/p_p/freelancing/workspaces/twitter/src/api/types.ts": {
-    "mtime": 1782275280.493491,
-    "hash": "cb4a1ac40bce86bb1597bc9334f1e28c"
+    "mtime": 1782290610.1974764,
+    "hash": "a12286ff4388d0ecf4ee3e3019c316c2"
   },
   "/Users/admin/Documents/p_p/freelancing/workspaces/twitter/src/api/client.ts": {
-    "mtime": 1782277415.8430378,
-    "hash": "f5d0fdf44aa7e5822f1db1d1671dca34"
+    "mtime": 1782290618.3306172,
+    "hash": "f7e3a46ec0a9c12edab5bae72996a2b3"
   },
   "/Users/admin/Documents/p_p/freelancing/workspaces/twitter/src/api/notifier.ts": {
     "mtime": 1782275285.5614643,
     "hash": "41e22613f7b39a7aa710eeec9c0e90a8"
   },
+  "/Users/admin/Documents/p_p/freelancing/workspaces/twitter/src/api/events.ts": {
+    "mtime": 1782290609.9832284,
+    "hash": "6ac26b2bb0814308f2389c2dc714b2d2"
+  },
   "/Users/admin/Documents/p_p/freelancing/workspaces/twitter/src/api/index.ts": {
-    "mtime": 1782276502.3672078,
-    "hash": "1ea608593b4024a6f512d06d08015982"
+    "mtime": 1782290641.9111776,
+    "hash": "ca986ee102e241b97ee8edbe7aa82450"
   },
   "/Users/admin/Documents/p_p/freelancing/workspaces/twitter/src/api/config.ts": {
     "mtime": 1782275279.8247776,
@@ -84,8 +96,8 @@
     "hash": "737b268d4ad24d32711b37b250303060"
   },
   "/Users/admin/Documents/p_p/freelancing/workspaces/twitter/src/pages/login/index.tsx": {
-    "mtime": 1782280437.8040063,
-    "hash": "aebc79e4c1bcf751c1ab533aba1a5bbd"
+    "mtime": 1782291344.4091089,
+    "hash": "f87eb9d3add4dcc4bcbe7eac52fcd486"
   },
   "/Users/admin/Documents/p_p/freelancing/workspaces/sudoku/vite.config.ts": {
     "mtime": 1778444189.0,
