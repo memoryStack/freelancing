@@ -202,17 +202,17 @@ export function RequireAuth() {
     );
   }
 
-  if (!hasSession) {
-    return <Navigate to="/login" replace state={{ from: location.pathname }} />;
-  }
+  // if (!hasSession) {
+  //   return <Navigate to="/login" replace state={{ from: location.pathname }} />;
+  // }
 
-  if (needsProfileCompletion) {
-    return <Navigate to="/complete-profile" replace state={{ from: location.pathname }} />;
-  }
+  // if (needsProfileCompletion) {
+  //   return <Navigate to="/complete-profile" replace state={{ from: location.pathname }} />;
+  // }
 
-  if (!isAuthenticated) {
-    return <Navigate to="/login" replace state={{ from: location.pathname }} />;
-  }
+  // if (!isAuthenticated) {
+  //   return <Navigate to="/login" replace state={{ from: location.pathname }} />;
+  // }
 
   return <Outlet />;
 }
