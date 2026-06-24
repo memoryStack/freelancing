@@ -4,7 +4,7 @@ import { parseMeResponse } from "./session";
 import type { SessionState } from "./types";
 
 /** Auth session checks surface errors via route guards, not snackbars. */
-const silent = { apiOptions: { showError: false } } as const;
+const silent = { apiOptions: { showError: true } } as const;
 
 export { ApiClientError as AuthApiError };
 

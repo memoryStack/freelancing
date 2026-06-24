@@ -79,10 +79,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         setUser(null);
         setIsAuthenticated(false);
       })
-      .catch(() => {
-        setUser(null);
-        setIsAuthenticated(false);
-      });
   }, []);
 
   const displayName = useMemo(() => getDisplayName(user), [user]);
