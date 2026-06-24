@@ -11,6 +11,10 @@
     "build": "npm run build --workspace=@freelancing/design-system",
     "dev:design-system": "npm run dev --workspace=@freelancing/design-system",
     "build:design-system": "npm run build --workspace=@freelancing/design-system",
+    "dev:twitter": "npm run dev --workspace=@freelancing/twitter",
+    "build:twitter": "npm run build --workspace=@freelancing/twitter",
+    "dev:sudoku": "npm run dev --workspace=@freelancing/sudoku",
+    "build:sudoku": "npm run build --workspace=@freelancing/sudoku",
     "build:ui": "npm run build --workspace=@freelancing/ui"
   }
 }
