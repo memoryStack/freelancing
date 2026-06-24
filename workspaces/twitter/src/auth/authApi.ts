@@ -19,9 +19,5 @@ export async function fetchSession(): Promise<SessionState> {
 }
 
 export async function logout(): Promise<{ logout_url?: string } | undefined> {
-  try {
-    return await apiClient.post<{ logout_url?: string }>("/api/auth/logout", undefined, silent);
-  } catch {
-    return undefined;
-  }
+  return apiClient.post<{ logout_url?: string }>("/api/auth/logout", undefined, silent);
 }
